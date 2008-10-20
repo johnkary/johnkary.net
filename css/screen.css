@@ -1,6 +1,3 @@
----
-layout: nil   # no layout
----
 /*****************************************************************************/
 /*
 /* Common
@@ -56,6 +53,27 @@ table {
 
 /*****************************************************************************/
 /*
+/* Home
+/*
+/*****************************************************************************/
+
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+  ul.posts li {
+    line-height: 1.75em;
+  }
+
+  ul.posts span {
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+  }
+
+/*****************************************************************************/
+/*
 /* Site
 /*
 /*****************************************************************************/
@@ -74,6 +92,106 @@ table {
   margin-bottom: 2em;
 }
 
-.site .meta {
-  color: #aaa;
+  .site .title a {
+    color: #a00;
+    text-decoration: none;
+  }
+
+  .site .title a:hover {
+    color: black;
+  }
+
+  .site .title a.extra {
+    color: #aaa;
+    text-decoration: none;
+    margin-left: 1em;
+  }
+
+  .site .title a.extra:hover {
+    color: black;
+  }
+
+  .site .meta {
+    color: #aaa;
+  }
+
+  .site .footer {
+    font-size: 80%;
+    color: #666;
+    border-top: 4px solid #eee;
+    margin-top: 2em;
+    overflow: hidden;
+  }
+
+    .site .footer .contact {
+      float: left;
+      margin-right: 3em;
+    }
+
+      .site .footer .contact a {
+        color: #8085C1;
+      }
+
+    .site .footer .rss {
+      margin-top: 1.1em;
+      margin-right: -.2em;
+      float: right;
+    }
+
+      .site .footer .rss img {
+        border: 0;
+      }
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+#post {
+
 }
+
+  /* standard */
+
+  #post pre {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0 .4em;
+  }
+
+  #post ul,
+  #post ol {
+    margin-left: 1.35em;
+  }
+
+  #post code {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    font-size: 85%;
+    padding: 0 .2em;
+  }
+
+    #post pre code {
+      border: none;
+    }
+
+  /* terminal */
+
+  #post pre.terminal {
+    border: 1px solid black;
+    background-color: #333;
+    color: white;
+  }
+
+  #post pre.terminal code {
+    background-color: #333;
+  }
+
+#related {
+  margin-top: 2em;
+}
+
+  #related h2 {
+    margin-bottom: 1em;
+  }

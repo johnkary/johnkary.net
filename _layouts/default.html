@@ -1,14 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <title>{{ page.title }}</title>
-   <meta name="author" content="<%= @page.author %>" />
+   <link type="text/plain" rel="author" href="http://johnkary.net/humans.txt" />
 
-   <!-- CodeRay syntax highlighting CSS -->
-   <link rel="stylesheet" href="/css/coderay.css" type="text/css" />
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
 
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
@@ -17,11 +15,35 @@
 
 <div class="site">
   <div class="title">
-    Tom Preston-Werner
+    <a href="/">John Kary</a>
+    <a class="extra" href="/">home</a>
   </div>
   
   {{ content }}
+  
+  <div class="footer">
+    <div class="contact">
+      <p>john at johnkary dot net</p>
+    </div>
+    <div class="contact">
+      <div id="license"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a></div><br>
+      <a href="http://twitter.com/johnkary"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowNjgwMTE3NDA3MjA2ODExODNCNEQ3ODA2MUJDRTBGNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpENjFGNDk2NkE5MDkxMUUxQTIwMUZDQjBDRjQ4RUM3OSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpENjFGNDk2NUE5MDkxMUUxQTIwMUZDQjBDRjQ4RUM3OSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjA1ODAxMTc0MDcyMDY4MTE4RDRBRTA1NDc3MTYwQ0JDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjA2ODAxMTc0MDcyMDY4MTE4M0I0RDc4MDYxQkNFMEY2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+PKV9JAAAAydJREFUeNrcVktPE1EU/tpOW+xMUyBpGwQEjBCVaGKCtYkaJIAh6sqNO/+AMbpy7caNCzUmLoz+BmN1o4GFDwgNKCryiLxSoQWKUPqYlplpZ+qdIcVCp9MWYome5GQm984933e/c8+Zq+t8+JFJsOybyHrYLfCCAWUwk9kk2qoqvRaG6aHiMba3tpp2Xzl/Aoylohz4YBOcYWRs7mwgxPZS4dC6y93WCh+rQzLKlYWAUa9D/eFGjM/0u6hUMqkPCToyLKFcxktp8NBBxqbkASmdxn7ZJgFpvwmkpX9fgeP2CrQ3WuGgKazEU3jvi2Hi1+ahpo162Mm4LyyoExBVCMiL7pxz4n5/EPGktkI3XHZ0NFmzyAAXGhkMBeKICxJcdbQSRw1HnyGw0w/ZTGh1HMDdjhpUUDrVb2RvJ0DZ4NnmqqWVuRU2ibaDlpw4WQSkHG+oNCofNFWZ8aCnjuzKrPrd5RZbwfTIMeZCHKJcatvaP2dAzJVmdo3fenfQRtzrqoN3gYVnMozvy4mtucMkeCF7NLCMvtlo/kOYYZNtXxdZBIl0Tsa4NeauZxSXx0cJCVnaYuztdFi7CtQOx8VmGwZ+xnC1tTpnTibVfcRWdIWIGlWWVwE5X2rgpdq3pbhq/O0EVM7AiD8OVhDBmPb2h55e5VTj7yjD3NMd4ZJ4PLC4ZwU+zEVU42+rglQeiV5PrCn5vnbSDsZcuhJLMQHD/mjhVqwlkZMx7QpctmfeJc3YminI+NPBAGK8WDL4Z38MnvFVzdiarTjjC2Eel56P4hUJViyRxSiP254ZzbiZ0sxbhtkW3pDwcmwVLXYLjjos2uARHrc802RNcU1KtRVbSc6vn65R3uX8dzZXodZWuOUOz0dx88VUSSlTVUDesdcXVkh0tRRuRpPBOJ70+9E3FdrdhUStVQ76IorLOz/TYMMxJ03ckgWaQCDCofdHiDz5vd2ItHr1/Dqn+N8ww35fSg3/1aV01wTSOj0RQNSTZ1mBdUR1GZsSKfMQtRFxC2YrGTCUCVyEkY+BYH+iRL2xWy8m39Gx4CkyURYZyEallMH0RTQYO38LMACfNC9ZZv/DGQAAAABJRU5ErkJggg==" /></a>
+    </div>
+    <div class="rss">
+    </div>
+  </div>
 </div>
+
+<!-- Google Analytics -->
+<!--<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-6016902-1");
+pageTracker._trackPageview();
+</script>-->
+<!-- Google Analytics end -->
 
 </body>
 </html>
