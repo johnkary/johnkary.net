@@ -1,0 +1,16 @@
+/* TEAM */
+  Developer: John Kary
+  Site: http://johnkary.net
+  http://twitter.com/johnkary
+  Location: Lawrence, KS
+
+/* THANKS */
+  Chris Escalante
+  http://twitter.com/tidrion
+  Location: Topeka, KS
+
+  Jekyll - https://github.com/mojombo/jekyll
+  GitHub Pages - http://pages.github.com
+
+/* SITE */
+  Software: git, SublimeText 2, vim
