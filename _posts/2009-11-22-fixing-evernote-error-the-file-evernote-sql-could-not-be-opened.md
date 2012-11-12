@@ -15,9 +15,9 @@ I've been having a battery/power issue with my MacBook Pro recently where it wil
 
 So what do these power issues have to do with [Evernote][]?
 
-I experienced at least one said power failure while working on a note from Evernote’s Mac Desktop client. From our days of using Windows, we all know power failures without proper shutdown lead to corrupted files on the hard drive. And that’s exactly what happened here: a corrupted notes database file.
+I experienced at least one said power failure while working on a note from Evernote's Mac Desktop client. From our days of using Windows, we all know power failures without proper shutdown lead to corrupted files on the hard drive. And that's exactly what happened here: a corrupted notes database file.
 
-After launching Evernote, I would get an error saying, `The file "Evernote.sql" could not be opened.` Assuming you have recently sync’d your notes so that everything is on the Evernote server, here’s how to fix it:
+After launching Evernote, I would get an error saying, `The file "Evernote.sql" could not be opened.` Assuming you have recently sync'd your notes so that everything is on the Evernote server, here's how to fix it:
 
 1.  Quit Evernote. Force quit if you have to.
 2.  Open Terminal.

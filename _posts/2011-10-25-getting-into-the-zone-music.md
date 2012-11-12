@@ -34,7 +34,7 @@ I use my mornings to catch up on Twitter, articles I've saved to Instapaper, or 
 
 The darkness and lack of buzz before sunrise allows me to focus. No one is moving except the birds and squirrels outside. Jason Friend and DHH hit it perfectly in their book "Rework":
 
-> Think about it: When do you get most of your work done? If you’re like most people, it’s at night or early in the morning. It’s no coincidence that these are the times when nobody else is around. [&hellip;] Long stretches of alone time are when you’re most productive. When you don’t have to mind-shift between various tasks, you get a boatload done.
+> Think about it: When do you get most of your work done? If you're like most people, it's at night or early in the morning. It's no coincidence that these are the times when nobody else is around. [&hellip;] Long stretches of alone time are when you're most productive. When you don't have to mind-shift between various tasks, you get a boatload done.
 
 Jazz and low-key minimalism tunes allow me to get my brain moving and cognitively functioning. It's like morning coffee for my ears. Contemplative, but energizing.
 

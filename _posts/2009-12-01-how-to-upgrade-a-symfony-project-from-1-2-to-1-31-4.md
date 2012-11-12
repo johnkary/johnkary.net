@@ -21,15 +21,15 @@ I will be following the [1.2 to 1.3/1.4 Upgrade Instructions][] below, so you sh
 
 ### Step 0: Create a new branch in your version control checkout for this new version
 
-If you’re not using version control, now might be a good time to learn. I am using Subversion for this specific project, but suggest you look at git. The rest of this post will give examples using Subversion for keeping your project up to date.
+If you're not using version control, now might be a good time to learn. I am using Subversion for this specific project, but suggest you look at git. The rest of this post will give examples using Subversion for keeping your project up to date.
 
-Let’s create a new branch from our trunk to handle upgrading to 1.3.
+Let's create a new branch from our trunk to handle upgrading to 1.3.
 
 {% highlight console %}
 svn copy http://svn.example.com/repo/trunk http://svn.example.com/repo/branches/symfony1_3 -m "Creating branch of trunk to upgrade to Symfony 1.3."
 {% endhighlight %}
 
-Checkout your new branch to your development environment and let’s get started.
+Checkout your new branch to your development environment and let's get started.
 
 {% highlight console %}
 svn co http://svn.example.com/repo/branches/symfony1_3 ~/Sites/myproject/symfony1_3
@@ -52,7 +52,7 @@ In my case, I was only using the [sfFormExtraPlugin plugin][] to add some a mult
 
 Our Symfony core files live in `symfony1_3/lib/vendor/symfony`. I had manually installed the core files from a ZIP archive when I started developing the project, so they were not yet using [svn:externals][].
 
-We will remove the old 1.2 files and install the core files from the central 1.3 repository branch. By referencing the 1.3 branch, every time we execute `svn up`, our Symfony core libraries are updated to the newest version. This may or may not be the best solution in your case. If you do not want your core libraries automatically updated, reference one of Symfony’s [RELEASE tags][].
+We will remove the old 1.2 files and install the core files from the central 1.3 repository branch. By referencing the 1.3 branch, every time we execute `svn up`, our Symfony core libraries are updated to the newest version. This may or may not be the best solution in your case. If you do not want your core libraries automatically updated, reference one of Symfony's [RELEASE tags][].
 
 Since the application I developed is not a critical application, I chose to live on the edge and reference the 1.3 branch.
 
@@ -73,7 +73,7 @@ svn up
 You can try to update your plugins via the traditional `php symfony
 plugin:upgrade yourPluginNameHere`, or check the [plugin repository][] for a 1.3 branch or 1.3-compatible development in the trunk.
 
-*sfWidgetFormPlugin* has a 1.3 branch, so again, let’s remove the old plugin and link up the new one. My previous version was installed via the traditional `php symfony plugin:install sfFormExtraPlugin` command, so it should first be uninstalled, deleted, then linked up with an `svn:externals` reference.
+*sfWidgetFormPlugin* has a 1.3 branch, so again, let's remove the old plugin and link up the new one. My previous version was installed via the traditional `php symfony plugin:install sfFormExtraPlugin` command, so it should first be uninstalled, deleted, then linked up with an `svn:externals` reference.
 
 {% highlight console %}
 php symfony plugin:uninstall sfFormExtraPlugin
@@ -110,13 +110,13 @@ In my project, I was using a few non-static methods that had been changed to sta
 
 #### Propel 1.3 to Propel 1.4
 
-[Propel][] ORM has also been updated to Propel 1.4 in Symfony 1.3/1.4. Check [Propel’s Documentation][] for any new changes.
+[Propel][] ORM has also been updated to Propel 1.4 in Symfony 1.3/1.4. Check [Propel's Documentation][] for any new changes.
 
 * * * * *
 
 ### Step 5: Rebuild your models/forms/filters and clear the cache
 
-With all our code updated, it’s time to run the gauntlet of updating our forms, filters and models.
+With all our code updated, it's time to run the gauntlet of updating our forms, filters and models.
 
 {% highlight console %}
 php symfony doctrine:build --all-classes php symfony cache:clear
@@ -126,7 +126,7 @@ php symfony doctrine:build --all-classes php symfony cache:clear
 
 ### Step 6: Test your site in the browser
 
-Load up the dev environment for your application in your browser and cross your fingers :) Check the Web Debug bar and see that you’re running on Symfony 1.3.0 and the version of your ORM.
+Load up the dev environment for your application in your browser and cross your fingers :) Check the Web Debug bar and see that you're running on Symfony 1.3.0 and the version of your ORM.
 
 ![symfony-debug-toolbar-1.3.0][]
 
@@ -186,9 +186,9 @@ $this->setWidgets(array(
 
 #### sfValidatorDoctrineChoiceMany
 
-Since I was using a deprecated form widget, I also double-checked the widget’s validator for the same field. [sfValidatorDoctrineChoiceMany][] has *not* been deprecated. Instead, it calls its parent `configure()` method in its parent class `sfValidatorDoctrineChoice`, and sets the option `multiple` to true. 
+Since I was using a deprecated form widget, I also double-checked the widget's validator for the same field. [sfValidatorDoctrineChoiceMany][] has *not* been deprecated. Instead, it calls its parent `configure()` method in its parent class `sfValidatorDoctrineChoice`, and sets the option `multiple` to true. 
 
-Sounds very similar to the explanation above, doesn’t it? Why the developers chose to deprecate the widget and not the validator, I’m not sure. Regardless, I chose to change `sfValidatorDoctrineChoiceMany` just to stay consistent with my form widget. 
+Sounds very similar to the explanation above, doesn't it? Why the developers chose to deprecate the widget and not the validator, I'm not sure. Regardless, I chose to change `sfValidatorDoctrineChoiceMany` just to stay consistent with my form widget. 
 
 Symfony 1.2:
 
@@ -288,7 +288,7 @@ With your new Symfony 1.4 install, why not start learning some of the more advan
   [Doctrine 1.0 to 1.1 Upgrade]: http://www.doctrine-project.org/upgrade/1_1
   [Doctrine 1.1 to 1.2 Upgrade]: http://www.doctrine-project.org/upgrade/1_2
   [Propel]: http://propel.phpdb.org/
-  [Propel’s Documentation]: http://propel.phpdb.org/trac/wiki/Users/Documentation/1.4
+  [Propel's Documentation]: http://propel.phpdb.org/trac/wiki/Users/Documentation/1.4
   [symfony-debug-toolbar-1.3.0]: http://johnkary.net/wp-content/uploads/2009/12/symfony-debug-toolbar-1.3.0.png
     "symfony-debug-toolbar-1.3.0"
   [project:validate]: http://www.symfony-project.org/blog/2009/11/27/upgrading-to-symfony-1-4

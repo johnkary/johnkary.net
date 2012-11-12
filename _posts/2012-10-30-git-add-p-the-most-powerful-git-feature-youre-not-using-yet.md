@@ -15,19 +15,19 @@ alias: /git-add-p-the-most-powerful-git-feature-youre-not-using-yet
 
 I have two tools I need to do software development: an editor and version control.
 
-[The Pragmatic Programmer][] advocates you should know your editor inside and out. **So why don’t you know your version control system just as well?**
+[The Pragmatic Programmer][] advocates you should know your editor inside and out. **So why don't you know your version control system just as well?**
 
 ### Patch Mode
 
-If you use git, you’ve used the command `git add`. But do you know about git add’s "patch mode" using `git add -p` ?
+If you use git, you've used the command `git add`. But do you know about git add's "patch mode" using `git add -p` ?
 
 Patch mode allows you to stage *parts* of a changed file, instead of the entire file. This allows you to make concise, well-crafted commits that make for an easier to read history.
 
-Since I learned about it a year or so ago, patch mode has taken my git usage to another level. It’s one of the most powerful git commands, right up there with rebasing, but much less dangerous!
+Since I learned about it a year or so ago, patch mode has taken my git usage to another level. It's one of the most powerful git commands, right up there with rebasing, but much less dangerous!
 
 ### Screencasts
 
-I have recorded two 10-minute screencasts about how I use git add’s patch mode. And I want to share them with you for free.
+I have recorded two 10-minute screencasts about how I use git add's patch mode. And I want to share them with you for free.
 
 In the first video I walk you through why patch mode is something **you should be using today**, then demonstrate its basic features.
 
