@@ -7,6 +7,7 @@ type: post
 published: true
 meta:
   _edit_last: '1'
+alias: /fixing-evernote-error-the-file-evernote-sql-could-not-be-opened
 ---
 <img src="http://img.skitch.com/20091123-bcbwjxbayx95nhk8fpgk8epwe5.png" alt="Evernote error" width="500" />
 

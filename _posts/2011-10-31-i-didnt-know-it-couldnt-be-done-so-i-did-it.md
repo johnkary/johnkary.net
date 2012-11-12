@@ -9,6 +9,7 @@ type: post
 published: true
 meta:
   _edit_last: '1'
+alias: /i-didnt-know-it-couldnt-be-done-so-i-did-it
 ---
 Steve Jobs visited Xerox in 1979 to see the Xerox Star: a computer promoting a revolutionary graphical user interface.
 

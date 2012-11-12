@@ -8,6 +8,7 @@ type: post
 published: true
 meta:
   _edit_last: '1'
+alias: /git-1-7-7-changes-affecting-the-everyday-developer
 ---
 [git 1.7.7 was released](http://git-scm.com/) within the last few weeks. You can [view the 1.7.7 release notes](https://raw.github.com/gitster/git/master/Documentation/RelNotes/1.7.7.txt) for a full list of changes.
 
