@@ -61,4 +61,41 @@ $name = $person->getName();
 {% endraw %}
 {% endhighlight %}
 
-If you see any problems with the site, please ping me on Twitter [@johnkary](http://twitter.com/johnkary)
+### Redirects From Old Site ###
+
+A Jekyll plugin exists called [alias_generator](https://github.com/tsmango/jekyll_alias_generator) that allows you to redirect any URL on your site.
+
+This specific plugin parses an `alias:` key in your YAML Front Matter, which is just some YAML in the heading of every Jekyll template file allowing you to configure attributes about how the page is rendered.
+
+Installing the plugin is easy. Just copy it into `./_plugins/alias_generator.rb` and Jekyll will pick it up when compiling.
+
+To setup the "redirect", let's use my example blog post previously at <http://johnkary.net/git-add-p-the-most-powerful-git-feature-youre-not-using-yet/>. I can use the following `alias:` key and Jekyll will generate an HTML page at `./git-add-p-the-most-powerful-git-feature-youre-not-using-yet/index.html` which redirects to the new post's URL.
+
+{% highlight yaml %}
+layout: post
+title: ! 'git add -p: The most powerful git feature you''re not using yet'
+tags:
+- git
+- tutorials
+status: publish
+type: post
+published: true
+alias: /git-add-p-the-most-powerful-git-feature-youre-not-using-yet
+{% endhighlight %}
+
+{% highlight html %}
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="canonical" href="/2012/10/30/git-add-p-the-most-powerful-git-feature-youre-not-using-yet.html"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="refresh" content="0;url=/2012/10/30/git-add-p-the-most-powerful-git-feature-youre-not-using-yet.html" />
+</head>
+</html>
+{% endhighlight %}
+
+### That's It! ###
+
+Overall I'm really happy with this new setup. I feel much more in control of my site, and am much more comfortable writing into a text editor with vim bindings than a WordPress textarea.
+
+If you see any problems with my site, please ping me on Twitter [@johnkary](http://twitter.com/johnkary)
