@@ -34,7 +34,7 @@ I use my mornings to catch up on Twitter, articles I've saved to Instapaper, or 
 
 The darkness and lack of buzz before sunrise allows me to focus. No one is moving except the birds and squirrels outside. Jason Friend and DHH hit it perfectly in their book "Rework":
 
-> Think about it: When do you get most of your work done? If you’re like most people, it’s at night or early in the morning. It’s no coincidence that these are the times when nobody else is around. [...] Long stretches of alone time are when you’re most productive. When you don’t have to mind-shift between various tasks, you get a boatload done.
+> Think about it: When do you get most of your work done? If you’re like most people, it’s at night or early in the morning. It’s no coincidence that these are the times when nobody else is around. [&hellip;] Long stretches of alone time are when you’re most productive. When you don’t have to mind-shift between various tasks, you get a boatload done.
 
 Jazz and low-key minimalism tunes allow me to get my brain moving and cognitively functioning. It's like morning coffee for my ears. Contemplative, but energizing.
 
@@ -95,6 +95,6 @@ But I can usually find this weird blissful mental state where I feel half-asleep
 ([Listen](http://bennjordan.bandcamp.com/album/pale-blue-dot)) Benn Jordan - Pale Blue Dot  
 ([Listen](http://www.youtube.com/watch?v=wZWo8g5sAkY)) Sven Weisemann  
 ([Listen](http://www.youtube.com/watch?v=Nwudva0_ULo)) Jonn Serrie  
-([Listen](http://www.myspace.com/maseratirocks)) Maserati  
+([Listen](http://www.youtube.com/watch?v=lasRLdZYTtk)) Maserati  
 ([Listen](http://theflashbulb.bandcamp.com/album/soundtrack-to-a-vacant-life)) The Flashbulb  
 ([Listen](http://www.myspace.com/themercuryprogram)) The Mercury Program

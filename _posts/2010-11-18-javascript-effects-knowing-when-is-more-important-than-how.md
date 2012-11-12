@@ -41,7 +41,7 @@ So what can we conclude about the context of this page and the user arriving the
 
 -   The user is looking for info about the schools and departments KU offers.
 -   Since the user was first provided a Search box, they likely already searched for the info they wanted and their needs were not met.
--   They may or may not know the name of the department they're looking for and...
+-   They may or may not know the name of the department they're looking for and&hellip;
     -   want to see a hierarchy of schools and departments
     -   want to see all options and pick the one that best matches what they're looking for
 

@@ -11,7 +11,6 @@ meta:
   _wp_old_slug: nominating-lawrence-ks-for-googles-fiber-network-experiment
 alias: /nominating-lawrence-kansas-for-googles-fiber-network-experiment
 ---
-
 Google announced yesterday [on their blog](http://googleblog.blogspot.com/2010/02/think-big-with-gig-our-experimental.html) that they are venturing into installing fiber-to-the-curb for residential users, essentially as an alternative ISP. Their goals include not only delivering faster Internet to more people, but also giving developers and users a wealth of bandwidth at their disposal and see what they can do with it.
 
 Google asked for [nominations of cities](http://www.google.com/appserve/fiberrfi/public/options) that might be a good fit for the project, so I wrote a recommendation letter for where I live in [Lawrence, Kansas](http://maps.google.com/places/us/kansas/lawrence?gl=us):

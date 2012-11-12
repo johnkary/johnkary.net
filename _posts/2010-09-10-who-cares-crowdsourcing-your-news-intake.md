@@ -35,7 +35,7 @@ People follow this junk news so they can keep up on current events, or have some
 
 Some people get satisfaction relaying the newest news message to someone else. Or being the first to know something among their friends. It actually validates their news obsession and gives them a sense of being "in the know."
 
-We're so bent on crowdsourcing things these days... how about crowdsource your news reading?
+We're so bent on crowdsourcing things these days&hellip; how about crowdsource your news reading?
 
 Let everyone else keep up on news for you. Let them tell you about it over lunch or a drink. This will not only free you up for more important things, but reaffirm your friend's need to feel important for catching you up on the big story.
 

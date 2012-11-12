@@ -24,7 +24,9 @@ Using `--edit` will cause git to perform the merge then drop you into your `core
 
 You could use this functionality to write a quick all-inclusive summary of a feature you are merging and how it might integrate with other pieces of your software. If I'm working on an internal team project, I'll also include any commands my co-developers need to make in lieu of these new changes.
 
-    git merge --no-ff --edit
+{% highlight console %}
+git merge --no-ff --edit
+{% endhighlight %}
 
 ### git grep learned --untracked option
 
@@ -34,74 +36,80 @@ If you aren't familiar with the Unix tool [grep](http://en.wikipedia.org/wiki/Gr
 
 With the new `--untracked` option, `git grep` can now search through untracked files as well. So if you have untracked files you might have created but not yet added to your project, you can search through them as well.
 
-    git grep --untracked "string to find"
+{% highlight console %}
+git grep --untracked "string to find"
+{% endhighlight %}
 
 ### git diff learned --function-context option to show the whole function as context that was affected by a change
 
 When displaying a diff, a one-line change is normally shown with 3 lines of context. This means the 3 lines both before and after the change are displayed to help remind you where this change was made.
 
-     (master) ~/Sites/hallcenter_awards/symfony $ git diff
-    diff --git a/apps/applicant/modules/application/actions/actions.class.php b/apps/applicant/modules/application/actions/actions.class.php
-    index 5092da4..ec22e6d 100644
-    --- a/apps/applicant/modules/application/actions/actions.class.php
-    +++ b/apps/applicant/modules/application/actions/actions.class.php
-    @@ -21,7 +21,6 @@ class applicationActions extends BaseActions
-     
-             $this->route = $this->getContext()->getRouting()->getCurrentRouteName();
-     
-    -        $this->competition = $this->getCompetitionBySlug($request);
-             $this->forward404Unless($this->competition->isPassedOpenDate(), 'Competition not open for Applications yet.');
-     
-             $this->applicant = $this->getUser()->getGuardUser();
+{% highlight diff %}
+ (master) ~/Sites/hallcenter_awards/symfony $ git diff
+diff --git a/apps/applicant/modules/application/actions/actions.class.php b/apps/applicant/modules/application/actions/actions.class.php
+index 5092da4..ec22e6d 100644
+--- a/apps/applicant/modules/application/actions/actions.class.php
++++ b/apps/applicant/modules/application/actions/actions.class.php
+@@ -21,7 +21,6 @@ class applicationActions extends BaseActions
+ 
+         $this->route = $this->getContext()->getRouting()->getCurrentRouteName();
+ 
+-        $this->competition = $this->getCompetitionBySlug($request);
+         $this->forward404Unless($this->competition->isPassedOpenDate(), 'Competition not open for Applications yet.');
+ 
+         $this->applicant = $this->getUser()->getGuardUser();
+{% endhighlight %}
 
 If your change is within a larger function or block of code, like the previous example, 3 lines of context isn't enough to tell exactly where in the function this change was made. git shows us the class declaration as context (seen above as `class applicationActions extends BaseActions`), but wouldn't it be great if we could see the entirety of the function where the change was made?
 
 The new option `--function-context` (or its `-W` short option) attempts to provide you this context, giving you all lines of the function within which your change was made:
 
-     (master) ~/Sites/hallcenter_awards/symfony $ git diff --function-context
-    diff --git a/apps/applicant/modules/application/actions/actions.class.php b/apps/applicant/modules/application/actions/actions.class.php
-    index 5092da4..ec22e6d 100644
-    --- a/apps/applicant/modules/application/actions/actions.class.php
-    +++ b/apps/applicant/modules/application/actions/actions.class.php
-    @@ -11,203 +11,202 @@
-     class applicationActions extends BaseActions
+{% highlight diff %}
+ (master) ~/Sites/hallcenter_awards/symfony $ git diff --function-context
+diff --git a/apps/applicant/modules/application/actions/actions.class.php b/apps/applicant/modules/application/actions/actions.class.php
+index 5092da4..ec22e6d 100644
+--- a/apps/applicant/modules/application/actions/actions.class.php
++++ b/apps/applicant/modules/application/actions/actions.class.php
+@@ -11,203 +11,202 @@
+ class applicationActions extends BaseActions
+ {
+     /**
+      * Executes before every action
+      *
+      * Sets navigation breadcrumbs
+      */
+     public function preExecute()
      {
-         /**
-          * Executes before every action
-          *
-          * Sets navigation breadcrumbs
-          */
-         public function preExecute()
-         {
-             $request = $this->getRequest();
-     
-             $this->route = $this->getContext()->getRouting()->getCurrentRouteName();
-     
-    -        $this->competition = $this->getCompetitionBySlug($request);
-             $this->forward404Unless($this->competition->isPassedOpenDate(), 'Competition not open for Applications yet.');
-     
-             $this->applicant = $this->getUser()->getGuardUser();
-             $this->application = $this->getApplicantCompetitionApplication($this->applicant, $this->competition);
-     
-             $this->setSlotBreadcrumbCompetition($this->competition->getTitle(), 'application_overview', array('slug' => $this->competition->getSlug()));
-             $this->setSlotBreadcrumbCompetitionPage('Application Form');
-         }
-     
-         /**
-          * Displays Application form
-          *
-          * If Applicant has already started applying, display their info
-          *
-          * @param sfWebRequest $request
-          */
-         public function executeNew(sfWebRequest $request)
-         {
-             $this->redirectIf($this->applicationExists($this->application), array(
-                 'sf_route' => 'application_edit',
-                 'slug' => $this->competition->getSlug(),
-             ));
-        }
-        // basically continues until the end of the file
+         $request = $this->getRequest();
+
+         $this->route = $this->getContext()->getRouting()->getCurrentRouteName();
+
+-        $this->competition = $this->getCompetitionBySlug($request);
+         $this->forward404Unless($this->competition->isPassedOpenDate(), 'Competition not open for Applications yet.');
+ 
+         $this->applicant = $this->getUser()->getGuardUser();
+         $this->application = $this->getApplicantCompetitionApplication($this->applicant, $this->competition);
+
+         $this->setSlotBreadcrumbCompetition($this->competition->getTitle(), 'application_overview', array('slug' => $this->competition->getSlug()));
+         $this->setSlotBreadcrumbCompetitionPage('Application Form');
+     }
+ 
+     /**
+      * Displays Application form
+      *
+      * If Applicant has already started applying, display their info
+      *
+      * @param sfWebRequest $request
+      */
+     public function executeNew(sfWebRequest $request)
+     {
+         $this->redirectIf($this->applicationExists($this->application), array(
+             'sf_route' => 'application_edit',
+             'slug' => $this->competition->getSlug(),
+         ));
+    }
+    // basically continues until the end of the file
+{% endhighlight %}
 
 I've found this option rather unreliable, at least within a large PHP class. My tests found `--function-context` often results in displaying almost all of the original file, and git appears ignorant of PHP's function boundaries. The number of context lines before and after a change seem random, and the diff doesn't necessarily always show all lines of the function, either.
 
@@ -115,4 +123,6 @@ Perhaps support for this functionality will improve in future versions.
 
 For now, `git diff` already supports the `--unified=` option, or its short version `-U`, for displaying a larger number of context lines than the default of 3. At this point, I can only recommend using `--unified=` to display more lines of context in your diffs.
 
-    git diff --unified=10
+{% highlight console %}
+git diff --unified=10
+{% endhighlight %}

@@ -12,7 +12,6 @@ meta:
   _edit_last: '1'
 alias: /keeping-your-users-trust-in-web-applications
 ---
-
 Trust is priceless. Breaking the trust bond in a relationship, whether friendly, emotional or vendor-to-end-user, is a serious breach of social contract. As web app developers and content creators, we must instill trust in our users with the goal of making them feel comfortable using our applications and ultimately giving up some of their personal info.
 
 How often do you give away your personal information just because somebody asks for it, but not really knowing what they will do with it? You know what I'm talking about. Signing up for that "free" magazine subscription. Giving your phone number to the cashier when buying that new movie. Plugging in your email to receive order status updates about that $1.49 cable you bought from a company you never heard of but saw on SlickDeals. Like you, I've done all of these. But not without thinking twice about it.
@@ -23,7 +22,7 @@ As application developers, we have insight on both sides: consumers signing up f
 
 I'm going to guess the majority of us building unique web applications aren't in the market of sharing our users' data with a third-party. We just need a way to track them in our `user` table. But how do our users know this?
 
-Sure, they could read the privacy policy, but nobody *wants* to wade through legalese. There are a million apps out there I could sign up for. I just want to use the app. Let me in. Check. Done. But when given a long privacy policy, I can't help but think, "...I don't know what I'm agreeing to, but I'll give these guys the benefit of the doubt."
+Sure, they could read the privacy policy, but nobody *wants* to wade through legalese. There are a million apps out there I could sign up for. I just want to use the app. Let me in. Check. Done. But when given a long privacy policy, I can't help but think, "&hellip;I don't know what I'm agreeing to, but I'll give these guys the benefit of the doubt."
 
 I feel much better if I'm given a friendly note on the sign up form: "We don't share your info, promise!" In fact, I will usually trust a company *even more* if they come right out and say it, rather than hiding behind a privacy policy checkbox.
 

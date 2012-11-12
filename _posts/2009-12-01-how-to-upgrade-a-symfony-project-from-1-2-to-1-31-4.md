@@ -25,12 +25,16 @@ If you’re not using version control, now might be a good time to learn. I am u
 
 Let’s create a new branch from our trunk to handle upgrading to 1.3.
 
-    svn copy http://svn.example.com/repo/trunk http://svn.example.com/repo/branches/symfony1_3 -m "Creating branch of trunk to upgrade to Symfony 1.3."
+{% highlight console %}
+svn copy http://svn.example.com/repo/trunk http://svn.example.com/repo/branches/symfony1_3 -m "Creating branch of trunk to upgrade to Symfony 1.3."
+{% endhighlight %}
 
 Checkout your new branch to your development environment and let’s get started.
 
-    svn co http://svn.example.com/repo/branches/symfony1_3 ~/Sites/myproject/symfony1_3
-    cd !$
+{% highlight console %}
+svn co http://svn.example.com/repo/branches/symfony1_3 ~/Sites/myproject/symfony1_3
+cd !$
+{% endhighlight %}
 
 * * * * *
 
@@ -52,13 +56,15 @@ We will remove the old 1.2 files and install the core files from the central 1.3
 
 Since the application I developed is not a critical application, I chose to live on the edge and reference the 1.3 branch.
 
-    svn rm lib/vendor/symfony
-    svn propedit svn:externals lib/vendor
+{% highlight console %}
+svn rm lib/vendor/symfony
+svn propedit svn:externals lib/vendor
 
-    symfony http://svn.symfony-project.com/branches/1.3/
+symfony http://svn.symfony-project.com/branches/1.3/
 
-    svn commit . -m "Remove Symfony 1.2 core libraries. Install Symfony 1.3 core libraries via svn:externals."
-    svn up
+svn commit . -m "Remove Symfony 1.2 core libraries. Install Symfony 1.3 core libraries via svn:externals."
+svn up
+{% endhighlight %}
 
 * * * * *
 
@@ -69,14 +75,16 @@ plugin:upgrade yourPluginNameHere`, or check the [plugin repository][] for a 1.3
 
 *sfWidgetFormPlugin* has a 1.3 branch, so again, let’s remove the old plugin and link up the new one. My previous version was installed via the traditional `php symfony plugin:install sfFormExtraPlugin` command, so it should first be uninstalled, deleted, then linked up with an `svn:externals` reference.
 
-    php symfony plugin:uninstall sfFormExtraPlugin
-    svn rm plugins/sfFormExtraPlugin
-    svn propedit svn:externals plugins
+{% highlight console %}
+php symfony plugin:uninstall sfFormExtraPlugin
+svn rm plugins/sfFormExtraPlugin
+svn propedit svn:externals plugins
 
-    sfFormExtraPlugin http://svn.symfony-project.com/plugins/sfFormExtraPlugin/branches/1.3/
+sfFormExtraPlugin http://svn.symfony-project.com/plugins/sfFormExtraPlugin/branches/1.3/
 
-    svn commit . -m "Update sfFormExtraPlugin to 1.3-compatible branch."
-    svn up
+svn commit . -m "Update sfFormExtraPlugin to 1.3-compatible branch."
+svn up
+{% endhighlight %}
 
 Repeat this process for all of your plugins that have new versions
 available.
@@ -88,8 +96,10 @@ available.
 Running this command will automatically upgrade your code base to
 Symfony 1.3.
 
-    php symfony project:upgrade1.3
-    svn commit . -m "Upgraded project to Symfony 1.3."
+{% highlight console %}
+php symfony project:upgrade1.3
+svn commit . -m "Upgraded project to Symfony 1.3."
+{% endhighlight %}
 
 
 #### Doctrine 1.0 to Doctrine 1.2
@@ -108,7 +118,9 @@ In my project, I was using a few non-static methods that had been changed to sta
 
 With all our code updated, it’s time to run the gauntlet of updating our forms, filters and models.
 
-    php symfony doctrine:build --all-classes php symfony cache:clear
+{% highlight console %}
+php symfony doctrine:build --all-classes php symfony cache:clear
+{% endhighlight %}
 
 * * * * *
 
@@ -120,7 +132,9 @@ Load up the dev environment for your application in your browser and cross your 
 
 Assuming everything works, commit back to SVN.
 
-    svn commit . -m "Fully upgraded to Symfony 1.3."
+{% highlight console %}
+svn commit . -m "Fully upgraded to Symfony 1.3."
+{% endhighlight %}
 
 * * * * *
 
@@ -128,7 +142,9 @@ Assuming everything works, commit back to SVN.
 
 Now that our project is up to date with Symfony 1.3, we need to prepare to move it to Symfony 1.4. Fabien recently added an amazingly helpful command [project:validate][] that checks your code for use of deprecated code that has been removed for Symfony 1.4. Running the command against your project gives a list of deprecated classes in use and their location.
 
-    php symfony project:validate
+{% highlight console %}
+php symfony project:validate
+{% endhighlight %}
 
 ![php symfony project:validate output][]
 Caption: php symfony project:validate output
@@ -141,28 +157,32 @@ Most of the deprecated code above appears in the `/base/` directory of the Doctr
 
 #### sfWidgetFormDoctrineChoiceMany
 
-`project:validate` found one use of *sfWidgetFormDoctrineChoiceMany* in `EventForm.class.php`. Since I redefined my Event form in the `EventForm::configure()` method, I need to find the fix for using this deprecated class.
+`project:validate` found one use of `sfWidgetFormDoctrineChoiceMany` in `EventForm.class.php`. Since I redefined my Event form in the `EventForm::configure()` method, I need to find the fix for using this deprecated class.
 
 After checking the [Deprecated Code page for 1.3][], the `*Many()` form widgets have been deprecated. `sfWidgetFormDoctrineChoiceMany` has been consolidated into the `sfWidgetFormDoctrineChoice` class by adding the option `array('multiple' => true)` to denote a multi-select.
 
 Symfony 1.2:
 
-    $this->setWidgets(array(
-        'keywords_list' => new sfWidgetFormDoctrineChoiceMany(array(
-            'model' => 'Keyword',
-            'renderer_class' => 'sfWidgetFormSelectDoubleList',
-        )),
-    ));
+{% highlight php startinline %}
+$this->setWidgets(array(
+    'keywords_list' => new sfWidgetFormDoctrineChoiceMany(array(
+        'model' => 'Keyword',
+        'renderer_class' => 'sfWidgetFormSelectDoubleList',
+    )),
+));
+{% endhighlight %}
 
 Symfony 1.3:
 
-    $this->setWidgets(array(
-        'keywords_list' => new sfWidgetFormDoctrineChoice(array(
-            'model' => 'Keyword',
-            'renderer_class' => 'sfWidgetFormSelectDoubleList',
-            'multiple' => true,
-        )),
-    ));
+{% highlight php startinline %}
+$this->setWidgets(array(
+    'keywords_list' => new sfWidgetFormDoctrineChoice(array(
+        'model' => 'Keyword',
+        'renderer_class' => 'sfWidgetFormSelectDoubleList',
+        'multiple' => true,
+    )),
+));
+{% endhighlight %}
 
 #### sfValidatorDoctrineChoiceMany
 
@@ -172,22 +192,26 @@ Sounds very similar to the explanation above, doesn’t it? Why the developers c
 
 Symfony 1.2:
 
-    $this->setValidators(array(
-        'keywords_list' => new sfValidatorDoctrineChoiceMany(array(
-            'model' => 'Keyword',
-            'required' => false,
-        )),
-    ));
+{% highlight php startinline %}
+$this->setValidators(array(
+    'keywords_list' => new sfValidatorDoctrineChoiceMany(array(
+        'model' => 'Keyword',
+        'required' => false,
+    )),
+));
+{% endhighlight %}
 
 Symfony 1.3:
 
-    $this->setValidators(array(
-        'keywords_list' => new sfValidatorDoctrineChoice(array(
-            'model' => 'Keyword',
-            'required' => false,
-            'multiple' => true,
-        )),
-    ));
+{% highlight php startinline %}
+$this->setValidators(array(
+    'keywords_list' => new sfValidatorDoctrineChoice(array(
+        'model' => 'Keyword',
+        'required' => false,
+        'multiple' => true,
+    )),
+));
+{% endhighlight %}
 
 #### sfCompat10Plugin
 
@@ -196,16 +220,22 @@ remove all references to it. In my case, I had excluded it from loading in mypro
 
 Symfony 1.2:
 
-    $this->enableAllPluginsExcept(array('sfPropelPlugin', 'sfCompat10Plugin'));
+{% highlight php startinline %}
+$this->enableAllPluginsExcept(array('sfPropelPlugin', 'sfCompat10Plugin'));
+{% endhighlight %}
 
 Symfony 1.3:
 
-    $this->enableAllPluginsExcept(array('sfPropelPlugin'));
+{% highlight php startinline %}
+$this->enableAllPluginsExcept(array('sfPropelPlugin'));
+{% endhighlight %}
 
 At this point, we have removed all deprecated code and are ready to
 upgrade our project to Symfony 1.4! Commit our latest changes.
 
-    svn commit . -m "Removed deprecated code for Symfony 1.4."
+{% highlight console %}
+svn commit . -m "Removed deprecated code for Symfony 1.4."
+{% endhighlight %}
 
 ### Step 8: Upgrade to Symfony 1.4
 
@@ -213,28 +243,36 @@ Once again, you should check if your plugins have Symfony 1.4 versions, and upda
 
 If you plugin does not have a 1.4 version, the 1.3 version may work without modification. If the `project:validate` task does not return any deprecated code used in plugins, you may be clear.
 
-    svn propedit svn:externals
-    
-    plugins #Update your repo URLs to their 1.4 branches
+{% highlight console %}
+svn propedit svn:externals
 
-    svn up
+plugins #Update your repo URLs to their 1.4 branches
+
+svn up
+{% endhighlight %}
 
 With our Symfony core libraries referenced via `svn:externals`, we also need to update that reference to the Symfony 1.4 branch.
 
-    svn propedit svn:externals lib/vendor
+{% highlight console %}
+svn propedit svn:externals lib/vendor
 
-    symfony http://svn.symfony-project.com/branches/1.4/
+symfony http://svn.symfony-project.com/branches/1.4/
 
-    svn up
+svn up
+{% endhighlight %}
 
 Now regenerate our forms, filters and models.
 
-    php symfony doctrine:build --all-classes
-    php symfony cache:clear
+{% highlight console %}
+php symfony doctrine:build --all-classes
+php symfony cache:clear
+{% endhighlight %}
 
 And assuming everything works, commit everything back to our development branch!
 
-    svn commit . -m "Upgraded to Symfony 1.4. Whew!"
+{% highlight console %}
+svn commit . -m "Upgraded to Symfony 1.4. Whew!"
+{% endhighlight %}
 
 Congratulations! You are now working with the latest version of Symfony 1.4!
 

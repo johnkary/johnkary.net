@@ -21,7 +21,7 @@ So assuming your company has OWA setup, keep reading.
 
 Running DavMail, you will be able to interface from your local machine to the remote Exchange server with full Calendar integration, full attendee completion and full free/busy support all via iCal and Mail.app. Let's get started.
 
-### NOTE Before We Begin... ###
+### NOTE Before We Begin&hellip; ###
 
 > At time of publication, DavMail is currently at stable version **3.6.3**. A very recent bug fix allows DavMail to work with OWA login screens with some customizations (like we use at the University of Kansas) so I will go through how to [build DavMail from source](http://davmail.sourceforge.net/build.html). I assume when **3.6.4** is available, this will not be necessary.
 
@@ -29,17 +29,23 @@ Running DavMail, you will be able to interface from your local machine to the re
 
 Use Subversion to export the latest build from the DavMail repository:
 
-    svn export http://davmail.svn.sourceforge.net/svnroot/davmail/trunk davmail
+{% highlight console %}
+svn export http://davmail.svn.sourceforge.net/svnroot/davmail/trunk davmail
+{% endhighlight %}
 
 Change into the new `davmail` directory and use [Apache Ant](http://ant.apache.org/), which comes standard in Snow Leopard, to build the installers:
 
-    cd davmail
-    ant
+{% highlight console %}
+cd davmail
+ant
+{% endhighlight %}
 
 You will end up with binaries or installers for all supported operating systems, but we're only interested in DavMail.app for Mac. Let's copy it to our Applications directory then launch it.
 
-    cp -r dist/DavMail.app /Applications
-    open /Applications/DavMail.app
+{% highlight console %}
+cp -r dist/DavMail.app /Applications
+open /Applications/DavMail.app
+{% endhighlight %}
 
 ### Step 1 - Setting up DavMail
 
@@ -83,11 +89,15 @@ You don't really need to interact with DavMail from the dock since it's more of 
 
 From Terminal, open DavMail.app's `Info.plist` using your favorite editor. In my case, I'll edit the text file using vi:
 
-    vi /Applications/DavMail.app/Contents/Info.plist
+{% highlight console %}
+vi /Applications/DavMail.app/Contents/Info.plist
+{% endhighlight %}
 
 We now need to add the [LSUIElement key](http://developer.apple.com/mac/library/documentation/General/Reference/InfoPlistKeyReference/Articles/LaunchServicesKeys.html#//apple_ref/doc/uid/20001431-108256) and set it to `true`. Find the area of code around something like `<CFBundleIconFile></key><string>tray.icns</string>` and add this new key definition after it:
 
-    <key>LSUIElement</key>
-    <true\>
+{% highlight xml %}
+<key>LSUIElement</key>
+<true\>
+{% endhighlight %}
 
 Save the `Info.plist` file and relaunch DavMail. The dock icon will be hidden but will still appear in the menu bar.

@@ -24,8 +24,10 @@ Prior to git 1.7.7, if you ran `git stash save` it would only stash changes for 
 
 But with the new option `--include-untracked`, or simply `-u`, `git stash` can now save your working tree exactly the way you had it when you created the stash.
 
-    git stash -u
-    git stash --include-untracked
+{% highlight console %}
+git stash -u
+git stash --include-untracked
+{% endhighlight %}
 
 ### "git submodule update" reports any errors at the end instead of halting on error
 

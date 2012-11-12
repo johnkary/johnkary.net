@@ -203,7 +203,7 @@ ul.posts {
 .highlight pre {
     margin:0;
     line-height:1.4em;
-    padding:0.75em;
+    padding: 0.75em 0.75em 0.375em;
     overflow-x:scroll;
 }
 .highlight .x {

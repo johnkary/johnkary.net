@@ -9,9 +9,9 @@
 .gd { color: #aa0000 } /* Generic.Deleted */
 .ge { font-style: italic } /* Generic.Emph */
 .gr { color: #aa0000 } /* Generic.Error */
-.gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.gh { color: #42DCFF; font-weight: bold } /* Generic.Heading */
 .gi { color: #00aa00 } /* Generic.Inserted */
-.go { color: #888888 } /* Generic.Output */
+.go { color: #dddddd } /* Generic.Output */
 .gp { color: #555555 } /* Generic.Prompt */
 .gs { font-weight: bold } /* Generic.Strong */
 .gu { color: #800080; font-weight: bold } /* Generic.Subheading */

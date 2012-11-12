@@ -12,7 +12,6 @@ meta:
   _edit_last: '1'
 alias: /i-may-be-doing-it-wrong-but-i-have-my-sanity
 ---
-
 Marco Tabini [recently wrote](http://www.phparch.com/2010/03/10/programming-youre-doing-it-wrong/) on the php|architect blog that "programmers are doing it wrong." He argues that many programmers have become hung up on writing mythical perfect code that abides by all modern best practices instead of doing what we are hired to do: solve problems quickly and efficiently. But if you spend time writing it well the first time, you too can save your sanity.
 
 I'll admit, I'm in that latter group of striving to write "perfect code." I constantly read articles, pour over well-written open-source code (mostly Symfony code) and review conference presentation slides posted by notable developers on [SlideShare](http://www.slideshare.net/search/slideshow?searchfrom=header&q=PHP).
@@ -42,7 +41,7 @@ Where do you want to spend your time&hellip; Up front researching, reading and w
 
 ### Do Something! Learn From the Best
 
-When you're writing code or debugging old code and thinking, "There's got to be a better way...!" There is.
+When you're writing code or debugging old code and thinking, "There's got to be a better way&hellip;!" There is.
 
 Start with the PHP Advent series: [2009](http://phpadvent.org/2009), [2008](http://phpadvent.org/2008), [2007](http://shiflett.org/blog/2007/dec/php-advent-calendar-2007).
 

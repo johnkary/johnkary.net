@@ -23,13 +23,17 @@ Wordpress has built-in export functionality, which dumps all of your pages, post
 
 The Jekyll docs then have a section on [Blog Migrations](https://github.com/mojombo/jekyll/wiki/blog-migrations). I followed the instructions to exchange my newly-generated `wordpress.xml` into freshly-minted static HTML pages in a format Jekyll expects.
 
-    gem install hpricot
-    ruby -rubygems -e 'require "jekyll/migrators/wordpressdotcom"; Jekyll::WordpressDotCom.process("wordpress.xml")'
+{% highlight console %}
+gem install hpricot
+ruby -rubygems -e 'require "jekyll/migrators/wordpressdotcom"; Jekyll::WordpressDotCom.process("wordpress.xml")'
+{% endhighlight %}
 
 I then leveraged [Pandoc](http://johnmacfarlane.net/pandoc/) to convert the resulting HTML files to straight Markdown.
 
-    cd ~/Sites/johnkary.github.com/_posts
-    pandoc --from=html --to=markdown --no-wrap --output=2009-12-08-my-post-title.md 2009-12-08-my-post-title.html
+{% highlight console %}
+cd ~/Sites/johnkary.github.com/_posts
+pandoc --from=html --to=markdown --no-wrap --output=2009-12-08-my-post-title.md 2009-12-08-my-post-title.html
+{% endhighlight %}
 
 The Pandoc-generated Markdown files were very accurate for the most part. The only fail was I had to re-split the paragraph text because the original Jekyll import dumped my paragraphs without `<p>` tags, so Pandoc just merged that text together. I also had to clean up some poor formatting from some older posts, but nothing major for my 20 blog entries.
 
@@ -45,15 +49,15 @@ It supports PHP, but I had to dig around a bit to find its PhpLexer option `star
 
 {% highlight jinja %}
 {% raw %}
-    {% highlight php %}
-    // No source highlighting
-    $name = $person->getName();
-    {% endhighlight %}
+{% highlight php %}
+// No source highlighting
+$name = $person->getName();
+{% endhighlight %}
 
-    {% highlight php startinline %}
-    // Source highlighting without opening PHP tag
-    $name = $person->getName();
-    {% endhighlight %}
+{% highlight php startinline %}
+// Source highlighting without opening PHP tag
+$name = $person->getName();
+{% endhighlight %}
 {% endraw %}
 {% endhighlight %}
 
