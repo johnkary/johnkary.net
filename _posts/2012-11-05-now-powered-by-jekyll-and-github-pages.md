@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Moved to GitHub Pages
+title: Now Powered By Jekyll and GitHub Pages
 categories : [github]
 ---
 My previous blog post on `git add -p` hit the HackerNews frontpage and the huge influx of traffic brought down my blog. This had happened once before, ironically when a previous git post of mine hit HN, but I thought [Chris](http://twitter.com/tidrion) and I had prevented it from happening again by using the WP-Cache Wordpress plugin.
@@ -32,5 +32,29 @@ I then leveraged [Pandoc](http://johnmacfarlane.net/pandoc/) to convert the resu
     pandoc --from=html --to=markdown --no-wrap --output=2009-12-08-my-post-title.md 2009-12-08-my-post-title.html
 
 The Pandoc-generated Markdown files were very accurate for the most part. The only fail was I had to re-split the paragraph text because the original Jekyll import dumped my paragraphs without `<p>` tags, so Pandoc just merged that text together. I also had to clean up some poor formatting from some older posts, but nothing major for my 20 blog entries.
+
+### Liquid Templating Language ###
+
+Jekyll uses the [Liquid Templating Language](http://liquidmarkup.org/). I felt very at home with it right away because it's basically exactly like [Twig Templates](http://twig.sensiolabs.org/doc/templates.html). And Twig is inspired by Jinja2 templates, which uses the same syntax. I don't know who was "first" in all of this, but there was no additional learning curve to learn templating.
+
+### Syntax Highlighting ###
+
+Jekyll has support for the great syntax highlighting Python library [Pygments](http://pygments.org/) which supports just about every language you could ask for.
+
+It supports PHP, but I had to dig around a bit to find its PhpLexer option `startinline`. If you don't specify the `startinline` option, Pygments will only start highlighting after it finds `<?php`. I don't use `<?php` in my code examples, so my highlighting wasn't working until I found [this Jekyll issue](https://github.com/mojombo/jekyll/issues/31) introducing `startinline`.
+
+{% highlight jinja %}
+{% raw %}
+    {% highlight php %}
+    // No source highlighting
+    $name = $person->getName();
+    {% endhighlight %}
+
+    {% highlight php startinline %}
+    // Source highlighting without opening PHP tag
+    $name = $person->getName();
+    {% endhighlight %}
+{% endraw %}
+{% endhighlight %}
 
 If you see any problems with the site, please ping me on Twitter [@johnkary](http://twitter.com/johnkary)
