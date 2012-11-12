@@ -37,11 +37,11 @@ I hope that after watching you will be armed with a new skill you can start usin
 
 ### Intro to git add patch mode tutorial
 
-<iframe src="http://www.youtube.com/embed/Wl0NfWYrvlY" frameborder="0" width="500" height="281"></iframe>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/Wl0NfWYrvlY" frameborder="0" allowfullscreen></iframe>
 
 ### How to edit hunks in git add patch mode
 
-<iframe src="http://www.youtube.com/embed/1tqMjJeyKpw" frameborder="0" width="500" height="281"></iframe>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/1tqMjJeyKpw" frameborder="0" allowfullscreen></iframe>
 
   [git]: http://gitscm.org/
   [The Pragmatic Programmer]: http://pragprog.com/the-pragmatic-programmer
