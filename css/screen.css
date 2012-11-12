@@ -170,6 +170,14 @@ ul.posts {
   }
 
 /* Syntax highlighting */
+code {
+  font-size:0.9em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #efefef;
+  padding: 1px 4px;
+}
 .highlight {
     background-color:#222;
     font-family:'Monaco', monospace;
@@ -181,6 +189,11 @@ ul.posts {
     overflow:hidden;
     padding:0 0.4em;
     margin-bottom:1.7em;
+}
+.highlight code {
+  background-color:inherit;
+  font-size:inherit;
+  padding:0;
 }
 .highlight.horizontal-scroll {
     padding:0 0.4em 0.8em;
