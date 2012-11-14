@@ -2,17 +2,10 @@
 layout: default
 title: John Kary
 ---
-
 <div id="home">
-  <h1>About</h1>
-  <p>I available for hire as a contract web application developer. <a href="/contact">Please get in touch!</a> I have lots of experience leading small teams, and love helping developers learn new things, like how to collaborate effectively with git or migrating a legacy codebase to a modern web stack. <a href="/about">Read more&hellip;</a></p>
-
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  {% for post in site.posts %}
+    {% include post-homepage.html %}
+  {% endfor %}
 
   <h1>Talks</h1>
   <ul class="posts">

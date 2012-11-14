@@ -17,7 +17,7 @@ html, body {
 
 body {
   background-color: white;
-  font: 13.34px helvetica, arial, clean, sans-serif;
+  font: 14px constantia, palatino, "times new roman", sans-serif;
   *font-size: small;
   text-align: center;
 }
@@ -35,15 +35,15 @@ p {
 }
 
 a {
-  color: #00a;
+  color: #000;
+  text-decoration:none;
 }
 
 a:hover {
-  color: black;
 }
 
 a:visited {
-  color: #a0a;
+  color: #999;
 }
 
 table {
@@ -196,6 +196,35 @@ ul.posts {
 
 #post {
 
+}
+.post h3 {
+  text-align:center;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 1.5em 0;
+  line-height:1.3em;
+}
+.post h3 a:hover {
+  border-bottom:1px solid;
+}
+.post h5 {
+  margin: 0.5em 0 2em;
+  font-family: "helvetica neue", helvetica, arial;
+  font-size: 0.75em;
+  font-weight: normal;
+  text-align:center;
+  color: #999;
+  border-bottom: 1px solid #DDD;
+  background: white;
+
+}
+.post h5 span {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 8px;
+  background: white;
+  top: 12px;
 }
 
   /* standard */

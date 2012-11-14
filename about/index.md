@@ -9,7 +9,7 @@ meta:
   _edit_last: '1'
   _wp_page_template: default
 ---
-I available for hire as a contract web application developer. [Please get in touch!][] I have lots of experience leading small teams, and love helping developers learn new things, like how to collaborate effectively with git or migrating a legacy codebase to a modern web stack.
+I am available for hire as a contract web application developer. [Please get in touch!][] I have lots of experience leading small teams, and love helping developers learn new things, like how to collaborate effectively with git or migrating a legacy codebase to a modern web stack.
 
 I have worked mostly in the higher education and trucking industries but am always looking for new interesting fields! I attend and [speak][] at a few local user groups, including being Co-Organizer of the [Kansas City PHP User Group][], and also help drive the language-agnostic [Lawrence Coders][] group.
 
