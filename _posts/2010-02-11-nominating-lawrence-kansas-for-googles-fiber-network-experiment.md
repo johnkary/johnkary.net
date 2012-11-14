@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Nominating Lawrence, Kansas for Google's fiber network experiment
+description: "Google announced yesterday on their blog that they are venturing into installing fiber-to-the-curb for residential users, essentially as an alternative ISP. Their goals include not only delivering faster Internet to more people, but also giving developers and users a wealth of bandwidth at their disposal and see what they can do with it.
+
+Google asked for nominations of cities that might be a good fit for the project, so I wrote a recommendation letter for where I live in Lawrence, Kansas."
 tags:
 - rants
 status: publish

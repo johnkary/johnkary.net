@@ -1,6 +1,9 @@
 ---
 layout: post
 title: ! 'Developers: We are no longer Apple''s target market'
+description: "Over the last few years, especially since the release of Lion in July 2011, there is an air of neglect floating amongst the development community that use Apple hardware running OS X as their primary workstation. Many developers feel Apple is not focused on their best interests as developers and are frustrated with new Apple products.
+
+When Apple released their Q3 Financial Report yesterday, I was finally able to put statistics to backup the feeling of neglect."
 tags:
 - apple
 - hardware

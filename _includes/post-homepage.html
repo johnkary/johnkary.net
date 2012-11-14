@@ -4,7 +4,7 @@
     <h3 class="entry-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>
     
     <div class="entry-content">
-      <p>{{ post.description }}</p>
+      <p>{{ post.description | description_break }}</p>
       <a href="{{ post.url }}">Continue reading&hellip;</a>
     </div>
   </div>

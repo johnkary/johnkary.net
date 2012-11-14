@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Now Powered By Jekyll and GitHub Pages
+description: "A few of my previous posts have been fortunate enough to become front-page worthy on Hacker News and /r/programming. But the rush of traffic toppled my WordPress blog. So I toppled WordPress and replaced it with Jekyll."
 categories : [github]
 ---
 My previous blog post on `git add -p` hit the HackerNews frontpage and the huge influx of traffic brought down my blog. This had happened once before, ironically when a previous git post of mine hit HN, but I thought [Chris](http://twitter.com/tidrion) and I had prevented it from happening again by using the WP-Cache Wordpress plugin.

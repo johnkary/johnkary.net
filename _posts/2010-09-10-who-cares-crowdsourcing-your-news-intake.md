@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Who Cares? Crowdsourcing Your News Intake
+description: "Looking at some generic news aggregate site, it seems there's a lot of important things going on in the news. Some radical pastor wants to burn Korans. Huge fires are engulfing a San Francisco neighborhood. \"Evil\" zombies are now back. In 3D.
+
+Does any of that really affect you? No, really&hellip; does it?
+
+NO! And if you think it does, it doesn't. Want proof?"
 tags:
 - media
 - rants
