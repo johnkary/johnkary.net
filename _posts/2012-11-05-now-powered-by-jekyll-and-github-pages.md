@@ -4,11 +4,11 @@ title: Now Powered By Jekyll and GitHub Pages
 description: "A few of my previous posts have been fortunate enough to become front-page worthy on Hacker News and /r/programming. But the rush of traffic toppled my WordPress blog. So I toppled WordPress and replaced it with Jekyll."
 categories : [github]
 ---
-My previous blog post on `git add -p` hit the HackerNews frontpage and the huge influx of traffic brought down my blog. This had happened once before, ironically when a previous git post of mine hit HN, but I thought [Chris](http://twitter.com/tidrion) and I had prevented it from happening again by using the WP-Cache Wordpress plugin.
+My previous blog post on `git add -p` hit the front page of [Hacker News frontpage](http://news.ycombinator.com/) and [/r/programming](http://www.reddit.com/r/programming) and the huge influx of traffic brought down my blog. This had happened once before, ironically when a previous git post of mine hit HN, but I thought [Chris](http://twitter.com/tidrion) and I had prevented it from happening again by using the WP-Cache Wordpress plugin.
 
-Well looks like HN sent so much traffic our 512MB server running Apache + MySQL + WP-Cache still couldn't keep up.
+Well looks like those sites sent so much traffic our 512MB server running Apache + MySQL + WP-Cache still couldn't keep up.
 
-That's impressive considering when the same post was on the frontpage of [/r/programming](http://reddit.com/r/programming) it did about 20,000 views all together, 15,000 of which during one day. I guess front page of HN at noon CST on a Monday lands you a lot of traffic really fast.
+That's impressive considering when the same post was on the front page of [/r/programming](http://reddit.com/r/programming) it did about 20,000 views all together, 15,000 of which during one day. I guess front page of HN at noon CST on a Monday lands you a lot of traffic really fast.
 
 ### Peace out Wordpress ###
 
