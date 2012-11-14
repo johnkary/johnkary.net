@@ -32,7 +32,7 @@ I have recorded two 10-minute screencasts about how I use git add's patch mode. 
 
 In the first video I walk you through why patch mode is something **you should be using today**, then demonstrate its basic features.
 
-In the second video I talk through the dark art of editing hunks. Even some of the most knowledgeable git users I know have struggled with this! To really master patch mode you will want to know how to edit hunks. Never fear “patch does not apply” again!
+In the second video I talk through the dark art of editing hunks. Even some of the most knowledgeable git users I know have struggled with this! To really master patch mode you will want to know how to edit hunks. Never fear "patch does not apply" again!
 
 I hope that after watching you will be armed with a new skill you can start using **right away** and begin to know git at a deeper level.
 
