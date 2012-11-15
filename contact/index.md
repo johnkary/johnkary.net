@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact | John Kary
+heading: Contact
 tags: []
 status: publish
 type: page

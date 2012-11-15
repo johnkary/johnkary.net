@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About | John Kary
+heading: About
 tags: []
 status: publish
 type: page

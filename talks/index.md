@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Talks | John Kary
+heading: Talks
 tags: []
 status: publish
 type: page

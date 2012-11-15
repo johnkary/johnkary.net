@@ -1,6 +1,7 @@
 ---
 layout: page
 title: License | John Kary
+heading: License
 tags: []
 status: publish
 type: page
