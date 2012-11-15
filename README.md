@@ -10,4 +10,4 @@ The following directories and their contents are Copyright John Kary. You may no
 * `_pages/`
 * `images/`
 
-All other directories and files are licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US).
+All other directories and files are licensed under the MIT License.
