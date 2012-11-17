@@ -180,7 +180,7 @@ ul.posts {
   text-decoration:none;
   text-transform: uppercase;
 }
-.main-nav a:hover {
+.main-nav a:hover, #post a:hover {
   text-decoration:none;
   border-bottom:1px solid;
 }
