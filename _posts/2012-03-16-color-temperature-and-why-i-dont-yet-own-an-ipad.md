@@ -9,8 +9,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 alias: /color-temperature-and-why-i-dont-yet-own-an-ipad
 ---
 Like some of you, I have not yet caved and bought an iPad. Or any other tablet device, for that matter. But given "the new" third-generation iPad was officially made available at 8:00AM this morning, that might soon change.

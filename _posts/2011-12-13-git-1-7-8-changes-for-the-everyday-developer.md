@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 alias: /git-1-7-8-changes-for-the-everyday-developer
 ---
 git 1.7.8 was released a little over a week ago. You can view the 1.7.8 [release notes](https://raw.github.com/gitster/git/master/Documentation/RelNotes/1.7.8.txt) for a full list of changes.

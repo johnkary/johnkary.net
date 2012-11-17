@@ -11,9 +11,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
-  _syntaxhighlighter_encoded: '1'
 alias: /how-to-upgrade-a-symfony-project-from-1-2-to-1-31-4
 ---
 Today, the Symfony crew has [released Symfony 1.3 and 1.4][]. I recently deployed a pretty basic 1.2 app, and decided to try upgrading it to 1.3, and then on to 1.4, just to see if these "easy upgrade" claims were as advertised.

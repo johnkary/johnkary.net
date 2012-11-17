@@ -8,8 +8,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 alias: /javascript-effects-knowing-when-is-more-important-than-how
 ---
 You have undoubtedly seen many tutorial sites showing off how to implement the newest whiz-bang features of modern JavaScript libraries. While most of these sites do an adequate job of showing users "how to" implement features, they almost always neglect teaching *when* to use these techniques, and more importantly, when to forego them.

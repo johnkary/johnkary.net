@@ -8,8 +8,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 alias: /git-add-p-the-most-powerful-git-feature-youre-not-using-yet
 ---
 [git][] and GitHub have revolutionized not only how I do development, but how we developers share code.
