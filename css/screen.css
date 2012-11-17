@@ -201,6 +201,12 @@ ul.posts {
 #post {
 
 }
+#post h1 {
+  font-weight:normal;
+  font-size:1.5em;
+  margin:1.5em 0;
+  line-height:1.2em;
+}
 .image {
   text-align:center;
 }
