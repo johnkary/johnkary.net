@@ -37,7 +37,9 @@ What Apple must have seen at the time was that the barrier to entry for Apple in
 
 The [Q3 2013 financial results](http://www.macrumors.com/2012/07/24/apple-reports-results-for-q3-2012-8-8-billion-profit-on-35-billion-in-revenue/) unveiled on July 24, 2012 tell an interesting picture. This graph by MacRumors sums up Apple's current revenue picture and how it really drives home the success of iOS-enabled devices:
 
-[![](http://cdn.macrumors.com/article-new/2012/07/2q12_revenue.jpg "Apple's Q3 Revenue Results")](http://www.macrumors.com/2012/07/24/apple-reports-results-for-q3-2012-8-8-billion-profit-on-35-billion-in-revenue/)
+<div class="image">
+    <a href="http://www.macrumors.com/2012/07/24/apple-reports-results-for-q3-2012-8-8-billion-profit-on-35-billion-in-revenue/"><img src="http://cdn.macrumors.com/article-new/2012/07/2q12_revenue.jpg" title="Apple's Q3 Revenue Results" /></a>
+</div>
 
 Most notably, look at iOS-enabled devices vs OS X-enabled devices. Here's the math:
 
@@ -63,7 +65,9 @@ Another graph from MacRumors shows Apple's revenue by financial quarter, where w
 
 Pay specific attention to the blue area (OS X devices) compared to essentially everything above it.
 
-[![](http://cdn.macrumors.com/article-new/2012/07/2q12_revenue_history.jpg "Apple Revenue by Quarter")](http://www.macrumors.com/2012/07/24/apple-reports-results-for-q3-2012-8-8-billion-profit-on-35-billion-in-revenue/)
+<div class="image">
+    <a href="http://www.macrumors.com/2012/07/24/apple-reports-results-for-q3-2012-8-8-billion-profit-on-35-billion-in-revenue/"><img src="http://cdn.macrumors.com/article-new/2012/07/2q12_revenue_history.jpg" title="Apple Revenue By Quarter" /></a>
+</div>
 
 OS X-enabled devices were generating about half as much revenue as iOS-enabled devices in early 2009. But in 3 years since, we've seen a huge shift in where Apple's revenue stream comes from, up to the 500% we saw in the previous graph. We developers should be silly to think Apple's engineering efforts have not followed their products' revenue potential.
 

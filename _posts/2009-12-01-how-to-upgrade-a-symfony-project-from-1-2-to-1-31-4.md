@@ -128,7 +128,9 @@ php symfony doctrine:build --all-classes php symfony cache:clear
 
 Load up the dev environment for your application in your browser and cross your fingers :) Check the Web Debug bar and see that you're running on Symfony 1.3.0 and the version of your ORM.
 
-![symfony-debug-toolbar-1.3.0][]
+<div class="image">
+    <img src="/images/posts/symfony-debug-toolbar-1.3.0.png" title="Symfony 1.3 Debug Toolbar" width="500" />
+</div>
 
 Assuming everything works, commit back to SVN.
 
@@ -146,8 +148,9 @@ Now that our project is up to date with Symfony 1.3, we need to prepare to move 
 php symfony project:validate
 {% endhighlight %}
 
-![php symfony project:validate output][]
-Caption: php symfony project:validate output
+<div class="image">
+    <img src="/images/posts/php-symfony-project-validate.png" title="php symfony project:validate output" width="500" />
+</div>
 
 Since I started writing this project on Symfony 1.2.8, and this is a relatively straightforward project, there is not much to change. If you started from 1.0 or 1.1, there is undoubtedly a lot more code to change.
 
@@ -289,11 +292,7 @@ With your new Symfony 1.4 install, why not start learning some of the more advan
   [Doctrine 1.1 to 1.2 Upgrade]: http://www.doctrine-project.org/upgrade/1_2
   [Propel]: http://propel.phpdb.org/
   [Propel's Documentation]: http://propel.phpdb.org/trac/wiki/Users/Documentation/1.4
-  [symfony-debug-toolbar-1.3.0]: http://johnkary.net/wp-content/uploads/2009/12/symfony-debug-toolbar-1.3.0.png
-    "symfony-debug-toolbar-1.3.0"
   [project:validate]: http://www.symfony-project.org/blog/2009/11/27/upgrading-to-symfony-1-4
-  [php symfony project:validate output]: http://johnkary.net/wp-content/uploads/2009/12/php-symfony-project-validate.png
-    "php symfony project:validate output"
   [Deprecated Code page for 1.3]: http://www.symfony-project.org/tutorial/1_3/en/deprecated
   [released Symfony 1.3 and 1.4]: http://symfony.com/blog/a-week-of-symfony-152-23-29-november-2009
   [1.2 to 1.3/1.4 Upgrade Instructions]: http://www.symfony-project.org/tutorial/1_4/en/upgrade

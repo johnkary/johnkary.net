@@ -180,7 +180,7 @@ ul.posts {
   text-decoration:none;
   text-transform: uppercase;
 }
-.main-nav a:hover, #post a:hover {
+.main-nav a:hover, #post a:hover, body #post .caption a:hover {
   text-decoration:none;
   border-bottom:1px solid;
 }
@@ -200,6 +200,15 @@ ul.posts {
 
 #post {
 
+}
+.image {
+  text-align:center;
+}
+.image .caption {
+  font-size:0.7em;
+}
+#post .image a:hover {
+  border:0;
 }
 #post img {
   border:1px solid #ccc;

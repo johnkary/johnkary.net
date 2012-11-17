@@ -49,7 +49,9 @@ open /Applications/DavMail.app
 
 Open the Preferences menu from the DavMail application drop-down menu. This is where you enter your OWA URL and set the local ports the DavMail daemon will listen on.
 
-![DavMail Gateway Settings](http://johnkary.net/wp-content/uploads/2010/02/DavMail-Gateway-Settings.jpg "DavMail Gateway Settings")
+<div class="image">
+    <img src="/images/posts/DavMail-Gateway-Settings.jpg" title="DavMail Gateway Settings" width="500" />
+</div>
 
 The normal format of the OWA URL is `https://exchangeServer/owa/` for Exchange 2007, or `https://exchangeServer/exchange/` for older versions. Take note of the Caldev and LDAP ports, as we're going to use them to setup iCal. Obviously you want to use HTTPS here to encrypt communication between your machine and the OWA server.
 
@@ -67,7 +69,9 @@ Server address: **http://localhost:1080/principals/users/username@domain.com**
 
 Click Create.
 
-![iCal](http://johnkary.net/wp-content/uploads/2010/02/iCal.jpg "iCal")
+<div class="image">
+    <img src="/images/posts/DavMail-iCal.jpg" title="iCal" width="500" />
+</div>
 
 iCal will ask if you want to send your login credentials over an unsecured connection because we entered **http**://localhost&hellip; as our CalDEV server address instead of an HTTPS connection. But because we entered our OWA address as HTTPS, we are transmitting our credentials securely. For more info on security and DavMail, look under "Security" in the [DavMail FAQ](http://davmail.sourceforge.net/faq.html).
 
