@@ -200,6 +200,9 @@ ul.posts {
 #post {
 
 }
+#post img {
+  border:1px solid #ccc;
+}
 .post h3 {
   text-align:center;
   font-size: 1.5em;
