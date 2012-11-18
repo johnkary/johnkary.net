@@ -211,8 +211,12 @@ ul.posts {
   margin-bottom:0.2em;
 }
 #post .publish-date {
-  margin:1em 0;
+  margin:0.5em 0;
   font-size:0.8em;
+}
+#post p {
+  line-height:1.45em;
+  margin:1.2em 0;
 }
 .image {
   text-align:center;
