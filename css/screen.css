@@ -46,10 +46,6 @@ a {
 a:hover {
 }
 
-a:visited {
-  color: #999;
-}
-
 table {
   font-size: inherit;
   font: 100%;
@@ -218,6 +214,12 @@ ul.posts {
 #post p {
   line-height:1.45em;
   margin:1.2em 0;
+}
+#post a {
+  color: #08C;
+}
+#post a:hover {
+  color: #005580;
 }
 .image {
   text-align:center;
