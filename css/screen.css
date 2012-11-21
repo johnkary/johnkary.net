@@ -35,15 +35,17 @@ h2 {
 }
 
 p {
-  margin: 1em 0;
+  line-height:1.5em;
+  margin:1.2em 0;
 }
 
 a {
-  color: #000;
+  color: #08C;
   text-decoration:none;
 }
-
 a:hover {
+  color: #005580;
+  border-bottom:1px solid;
 }
 
 table {
@@ -99,6 +101,9 @@ ul.posts {
     font-size: 80%;
   }
 
+.post a {
+  color:#000;
+}
 /*****************************************************************************/
 /*
 /* Site
@@ -156,10 +161,6 @@ ul.posts {
       width:25%;
     }
 
-    .site .footer .contact a {
-      color: #8085C1;
-    }
-
 .main-nav{
   text-align:center;
   margin: 2em 0 1.5em;
@@ -189,6 +190,9 @@ ul.posts {
   float:left;
   margin-right:12px;
 }
+.badges a:hover {
+  border:0;
+}
 /*****************************************************************************/
 /*
 /* Posts
@@ -208,16 +212,6 @@ ul.posts {
 #post .publish-date {
   margin:0.5em 0;
   font-size:0.8em;
-}
-#post p {
-  line-height:1.5em;
-  margin:1.2em 0;
-}
-#post a {
-  color: #08C;
-}
-#post a:hover {
-  color: #005580;
 }
 .image {
   text-align:center;
@@ -264,7 +258,7 @@ ul.posts {
   /* standard */
   #post ul, #page ul,
   #post ol, #post ol {
-    margin-left: 1.35em;
+    margin: 1em 0 1em 1.35em;
   }
 
 /* Syntax highlighting */
