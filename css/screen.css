@@ -202,7 +202,8 @@ ul.posts {
 
 }
 #post .metadata {
-  margin:1.5em 0;
+  text-align:center;
+  margin:1.5em 0 1.3em;
 }
 #post h1 {
   font-weight:normal;
