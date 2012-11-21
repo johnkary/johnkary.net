@@ -276,7 +276,7 @@ code {
   -moz-border-radius: 4px;
   border-radius: 4px;
   background-color: #efefef;
-  padding: 1px 4px;
+  padding: 0 4px;
   border:1px solid #ddd;
 }
 .highlight {
