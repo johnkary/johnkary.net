@@ -262,8 +262,8 @@ ul.posts {
 }
 
   /* standard */
-  #post ul,
-  #post ol {
+  #post ul, #page ul,
+  #post ol, #post ol {
     margin-left: 1.35em;
   }
 
