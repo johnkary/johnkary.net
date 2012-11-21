@@ -59,11 +59,12 @@ blockquote {
   color: #999;
   padding:0.5em 0 0.5em 1em;
 }
-blockquote p {
-  margin:0;
-  padding:0;
+blockquote p:first-child {
+  margin-top:0;
 }
-
+blockquote p:last-child {
+  margin-bottom:0;
+}
 /*****************************************************************************/
 /*
 /* Home

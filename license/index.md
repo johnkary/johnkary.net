@@ -7,17 +7,17 @@ status: publish
 type: page
 published: true
 ---
-## Textual and Visual Content ##
+### Textual and Visual Content ###
 
-All textual and image content presented on this site, unless otherwise noted, is &copy; John Kary and may not be used elsewhere without written consent.
+All textual and multimedia content presented on this site, unless otherwise noted, is &copy; John Kary and may not be used elsewhere without written consent.
 
-## Source Code ##
+Examples include, but are not limited to, all blog posts, images, presentation slide decks and video.
 
-The source code for this website is [available on GitHub](http://github.com/johnkary) and is available under the license distributed with it.
+### Source Code and Code Examples ###
 
-## Code Examples ##
+The source code for this website is [available on GitHub](http://github.com/johnkary).
 
-All original code examples presented on this site are licensed under the [MIT License](http://opensource.org/licenses/MIT).
+All original code examples presented in blog posts are licensed under the [MIT License](http://opensource.org/licenses/MIT).
 
 > Copyright (c) 2012 John Kary
 > 
