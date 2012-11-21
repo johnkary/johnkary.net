@@ -153,12 +153,12 @@ ul.posts {
 
     .site .footer .contact {
       float: left;
-      margin-right: 3em;
+      width:25%;
     }
 
-      .site .footer .contact a {
-        color: #8085C1;
-      }
+    .site .footer .contact a {
+      color: #8085C1;
+    }
 
 .main-nav{
   text-align:center;
@@ -183,6 +183,7 @@ ul.posts {
 
 .badges {
   float:left;
+  width:75%;
 }
 .badges a {
   float:left;
