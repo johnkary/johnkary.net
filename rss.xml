@@ -1,0 +1,41 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+>
+    <channel>
+        <title>John Kary</title>
+        <atom:link href="http://johnkary.net/rss.xml" rel="self" type="application/rss+xml" />
+        <link>http://johnkary.net</link>
+        <description>John Kary is a web application development consultant based in Lawrence, KS using PHP, Symfony and JavaScript.</description>
+        <lastBuildDate>{{ site.time | time_rfc2822 }}</lastBuildDate>
+        <language>en</language>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <generator>https://github.com/mojombo/jekyll</generator>
+
+{% for post in site.posts %}
+        <item>
+            <title>{{ post.title }}</title>
+            <link>http://johnkary.net{{ post.url }}</link>
+            <comments>http://johnkary.net{{ post.url }}#disqus_thread</comments>
+            <pubDate>{{ post.date | time_rfc2822 }}</pubDate>
+            <dc:creator>John Kary</dc:creator>
+            {% for tag in post.tags %}
+            <category><![CDATA[{{ tag }}]]></category>
+            {% endfor %}
+
+            <guid isPermaLink="false">http://johnkary.net{{ post.id }}</guid>
+            <description><![CDATA[{{ post.description }}]]></description>
+            <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
+        </item>
+{% endfor %}
+    </channel>
+</rss>
