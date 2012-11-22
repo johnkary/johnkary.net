@@ -3,7 +3,7 @@ layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
+
  <title>John Kary</title>
  <link href="http://johnkary.net/atom.xml" rel="self"/>
  <link href="http://johnkary.net/"/>
