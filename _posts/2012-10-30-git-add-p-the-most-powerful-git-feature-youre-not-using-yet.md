@@ -34,11 +34,11 @@ In the second video I talk through the dark art of editing hunks. Even some of t
 
 I hope that after watching you will be armed with a new skill you can start using **right away** and begin to know git at a deeper level.
 
-### Intro to git add patch mode tutorial
+### [Intro to git add patch mode tutorial](http://www.youtube.com/embed/Wl0NfWYrvlY)
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/Wl0NfWYrvlY" frameborder="0" allowfullscreen></iframe>
 
-### How to edit hunks in git add patch mode
+### [How to edit hunks in git add patch mode](http://www.youtube.com/embed/1tqMjJeyKpw)
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/1tqMjJeyKpw" frameborder="0" allowfullscreen></iframe>
 
