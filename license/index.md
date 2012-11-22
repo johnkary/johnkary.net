@@ -9,13 +9,17 @@ published: true
 ---
 ### Textual and Visual Content ###
 
-All textual and multimedia content presented on this site, unless otherwise noted, is &copy; John Kary and may not be used elsewhere without written consent.
+All textual and multimedia content presented on this site, unless otherwise noted, is made available under the following license:
 
-Examples include, but are not limited to, all blog posts, images, presentation slide decks and video.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+
+Basically you can re-post my content and even make changes to it, as long as you attribute me for basing something on my work, share your derivative work, and don't specifically use it for commercial purposes.
+
+This includes, but is not limited to, all blog posts, images, presentation slide decks and video.
 
 ### Source Code and Code Examples ###
 
-The source code for this website is [available on GitHub](http://github.com/johnkary).
+The source code for this website is [available on GitHub](http://github.com/johnkary) and is available under the [MIT License](http://opensource.org/licenses/MIT).
 
 All original code examples presented in blog posts are licensed under the [MIT License](http://opensource.org/licenses/MIT).
 
