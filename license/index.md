@@ -19,7 +19,7 @@ This includes, but is not limited to, all blog posts, images, presentation slide
 
 ### Source Code and Code Examples ###
 
-The source code for this website is [available on GitHub](http://github.com/johnkary) and is available under the [MIT License](http://opensource.org/licenses/MIT).
+The source code for this website will be available soon.
 
 All original code examples presented in blog posts are licensed under the [MIT License](http://opensource.org/licenses/MIT).
 
