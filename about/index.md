@@ -45,7 +45,7 @@ We deploy on an IBM AS400/i5 environment using DB2 and Zend Server instead, of a
 
 I [got my start in web development][] as a hobby in 1998 on [Chris
 Escalante's][] parents' dining room table. Chris and I are still very
-good friends and continue to collaborate to this day.
+close friends and continue to collaborate to this day.
 
   [Please get in touch!]: http://johnkary.net/contact
   [speak]: http://johnkary.net/talks
