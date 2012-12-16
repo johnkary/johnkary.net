@@ -4,6 +4,7 @@ title: Color temperature and why I don't yet own an iPad
 description: "Like some of you, I have not yet caved and bought an iPad. Or any other tablet device, for that matter. But given that \"the new\" third-generation iPad was officially made available at 8:00AM this morning, that might change soon.
 
 But even with its revolutionary display panel, I'm still reluctant to buy for one small, but very significant feature that's still lacking: color temperature control."
+comments: true
 tags:
 - hardware
 status: publish

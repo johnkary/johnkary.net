@@ -12,6 +12,7 @@ tags:
 status: publish
 type: post
 published: true
+comments: true
 alias: /who-cares-crowdsourcing-your-news-intake
 ---
 Looking at some generic news aggregate site, it seems there's a lot of important things going on in the news. Some radical pastor wants to burn Korans. Huge fires are engulfing a San Francisco neighborhood. "Evil" zombies are now back. In 3D.

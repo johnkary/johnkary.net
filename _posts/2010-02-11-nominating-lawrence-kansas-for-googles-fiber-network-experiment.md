@@ -9,6 +9,7 @@ tags:
 status: publish
 type: post
 published: true
+comments: true
 alias: /nominating-lawrence-kansas-for-googles-fiber-network-experiment
 ---
 Google announced yesterday [on their blog](http://googleblog.blogspot.com/2010/02/think-big-with-gig-our-experimental.html) that they are venturing into installing fiber-to-the-curb for residential users, essentially as an alternative ISP. Their goals include not only delivering faster Internet to more people, but also giving developers and users a wealth of bandwidth at their disposal and see what they can do with it.

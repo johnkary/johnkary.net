@@ -6,6 +6,7 @@ tags: []
 status: publish
 type: post
 published: true
+comments: true
 alias: /fixing-evernote-error-the-file-evernote-sql-could-not-be-opened
 ---
 <div class="image">
