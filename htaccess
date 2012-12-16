@@ -1,3 +1,7 @@
+---
+layout: none
+permalink: .htaccess
+---
 RedirectPermanent /wp-content/uploads/2011/01/pale_blue_dot.jpg http://johnkary.net/images/posts/pale_blue_dot.jpg
 
 # Blog posts
