@@ -115,6 +115,21 @@ The plugin then sticks an HTML file at the path specified and anyone encounterin
 </html>
 {% endhighlight %}
 
+### Moving Comments to Disqus ###
+
+All of my old comments were stored in WordPress. But now I have no WordPress.
+
+[Disqus](http://disqus.com/) provides comments as a service via a JavaScript widget. They also provide [good instructions](http://help.disqus.com/customer/portal/articles/466255-exporting-comments-from-wordpress-to-disqus) for abandoning WordPress comments.
+
+I chose the "Manual Import" method because frankly I want to bother installing the plugin. I used my previous `wordpress.xml` dump from before and uploaded it through their site. The comments imported correctly *but at the old WordPress URL paths.*
+
+The problem here is, I moved my blog posts from being at the root of my domain (e.g. /my-title-here) to instead live under /blog/my-title-here.
+
+At time of writing, Disqus allow you to address this issue from its Dashboard by instructing its spider to crawl your domain and process any 301 Redirects you have setup. So my `.htaccess` redirects have caught those and the URLs associated with my old comments are now on their new respective pages.
+
+Well done, Disqus.
+
+
 ### That's It! ###
 
 Overall I'm really happy with this new setup. I feel much more in control of my site, and am much more comfortable writing into a text editor with vim bindings than a WordPress textarea.
