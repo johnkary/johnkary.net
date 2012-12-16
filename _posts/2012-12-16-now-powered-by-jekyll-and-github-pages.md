@@ -21,7 +21,7 @@ My content is no longer held hostage, holed up in some remote database. It's in 
 
 ### Migrating WordPress to Jekyll ###
 
-WordPress has built-in export functionality, which dumps all of your pages, posts and comments to XML. It's conveniently accessible from the admin panel at `/wp-admin/export.php`.
+WordPress has built-in export functionality, which dumps all of its pages, posts and comments to XML. It's conveniently accessible from the admin panel at `/wp-admin/export.php`.
 
 The Jekyll docs have a section on [Blog Migrations](https://github.com/mojombo/jekyll/wiki/blog-migrations). I followed the instructions to exchange my newly-generated `wordpress.xml` into freshly-minted static HTML pages in a format Jekyll expects.
 
@@ -60,7 +60,7 @@ Jekyll uses the [Liquid Templating Language](http://liquidmarkup.org/). I felt v
 
 Jekyll has support for the great syntax highlighting Python library [Pygments](http://pygments.org/), which probably supports every language you know.
 
-It supports PHP, but I had to dig around a bit to find its PhpLexer option `startinline`. If you don't specify the `startinline` option, Pygments will only start highlighting after it finds `<?php`. I don't use `<?php` in my code examples, so my highlighting wasn't working until I found [this Jekyll issue](https://github.com/mojombo/jekyll/issues/31) introducing `startinline` functionality.
+It supports PHP, but I had to dig around a bit to find its PhpLexer option `startinline`. If the `startinline` option is not given, Pygments will only start highlighting after it finds `<?php`. I don't use `<?php` in my code examples, so my highlighting wasn't working until I found [this Jekyll issue](https://github.com/mojombo/jekyll/issues/31) introducing `startinline` functionality.
 
 {% highlight jinja %}
 {% raw %}
@@ -87,7 +87,7 @@ Instead I'm choosing a two-headed approach:
 
 Yes, a meta-redirect is not ideal and isn't good practice. But in the long-term I hope to move my site to be powered by [GitHub Pages](http://pages.github.com/), which doesn't support `.htaccess` or other means of redirects. It's at this point that anyone still linking to my old posts can still find their way to the new path.
 
-This alias_generator plugin parses an `alias:` key in your YAML Front Matter, which is just some YAML in the heading of every Jekyll template file. This per-file configuration allows you to configure how the page is rendered.
+This alias_generator plugin parses an `alias:` key in the YAML Front Matter, which is just some YAML in the heading of every Jekyll template file. This per-file configuration allows configuring how the page is rendered.
 
 Installing this custom plugin is easy. Just copy it into `./_plugins/alias_generator.rb` and Jekyll will pick up any file ending in `./_plugins/*.rb` when compiling.
 
