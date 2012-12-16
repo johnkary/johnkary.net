@@ -29,7 +29,7 @@ special attention to issues relevant to most of our regular attendees.
 
 ### Writing Extensible Code Using Event Dispatcher
 
-[October 2012, Kansas City PHP User Group][]
+[October 2012, Kansas City PHP User Group](http://www.meetup.com/kcphpug/events/85746812/)
 
 Demonstrate refactoring a typical Controller to using Symfony2 EventDispatcher component to make writing decoupled code easier.
 
