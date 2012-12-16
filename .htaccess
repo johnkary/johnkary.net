@@ -1,0 +1,25 @@
+RedirectPermanent /wp-content/uploads/2011/01/pale_blue_dot.jpg http://johnkary.net/images/posts/pale_blue_dot.jpg
+
+# Blog posts
+RedirectPermanent /git-add-p-the-most-powerful-git-feature-youre-not-using-yet/ http://johnkary.net/blog/git-add-p-the-most-powerful-git-feature-youre-not-using-yet
+RedirectPermanent /developers-we-are-no-longer-apples-target-market/ http://johnkary.net/blog/developers-we-are-no-longer-apples-target-market
+RedirectPermanent /i-am-replaceable-leaving-my-job-at-ku/ http://johnkary.net/blog/i-am-replaceable-leaving-my-job-at-ku
+RedirectPermanent /color-temperature-and-why-i-dont-yet-own-an-ipad/ http://johnkary.net/blog/color-temperature-and-why-i-dont-yet-own-an-ipad
+RedirectPermanent /git-1-7-8-changes-for-the-everyday-developer/ http://johnkary.net/blog/git-1-7-8-changes-for-the-everyday-developer
+RedirectPermanent /i-didnt-know-it-couldnt-be-done-so-i-did-it/ http://johnkary.net/blog/i-didnt-know-it-couldnt-be-done-so-i-did-it
+RedirectPermanent /getting-into-the-zone-music/ http://johnkary.net/blog/getting-into-the-zone-musicj
+RedirectPermanent /git-1-7-7-changes-affecting-the-everyday-developer/ http://johnkary.net/blog/git-1-7-7-changes-affecting-the-everyday-developer
+RedirectPermanent /thoughts-on-carl-sagans-pale-blue-dot/ http://johnkary.net/blog/thoughts-on-carl-sagans-pale-blue-dot
+RedirectPermanent /javascript-effects-knowing-when-is-more-important-than-how/ http://johnkary.net/blog/javascript-effects-knowing-when-is-more-important-than-how
+RedirectPermanent /who-cares-crowdsourcing-your-news-intake/ http://johnkary.net/blog/who-cares-crowdsourcing-your-news-intake
+RedirectPermanent /mediatemple-wordpress-redirect-exploit-exposes-weakness-in-gridserver-security/ http://johnkary.net/blog/mediatemple-wordpress-redirect-exploit-exposes-weakness-in-gridserver-security
+RedirectPermanent /i-may-be-doing-it-wrong-but-i-have-my-sanity/ http://johnkary.net/blog/i-may-be-doing-it-wrong-but-i-have-my-sanity
+RedirectPermanent /nominating-lawrence-kansas-for-googles-fiber-network-experiment/ http://johnkary.net/blog/nominating-lawrence-kansas-for-googles-fiber-network-experiment
+RedirectPermanent /ditch-outlook-entourage-for-managing-your-exchange-calendar-using-davmail-and-ical/ http://johnkary.net/blog/ditch-outlook-entourage-for-managing-your-exchange-calendar-using-davmail-and-ical
+RedirectPermanent /keeping-your-users-trust-in-web-applications/ http://johnkary.net/blog/keeping-your-users-trust-in-web-applications
+RedirectPermanent /how-to-upgrade-a-symfony-project-from-1-2-to-1-31-4/ http://johnkary.net/blog/how-to-upgrade-a-symfony-project-from-1-2-to-1-31-4
+RedirectPermanent /fixing-evernote-error-the-file-evernote-sql-could-not-be-opened/ http://johnkary.net/blog/fixing-evernote-error-the-file-evernote-sql-could-not-be-opened
+
+# RSS Feed
+RedirectPermanent /feeds/index.php http://johnkary.net/rss.xml
+RedirectPermanent /feeds/ http://johnkary.net/rss.xml
