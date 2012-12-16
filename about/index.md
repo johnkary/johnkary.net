@@ -23,7 +23,8 @@ I have worked mostly in the higher education and trucking industries but am alwa
 -   WebKit inspector
 -   NetBeans IDE
 -   vim
--   Terminal
+-   iTerm2
+-   Vagrant + Chef
 -   MacBook Air
 
 ### University of Kansas
