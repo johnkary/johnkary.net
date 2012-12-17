@@ -130,6 +130,11 @@ At time of writing, Disqus allow you to address this issue from its Dashboard by
 Well done, Disqus.
 
 
+### Source Code Available ###
+
+The source code for this site is available on GitHub: <http://github.com/johnkary/johnkary.net>
+
+
 ### That's It! ###
 
 Overall I'm really happy with this new setup. I feel much more in control of my site, and am much more comfortable writing into a text editor with vim bindings than a WordPress textarea.
