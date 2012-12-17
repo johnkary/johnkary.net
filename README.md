@@ -1,13 +1,9 @@
 h1. Personal site of John Kary
 
+<http://johnkary.net>
+
 Powered by [Jekyll](http://github.com/mojombo/jekyll)
 
 h1. License
 
-The following directories and their contents are Copyright John Kary. You may not reuse anything therein without my permission:
-
-* `_posts/`
-* `_pages/`
-* `images/`
-
-All other directories and files are licensed under the MIT License.
+Refer to `license/index.md`
