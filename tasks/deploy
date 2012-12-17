@@ -7,3 +7,4 @@
 # to do password-less deployment.
 
 jekyll && rsync -avz --delete _site/ johnkarydotnetdeploy:/var/www/johnkary.net/html
+echo "Deployed site to remote host\n"
