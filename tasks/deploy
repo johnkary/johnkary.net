@@ -1,2 +1,9 @@
 #!/usr/bin/env bash
+#
+# Generates static site then deploys to a remote host.
+#
+# Setup ~/.ssh/config with a Host named "johnkarydotnetdeploy" and configure
+# a shared SSH keypair setup between your local machine and the remote host
+# to do password-less deployment.
+
 jekyll && rsync -avz --delete _site/ johnkarydotnetdeploy:/var/www/johnkary.net/html
