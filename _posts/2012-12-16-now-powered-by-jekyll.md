@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Now Powered By Jekyll and GitHub Pages
+title: Now Powered By Jekyll
 description: "A few of my previous posts have been fortunate enough to become front-page worthy on Hacker News and /r/programming. But the rush of traffic toppled my WordPress blog. So I toppled WordPress and replaced it with Jekyll."
 comments: true
-categories : [github]
+categories : []
 ---
 My previous blog post on `git add -p` hit the front page of [Hacker News](http://news.ycombinator.com/) and [/r/programming](http://www.reddit.com/r/programming) and the huge influx of traffic brought down my blog. This had happened once before, ironically when a previous git post of mine hit HN, but I thought [Chris](http://twitter.com/tidrion) and I had prevented it from happening again by using the WP-Cache WordPress plugin.
 
@@ -85,7 +85,7 @@ Instead I'm choosing a two-headed approach:
 1. Use Apache's `.htaccess` file to explicitly use `301 Redirects` to the new URLs. This will tell Google and other crawlers the page has permanently moved. I have then instructed the Google crawler to re-crawl my site to pickup the new URLs. Given a few weeks to a month, my new URLs should reflect in search engines.
 2. Use a Jekyll plugin called [alias_generator](https://github.com/tsmango/jekyll_alias_generator) to generate an `index.html` page at the old URL which has a meta-redirect to the new page.
 
-Yes, a meta-redirect is not ideal and isn't good practice. But in the long-term I hope to move my site to be powered by [GitHub Pages](http://pages.github.com/), which doesn't support `.htaccess` or other means of redirects. It's at this point that anyone still linking to my old posts can still find their way to the new path.
+Yes, a meta-redirect is not ideal and isn't good practice. In the long-term I may move my site to be powered by [GitHub Pages](http://pages.github.com/), which doesn't support `.htaccess` or other means of redirects. It's at this point that anyone still linking to my old posts can still find their way to the new path.
 
 This alias_generator plugin parses an `alias:` key in the YAML Front Matter, which is just some YAML in the heading of every Jekyll template file. This per-file configuration allows configuring how the page is rendered.
 
@@ -139,7 +139,7 @@ The source code for this site is available on GitHub: <http://github.com/johnkar
 
 Overall I'm really happy with this new setup. I feel much more in control of my site, and am much more comfortable writing into a text editor with vim bindings than a WordPress textarea.
 
-As I said, I'm hoping to move to GitHug Pages in the future, mostly for automatic deployment when pushing to the repository. I looked at [Octopress](http://octopress.org/) but felt it did too much for what I wanted to accomplish. I wanted a more micro-approach.
+I looked at [Octopress](http://octopress.org/) but felt it did too much for what I wanted to accomplish. I wanted a more micro-approach.
 
 I may also redesign the site at some point in the future, maybe to make it responsive, but right now double-tapping on the content body it's still very readable and focuses only on the content.
 
