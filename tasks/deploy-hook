@@ -3,4 +3,4 @@
 # Symlink to .git/hooks/post-merge after checkout to run the deployment script
 # after merging into the master branch.
 
-sh ../../tasks/deploy
+sh tasks/deploy
