@@ -34,8 +34,8 @@ special attention to issues relevant to most of our regular attendees.
 
 Demonstrate refactoring a typical Controller to using Symfony2 EventDispatcher component to make writing decoupled code easier.
 
+[Slides][]  
 [Video](http://www.youtube.com/watch?v=q3hfa3wdT0s&feature=plcp)
-[Slides][]
 
 * * * * *
 
