@@ -6,5 +6,10 @@
 # a shared SSH keypair setup between your local machine and the remote host
 # to do password-less deployment.
 
-jekyll && rsync -avz --delete _site/ johnkarydotnetdeploy:/var/www/johnkary.net/html
-echo "Deployed site to remote host\n"
+devBranchMerged=`git reflog -n 1 | grep "merge dev:"`
+
+if [ "" != "$devBranchMerged" ]
+then
+  jekyll && rsync -avz --delete _site/ johnkarydotnetdeploy:/var/www/johnkary.net/html
+  echo "Deployed site to remote host\n"
+fi
