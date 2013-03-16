@@ -17,11 +17,10 @@ summarize important news stories and happenings in the PHP community
 from the previous month before the presentation was delivered. Gives
 special attention to issues relevant to most of our regular attendees.
 
+[March 2013](https://speakerdeck.com/johnkary/last-month-in-php-march-2013)  
 [February 2013](https://speakerdeck.com/johnkary/last-month-in-php-february-2013)  
-[December
-2012](https://speakerdeck.com/johnkary/last-month-in-php-december-2012)  
-[November
-2012](https://speakerdeck.com/johnkary/last-month-in-php-november-2012)  
+[December 2012](https://speakerdeck.com/johnkary/last-month-in-php-december-2012)  
+[November 2012](https://speakerdeck.com/johnkary/last-month-in-php-november-2012)  
 [September 2012][]  
 [July 2012][]  
 [June 2012][]
