@@ -1,4 +1,4 @@
-RedirectPermenant /wp-content/uploads/2011/01/pale_blue_dot.jpg http://johnkary.net/images/posts/pale_blue_dot.jpg
+RedirectPermanent /wp-content/uploads/2011/01/pale_blue_dot.jpg http://johnkary.net/images/posts/pale_blue_dot.jpg
 
 # Blog posts
 RedirectPermanent /git-add-p-the-most-powerful-git-feature-youre-not-using-yet/ http://johnkary.net/blog/git-add-p-the-most-powerful-git-feature-youre-not-using-yet
@@ -21,5 +21,5 @@ RedirectPermanent /how-to-upgrade-a-symfony-project-from-1-2-to-1-31-4/ http://j
 RedirectPermanent /fixing-evernote-error-the-file-evernote-sql-could-not-be-opened/ http://johnkary.net/blog/fixing-evernote-error-the-file-evernote-sql-could-not-be-opened
 
 # RSS Feed
-RedirectPermnanet /feeds/index.php http://johnkary.net/rss.xml
-RedirectPermnanet /feeds/ http://johnkary.net/rss.xml
+RedirectPermanent /feeds/index.php http://johnkary.net/rss.xml
+RedirectPermanent /feeds/ http://johnkary.net/rss.xml
