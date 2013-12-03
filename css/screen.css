@@ -17,26 +17,34 @@ html, body {
 
 body {
   background-color: white;
-  font: 14px constantia, palatino, "times new roman", sans-serif;
+  font: 14px "Lato","Helvetica Neue",Helvetica,sans-serif;
   *font-size: small;
   text-align: center;
 }
 
-h1, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Francois One', Times;
   font-size: 100%;
 }
 
 h1 {
+  font-size:1.7em;
   margin-bottom: 1em;
+}
+.title-link {
+  color:#000;
 }
 h2 {
   font-size:1.4em;
   margin-bottom:0.8em;
 }
+h3 {
+  font-size:1.1em;
+}
 
 p {
   line-height:1.5em;
-  margin:1.2em 0;
+  margin:1.5em 0;
 }
 
 a {
@@ -284,7 +292,7 @@ code {
     border-radius: 4px;
     overflow:hidden;
     padding:0 0.4em;
-    margin-bottom:1.7em;
+    margin-bottom:1.5em;
 }
 .highlight code {
   background-color:inherit;
