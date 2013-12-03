@@ -109,7 +109,10 @@ ul.posts {
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
   }
-
+#post li ul, #post li ol {
+  margin-top:0;
+  margin-bottom:0;
+}
 .post a {
   color:#000;
 }
