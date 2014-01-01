@@ -26,10 +26,10 @@ The iPad would mostly take over as a device for casual browsing with Instapaper,
 
 Much of this type of usage would happen in the late evening and into the night.
 
-Yet there is one killer app I use on Mac OS that isn't natively available for iOS, but makes working in the evening exponentially more comfortable: [F.lux](http://stereopsis.com/flux/).
+Yet there is one killer app I use on Mac OS that isn't natively available for iOS, but makes working in the evening exponentially more comfortable: [F.lux](http://justgetflux.com/).
 
 <div class="image">
-    <a href="http://stereopsis.com/flux/"><img src="/images/posts/flux-logo-lg.png" title="f.lux" width="293" /></a>
+    <a href="http://justgetflux.com/"><img src="/images/posts/flux-logo-lg.png" title="f.lux" width="293" /></a>
 </div>
 
 F.lux a little app that runs in the background and automatically adjusts the [color temperature](http://en.wikipedia.org/wiki/Color_temperature) of the screen according to the current position of the sun in the sky.
@@ -63,7 +63,7 @@ To demonstrate how beneficial this is, install F.lux and fire up your laptop aft
 
 ### Color temperature's effect on sleep
 
-The F.lux website has an entire page [dedicated to research](http://stereopsis.com/flux/research.html) that negatively correlates drowsiness, while positively correlating alertness, in people exposed to light that is close in color temperature to that of a normal computer screen. This is essentially sunlight that makes you feel more alert and less tired.
+The F.lux website has an entire page [dedicated to research](http://justgetflux.com/research.html) that negatively correlates drowsiness, while positively correlating alertness, in people exposed to light that is close in color temperature to that of a normal computer screen. This is essentially sunlight that makes you feel more alert and less tired.
 
 These [findings](http://www.jstage.jst.go.jp/article/jpa/24/2/24_183/_article) can be appropriated to say that using your computer or iPad (without F.lux) before attempting to sleep may lead to trouble falling asleep, and/or being less likely to experience the deeper levels of sleep required for to feel fully rested.
 
@@ -73,7 +73,7 @@ The iPad emits a cool light of [about 7000K](http://www.displaymate.com/iPad_2_S
 
 This leads me to believe that using an iPad in the evening hours would only keep me awake, which isn't a desirable side effect. I'd rather be winding down from the day than trying to keep myself away. Right now I don't have that problem because I use F.lux on my laptop.
 
-But the F.lux authors do not offer a native iOS app. Instead, they offer an [unofficial iOS app](http://stereopsis.com/flux/ios.html) that can only be installed after jailbreaking the device. This is because there are no open APIs to hook into adjusting the colors of the display.
+But the F.lux authors do not offer a native iOS app. Instead, they offer an [unofficial iOS app](http://justgetflux.com/ios.html) that can only be installed after jailbreaking the device. This is because there are no open APIs to hook into adjusting the colors of the display.
 
 I would love it if Apple incorporated this type of color shifting technology into its hardware by adding a sensor for light temperature and allowing the screen to adjust. It would work as an optional setting, as the color shifting is greatly undesirable when doing work like photo editing, where the screen's color is of utmost importance.
 

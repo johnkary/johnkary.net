@@ -58,4 +58,4 @@ NSUnderlyingException = I/O error for database at /Users/johnkary/Library/Applic
 {% endhighlight %}
 
   [SafeSleep]: http://support.apple.com/kb/HT1757?viewlocale=en_US
-  [Evernote]: http://www.evernote.com/
+  [Evernote]: https://evernote.com/

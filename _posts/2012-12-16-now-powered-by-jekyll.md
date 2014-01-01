@@ -5,7 +5,7 @@ description: "A few of my previous posts have been fortunate enough to become fr
 comments: true
 categories : []
 ---
-My previous blog post on `git add -p` hit the front page of [Hacker News](http://news.ycombinator.com/) and [/r/programming](http://www.reddit.com/r/programming) and the huge influx of traffic brought down my blog. This had happened once before, ironically when a previous git post of mine hit HN, but I thought [Chris](http://twitter.com/tidrion) and I had prevented it from happening again by using the WP-Cache WordPress plugin.
+My previous blog post on `git add -p` hit the front page of [Hacker News](https://news.ycombinator.com/) and [/r/programming](http://www.reddit.com/r/programming) and the huge influx of traffic brought down my blog. This had happened once before, ironically when a previous git post of mine hit HN, but I thought [Chris](https://twitter.com/tidrion) and I had prevented it from happening again by using the WP-Cache WordPress plugin.
 
 Well looks like those sites sent so much traffic our 512MB server running Apache + MySQL + WP-Cache still couldn't keep up.
 
@@ -132,7 +132,7 @@ Well done, Disqus.
 
 ### Source Code Available ###
 
-The source code for this site is available on GitHub: <http://github.com/johnkary/johnkary.net>
+The source code for this site is available on GitHub: <https://github.com/johnkary/johnkary.net>
 
 
 ### That's It! ###
@@ -143,4 +143,4 @@ I looked at [Octopress](http://octopress.org/) but felt it did too much for what
 
 I may also redesign the site at some point in the future, maybe to make it responsive, but right now double-tapping on the content body it's still very readable and focuses only on the content.
 
-If you see any problems with my site, please ping me on Twitter [@johnkary](http://twitter.com/johnkary)
+If you see any problems with my site, please ping me on Twitter [@johnkary](https://twitter.com/johnkary)

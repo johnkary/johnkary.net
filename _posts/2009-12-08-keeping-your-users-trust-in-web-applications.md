@@ -66,6 +66,6 @@ The following are must-reads for architecting web forms and general web content 
 -   [Don't Make Me Think](http://www.amazon.com/Think-Common-Sense-Approach-Usability/dp/0789723107) - Steve Krug
 -   [Jakob Nielsen's Alertbox: Current Issues in Web Usability](http://www.useit.com/alertbox/)
 -   [Clear And Effective Communication In Web Design](http://www.smashingmagazine.com/2009/02/03/clear-and-effective-communication-in-web-design/) - Smashing Magazine
--   [12 Excellent Examples of "Lazy Registration"](http://webjackalope.com/lazy-registration/) - Web Jackalope
+-   [12 Excellent Examples of "Lazy Registration"](http://webjackalope.com/archive/lazy-registration) - Web Jackalope
 
 Feel free to leave additional reading recommendations or other ideas in the comments. What methods do you go through when laying out your web forms? Is your development front-end test-heavy, or more reliant on A/B results in production?

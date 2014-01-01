@@ -13,7 +13,7 @@ alias: /javascript-effects-knowing-when-is-more-important-than-how
 ---
 You have undoubtedly seen many tutorial sites showing off how to implement the newest whiz-bang features of modern JavaScript libraries. While most of these sites do an adequate job of showing users "how to" implement features, they almost always neglect teaching *when* to use these techniques, and more importantly, when to forego them.
 
-At [the University of Kansas](http://www.ku.edu) where I currently do web development work at the time of this writing, we recently had a random student developer from another large University call our help desk and suggest we implement a collapsable content list (an [accordion](http://docs.jquery.com/UI/Accordion)) on our [Academic Schools & Departments page](http://www.ku.edu/academics/schools/) (seen below.)
+At [the University of Kansas](http://www.ku.edu) where I currently do web development work at the time of this writing, we recently had a random student developer from another large University call our help desk and suggest we implement a collapsable content list (an [accordion](http://api.jqueryui.com/accordion/)) on our [Academic Schools & Departments page](http://www.ku.edu/academics/schools/) (seen below.)
 
 <div class="image">
     <img src="/images/posts/ku-academics.png" title="KU: Academic Schools &amp; Departments" width="500" />

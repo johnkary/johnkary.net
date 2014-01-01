@@ -18,7 +18,7 @@ Most changes will probably not affect your every day use of git, but two new add
 
 ### "git stash" learned an "--include-untracked option"
 
-[git stash](http://schacon.github.com/git/user-manual.html#interrupted-work) is one of my favorite git features. If you don't know about `git stash` yet, it allows you to take all of the changes in your working tree that haven't been committed and temporarily store them, then cleans your working tree.
+[git stash](http://schacon.github.io/git/user-manual.html#interrupted-work) is one of my favorite git features. If you don't know about `git stash` yet, it allows you to take all of the changes in your working tree that haven't been committed and temporarily store them, then cleans your working tree.
 
 Basically it tells git, "Hey, I'm not ready to commit all of these changes, but I really need to get back to the way my repository was right after I made my last commit. So save my most recent changes with this given description, so I don't forget what I was working on, and I'll come back to them later."
 
@@ -33,7 +33,7 @@ git stash --include-untracked
 
 ### "git submodule update" reports any errors at the end instead of halting on error
 
-[git submodules](http://schacon.github.com/git/user-manual.html#submodules) allow you to embed and track a foreign repository in your parent repository. They are great when you want to distribute code between multiple projects, but keep the distributed code in its own repository with its own version history.
+[git submodules](http://schacon.github.io/git/user-manual.html#submodules) allow you to embed and track a foreign repository in your parent repository. They are great when you want to distribute code between multiple projects, but keep the distributed code in its own repository with its own version history.
 
 Prior to git 1.7.7, if you ran `git submodule update` and there was a problem, git would immediately halt. Halting in the middle of updating might update some of your submodules and leave others unupdated.
 

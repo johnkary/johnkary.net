@@ -15,7 +15,7 @@ All original code examples presented in blog posts are licensed under the MIT Li
 
 # Source Code
 
-The source code for this website is available on GitHub at <http://github.com/johnkary/johnkary.net> and is available under the MIT License - <http://opensource.org/licenses/MIT>
+The source code for this website is available on GitHub at <https://github.com/johnkary/johnkary.net> and is available under the MIT License - <http://opensource.org/licenses/MIT>
 
 # MIT License
 

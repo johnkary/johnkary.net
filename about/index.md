@@ -81,4 +81,4 @@ close friends and continue to collaborate to this day.
   [Lawrence Coders]: http://www.meetup.com/Lawrence-Coders/
   [public-facing web presence]: http://www.ku.edu
   [got my start in web development]: http://cjonline.com/stories/102900/kid_iconcepts.shtml
-  [Chris Escalante's]: http://cescalante.com/
+  [Chris Escalante's]: https://twitter.com/tidrion

@@ -36,7 +36,7 @@ I will also continue my long-time contract work with RapidHire, LLC, where my cu
 
 It's a strange feeling&hellip; for the time being I am actually working in my old cubicle at KU as part of my KU-based contract. I left on Friday, and here it is Monday, and I'm back in the same environment, still surrounded by all of my previous teammates. I hear their conversations about the projects we worked on before I left, and I could even verbally answer some of their questions, but my duties and paycheck now come from an entirely different place, so I must focus on my new project.
 
-Honestly, this still all feels surreal. [Derek Sivers](http://twitter.com/sivers) sums up my feelings perfectly in his book, "Anything You Want", (and in [this post on his blog](http://sivers.org/done)) where he describes his feelings surrounding selling his company CDBaby, which he grew from being self-employeed to 85 employees and millions in CD sales:
+Honestly, this still all feels surreal. [Derek Sivers](https://twitter.com/sivers) sums up my feelings perfectly in his book, "Anything You Want", (and in [this post on his blog](http://sivers.org/done)) where he describes his feelings surrounding selling his company CDBaby, which he grew from being self-employeed to 85 employees and millions in CD sales:
 
 > I realized that the bigger learning and growing challenge for me was letting go, not staying on.
 

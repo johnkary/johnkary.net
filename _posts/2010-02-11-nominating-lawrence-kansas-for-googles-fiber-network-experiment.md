@@ -22,7 +22,7 @@ Google asked for [nominations of cities](http://www.google.com/appserve/fiberrfi
 
 Lawrence, Kansas is a quintessential college town and home to the University of Kansas, with total population of about 90,000 most of the year, and about 70,000 when the University is not in session. Lawrence is relatively small geographically, covering only about 28 square miles, and is home to a talented technology and development community. Now the interesting parts.
 
-Lawrence's local cable provider, Sunflower Broadband, holds a bit of a monopoly on cable service in the area, leaving many residents wishing for more options for Internet access other than Sunflower or AT&T DSL/U-verse. Sunflower is also one of the few cable companies in the nation that use bandwidth transfer limits on most of their [tiered accounts](http://www.sunflowerbroadband.com/internet/).
+Lawrence's local cable provider, Sunflower Broadband, holds a bit of a monopoly on cable service in the area, leaving many residents wishing for more options for Internet access other than Sunflower or AT&T DSL/U-verse. Sunflower is also one of the few cable companies in the nation that use bandwidth transfer limits on most of their tiered accounts.
 
 I subscribe to the middle tier account at 7Mbps. Within the last few months, Sunflower upped the bandwidth cap from 15GB to just 25GB. While additional bandwidth is available for purchase, if you transfer over your limit, you are charged per-GB. Google's presumably unmetered-bandwidth fiber network would give residents yet another legitimate high-speed internet option and provide Lawrence's talented development community bandwidth to play with.
 

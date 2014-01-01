@@ -11,6 +11,6 @@ meta:
   _wp_page_template: default
 ---
 john at johnkary dot net  
-[@johnkary](http://twitter.com/johnkary)  
+[@johnkary](https://twitter.com/johnkary)  
 [LinkedIn](http://www.linkedin.com/pub/john-kary/6/1bb/b09a)  
 johnkary on irc.freenode.net

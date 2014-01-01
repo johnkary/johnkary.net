@@ -12,7 +12,7 @@ type: post
 published: true
 alias: /getting-into-the-zone-music
 ---
-I want to talk a bit about how Music affects my ability to be in The Zone: that "deeply creative space where inspiration is built", as [Rands puts it](http://www.randsinrepose.com/archives/2006/07/10/a_nerd_in_a_cave.html). That mental place where you're so focused that nothing else matters except the bug you're hunting, the feature you're cranking out or the blog post you're writing.
+I want to talk a bit about how Music affects my ability to be in The Zone: that "deeply creative space where inspiration is built", as [Rands puts it](http://randsinrepose.com/archives/a-nerd-in-a-cave/). That mental place where you're so focused that nothing else matters except the bug you're hunting, the feature you're cranking out or the blog post you're writing.
 
 By the end of this article I hope you have a better sense of how *you* choose what to listen to, and that I introduce you to some new artists to increase your productivity when working.
 
@@ -41,7 +41,7 @@ The darkness and lack of buzz before sunrise allows me to focus. No one is movin
 Jazz and low-key minimalism tunes allow me to get my brain moving and cognitively functioning. It's like morning coffee for my ears. Contemplative, but energizing.
 
 **Music:**  
-([Listen](http://heliosmusic.bandcamp.com/album/eingya)) Goldmund  
+([Listen](http://store.unseen-music.com/album/eingya)) Goldmund  
 ([Listen](http://kilimanjaro.bandcamp.com/album/ep-two)) KILIMANJARO  
 Gonzales - Solo Piano  
 Miles Davis - Kind of Blue
@@ -99,4 +99,4 @@ But I can usually find this weird blissful mental state where I feel half-asleep
 ([Listen](http://www.youtube.com/watch?v=Nwudva0_ULo)) Jonn Serrie  
 ([Listen](http://www.youtube.com/watch?v=lasRLdZYTtk)) Maserati  
 ([Listen](http://theflashbulb.bandcamp.com/album/soundtrack-to-a-vacant-life)) The Flashbulb  
-([Listen](http://www.myspace.com/themercuryprogram)) The Mercury Program
+([Listen](https://myspace.com/themercuryprogram)) The Mercury Program

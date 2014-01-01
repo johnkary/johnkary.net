@@ -289,16 +289,16 @@ Congratulations to Fabien Potencier, Fabien Lange, Jonathan Wage, Kris Wallsmith
 With your new Symfony 1.4 install, why not start learning some of the more advanced tutorials in the [Symfony 2009 Advent Calendar][]?
 
   [Doctrine]: http://www.doctrine-project.org/
-  [Doctrine 1.0 to 1.1 Upgrade]: http://www.doctrine-project.org/upgrade/1_1
-  [Doctrine 1.1 to 1.2 Upgrade]: http://www.doctrine-project.org/upgrade/1_2
-  [Propel]: http://propel.phpdb.org/
-  [Propel's Documentation]: http://propel.phpdb.org/trac/wiki/Users/Documentation/1.4
-  [project:validate]: http://www.symfony-project.org/blog/2009/11/27/upgrading-to-symfony-1-4
-  [Deprecated Code page for 1.3]: http://www.symfony-project.org/tutorial/1_3/en/deprecated
+  [Doctrine 1.0 to 1.1 Upgrade]: http://svn.doctrine-project.org/tags/1.1.0/UPGRADE_TO_1_1
+  [Doctrine 1.1 to 1.2 Upgrade]: http://svn.doctrine-project.org/tags/1.2.0/UPGRADE_TO_1_2
+  [Propel]: http://propelorm.org/
+  [Propel's Documentation]: http://trac.propelorm.org/wiki/Documentation/1.4
+  [project:validate]: http://symfony.com/blog/upgrading-to-symfony-1-4
+  [Deprecated Code page for 1.3]: http://symfony.com/legacy/doc/tutorial/1_3/en/deprecated
   [released Symfony 1.3 and 1.4]: http://symfony.com/blog/a-week-of-symfony-152-23-29-november-2009
-  [1.2 to 1.3/1.4 Upgrade Instructions]: http://www.symfony-project.org/tutorial/1_4/en/upgrade
+  [1.2 to 1.3/1.4 Upgrade Instructions]: http://symfony.com/legacy/doc/tutorial/1_4/en/upgrade
   [plugin repository]: http://svn.symfony-project.com/plugins/
   [sfFormExtraPlugin plugin]: http://www.symfony-project.org/plugins/sfFormExtraPlugin
   [svn:externals]: http://svnbook.red-bean.com/en/1.0/ch07s03.html
   [RELEASE tags]: http://svn.symfony-project.com/tags/
-  [Symfony 2009 Advent Calendar]: http://www.symfony-project.org/blog/2009/12/01/one-more-thing
+  [Symfony 2009 Advent Calendar]: http://symfony.com/blog/one-more-thing

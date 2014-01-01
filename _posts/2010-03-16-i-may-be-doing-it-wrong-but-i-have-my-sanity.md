@@ -12,7 +12,7 @@ published: true
 comments: true
 alias: /i-may-be-doing-it-wrong-but-i-have-my-sanity
 ---
-Marco Tabini [recently wrote](http://www.phparch.com/2010/03/10/programming-youre-doing-it-wrong/) on the php|architect blog that "programmers are doing it wrong." He argues that many programmers have become hung up on writing mythical perfect code that abides by all modern best practices instead of doing what we are hired to do: solve problems quickly and efficiently. But if you spend time writing it well the first time, you too can save your sanity.
+Marco Tabini [recently wrote](http://www.phparch.com/2010/03/programming-youre-doing-it-wrong/) on the php|architect blog that "programmers are doing it wrong." He argues that many programmers have become hung up on writing mythical perfect code that abides by all modern best practices instead of doing what we are hired to do: solve problems quickly and efficiently. But if you spend time writing it well the first time, you too can save your sanity.
 
 I'll admit, I'm in that latter group of striving to write "perfect code." I constantly read articles, pour over well-written open-source code (mostly Symfony code) and review conference presentation slides posted by notable developers on [SlideShare](http://www.slideshare.net/search/slideshow?searchfrom=header&q=PHP).
 
@@ -47,6 +47,6 @@ Start with the PHP Advent series: [2009](http://phpadvent.org/2009), [2008](http
 
 Learn [what Dependency Injection is](http://fabien.potencier.org/article/11/what-is-dependency-injection) and [how you can use it](http://www.slideshare.net/fabpot/dependency-injection-confoo-2010). 
 
-[Follow](http://twitter.com/pmjones) [some](http://twitter.com/shiflett) [of](http://twitter.com/coates) [the](http://twitter.com/derickr) [most](http://twitter.com/s_bergmann) [respected](http://twitter.com/rasmus) [PHP](http://twitter.com/giorgiosironi) [developers](http://twitter.com/jwage) [on](http://twitter.com/phparch) [Twitter](http://twitter.com/fabpot).
+[Follow](https://twitter.com/pmjones) [some](https://twitter.com/shiflett) [of](https://twitter.com/coates) [the](https://twitter.com/derickr) [most](https://twitter.com/s_bergmann) [respected](https://twitter.com/rasmus) [PHP](https://twitter.com/giorgiosironi) [developers](https://twitter.com/jwage) [on](https://twitter.com/phparch) [Twitter](https://twitter.com/fabpot).
 
 And start writing better code.

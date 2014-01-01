@@ -121,23 +121,23 @@ January 2010, Lawrence Programmers Hack Day
 [Slides][11]
 
   [Kansas City PHP User Group]: http://www.meetup.com/kcphpug/
-  [September 2012]: https://speakerdeck.com/u/johnkary/p/last-month-in-php-september-2012
-  [July 2012]: https://speakerdeck.com/u/johnkary/p/last-month-in-php-july-2012
-  [June 2012]: https://speakerdeck.com/u/johnkary/p/last-month-in-php-june-2012
+  [September 2012]: https://speakerdeck.com/johnkary/last-month-in-php-september-2012
+  [July 2012]: https://speakerdeck.com/johnkary/last-month-in-php-july-2012
+  [June 2012]: https://speakerdeck.com/johnkary/last-month-in-php-june-2012
   [October 2012, Kansas City Drupal User Group]: http://www.meetup.com/kcphpug/events/85746812/
-  [Slides]: https://speakerdeck.com/u/johnkary/p/writing-extensible-code-using-event-dispatcher
+  [Slides]: https://speakerdeck.com/johnkary/writing-extensible-code-using-event-dispatcher
   [June 2012, Kansas City Drupal User Group]: http://www.meetup.com/Greater-Kansas-City-Drupal-User-Group/events/66995032/
-  [1]: https://speakerdeck.com/u/johnkary/p/git-in-it-beginning-to-use-git
-  [Video]: http://vimeo.com/johnkary/git-in-it-drupalkc
-  [Chris Escalante]: http://twitter.com/tidrion
-  [2]: https://speakerdeck.com/u/johnkary/p/vagrant-drupal-drush-automating-setup-of-a-drupal-development-environment
-  [3]: https://vimeo.com/42516291
-  [4]: http://speakerdeck.com/u/johnkary/p/everyday-effectiveness-with-git
+  [1]: https://speakerdeck.com/johnkary/git-in-it-beginning-to-use-git
+  [Video]: http://vimeo.com/44991859
+  [Chris Escalante]: https://twitter.com/tidrion
+  [2]: https://speakerdeck.com/johnkary/vagrant-drupal-drush-automating-setup-of-a-drupal-development-environment
+  [3]: http://vimeo.com/42516291
+  [4]: https://speakerdeck.com/johnkary/everyday-effectiveness-with-git
   [5]: http://www.slideshare.net/johnkary/scared-straight-mitigating-owasp-top-10-with-php
   [6]: http://www.slideshare.net/johnkary/yui-graded-browser-support
   [7]: http://vimeo.com/28845949
   [Yahoo Graded Browser Support]: http://yuilibrary.com/yui/docs/tutorials/gbs/
   [8]: http://www.slideshare.net/johnkary/using-fontface-to-unleash-web-typography
-  [9]: http://www.vimeo.com/15402487
+  [9]: http://vimeo.com/15402487
   [10]: http://www.slideshare.net/johnkary/using-virtual-machines-in-web-development
   [11]: http://www.slideshare.net/johnkary/intro-to-debugging-php-with-xdebug
