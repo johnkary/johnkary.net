@@ -8,9 +8,9 @@
    <title>{{ page.title }}</title>
    <meta name="description" content="John Kary is a web application development consultant based in Lawrence, KS using PHP, Symfony and JavaScript.">
    <meta name="keywords" content="John Kary, web application developer, freelance, consultant, PHP, Symfony, jQuery, University of Kansas">
-   <link rel="alternate" type="application/atom+xml" title="John Kary Atom Feed" href="http://johnkary.net/atom.xml">
+   <link rel="alternate" type="application/atom+xml" title="John Kary Atom Feed" href="{{ site.url }}/atom.xml">
 
-   <link type="text/plain" rel="author" href="http://johnkary.net/humans.txt">
+   <link type="text/plain" rel="author" href="{{ site.url }}/humans.txt">
 
    <link rel="stylesheet" href="/css/highlight.css" type="text/css" media="all">
    <link rel="stylesheet" href="/css/screen.css?2" type="text/css" media="screen, projection">
@@ -19,7 +19,7 @@
 
 <div class="site">
   <div style="text-align:center">
-    <h1 class="vcard author"><a href="/" title="Home">John Kary</a></h1>
+    <h1 class="vcard author"><a href="{{ site.url }}/" title="Home">John Kary</a></h1>
   </div>
   <div class="main-nav">
     <a href="/about/">About</a>

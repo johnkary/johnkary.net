@@ -3,7 +3,7 @@ layout: default
 ---
 <div id="post">
   <div class="metadata">
-    <h1><a href="{{ post.url }}/" class="title-link">{{ page.title }}</a></h1>
+    <h1><a href="{{ site.url }}{{ page.url }}/" class="title-link">{{ page.title }}</a></h1>
     <div class="publish-date">{{ page.date | format_date }}</div>
   </div>
 
@@ -14,7 +14,7 @@ layout: default
     <script type="text/javascript">
         var disqus_shortname = 'johnkarydotnet';
         var disqus_identifier = '{{ page.id }}';
-        var disqus_url = 'http://johnkary.net{{ page.url }}/';
+        var disqus_url = '{{ site.url }}{{ page.url }}/';
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
             dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';

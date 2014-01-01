@@ -2,3 +2,6 @@ lsi: false
 markdown: rdiscount
 pygments: true
 permalink: /blog/:title
+relative_permalinks: false
+url: http://johnkary.net
+baseurl: /
