@@ -63,8 +63,8 @@ Launch iCal and open its Preferences window. Under the Accounts tab, click the `
 Enter the following options:
 
 Account type: **CalDAV**  
-User name: **\<Your username WITHOUT the @domain.com\>**  
-Password:**\<Your password\>**  
+User name: **Your username WITHOUT the @domain.com**  
+Password:**Your password**  
 Server address: **http://localhost:1080/principals/users/username@domain.com**
 (where `1080` is your CalDAV port, and `username@domain.com` is your full username)
 
