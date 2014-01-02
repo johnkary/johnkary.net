@@ -249,6 +249,14 @@ hr {
   top: 12px;
 }
 
+/* Tags */
+
+.no-item-style li {
+  list-style:none;
+}
+.post-list-date {
+  font-size:0.9em;
+}
 
 /* Syntax highlighting */
 
