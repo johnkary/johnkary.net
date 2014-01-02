@@ -2,10 +2,7 @@
 layout: post
 title: I May Be Doing it Wrong, But I Have My Sanity
 description: "Marco Tabini recently wrote on the php|architect blog that \"programmers are doing it wrong.\" He argues that many programmers have become hung up on writing mythical perfect code that abides by all modern best practices instead of doing what we are hired to do: solve problems quickly and efficiently. But if you spend time writing it well the first time, you too can save your sanity."
-tags:
-- best practices
-- php
-- rants
+tags: [php, rant, best practices]
 status: publish
 type: post
 published: true

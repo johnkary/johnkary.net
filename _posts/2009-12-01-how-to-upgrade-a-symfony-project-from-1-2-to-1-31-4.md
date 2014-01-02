@@ -4,10 +4,7 @@ title: How to upgrade a Symfony project from 1.2 to 1.3/1.4
 description: "Today, the Symfony crew has released Symfony 1.3 and 1.4. I recently deployed a pretty basic 1.2 app, and decided to try upgrading it to 1.3, and then on to 1.4, just to see if these \"easy upgrade\" claims were as advertised.
 
 I will be following the 1.2 to 1.3/1.4 Upgrade Instructions below, so you should read over them before we get started."
-tags:
-- php
-- symfony
-- tutorial
+tags: [php, symfony, tutorial]
 status: publish
 type: post
 published: true

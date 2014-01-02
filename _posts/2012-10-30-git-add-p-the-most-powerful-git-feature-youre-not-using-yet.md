@@ -3,9 +3,7 @@ layout: post
 title: ! 'git add -p: The most powerful git feature you''re not using yet'
 description: "The Pragmatic Programmer advocates you should know your editor inside and out. So why don't you know your version control system just as well? Discover git add \"patch mode\" and learn how to make more concisely crafted commits leading to a cleaner git history and more friends."
 comments: true
-tags:
-- git
-- tutorials
+tags: [git, tutorial]
 status: publish
 type: post
 published: true

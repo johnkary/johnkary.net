@@ -3,7 +3,7 @@ layout: post
 title: Useful Commands For Efficient Symfony2 Development
 description: "These commands allow me, and hopefully you, to work faster and more efficiently with the Symfony2 framework."
 comments: true
-categories : [Symfony2]
+tags: [symfony]
 ---
 
 > This was published when **Symfony Standard Edition 2.3** was the latest stable release.

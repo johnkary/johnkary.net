@@ -5,8 +5,7 @@ description: "I'm not good at quitting things. But I knew someday I would have t
 
 But Friday, July 20, 2012 was my last official day as an employee of Information Technology at the University of Kansas."
 comments: true
-tags:
-- inspiration
+tags: [inspiration]
 status: publish
 type: post
 published: true

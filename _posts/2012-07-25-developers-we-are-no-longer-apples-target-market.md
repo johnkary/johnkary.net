@@ -5,10 +5,7 @@ description: "Over the last few years, especially since the release of Lion in J
 
 When Apple released their Q3 Financial Report yesterday, I was finally able to put statistics to backup the feeling of neglect."
 comments: true
-tags:
-- apple
-- hardware
-- software
+tags: [apple, hardware, software]
 status: publish
 type: post
 published: true

@@ -5,8 +5,7 @@ description: "I want to talk about how Music affects my ability to be in The Zon
 
 By the end of this article I hope you have a better sense of how you choose what to listen to, and that I introduce you to some new artists to increase your productivity when working."
 comments: true
-tags:
-- music
+tags: [music]
 status: publish
 type: post
 published: true

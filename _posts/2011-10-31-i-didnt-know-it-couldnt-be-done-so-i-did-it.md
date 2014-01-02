@@ -7,9 +7,7 @@ Jobs loved what he saw. Xerox had developed one of the first GUI's, one that wou
 
 When he tasked Bill Atkinson, Atkinson created something even more revolutionary&hellip;"
 comments: true
-tags:
-- books
-- inspiration
+tags: [book, inspiration]
 status: publish
 type: post
 published: true

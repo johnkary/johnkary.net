@@ -3,8 +3,7 @@ layout: post
 title: git 1.7.8 changes for the everyday developer
 description: "git 1.7.8 was released a little over a week ago. Most changes will probably not affect your every day use of git, but a few new features should be useful."
 comments: true
-tags:
-- software
+tags: [software, git]
 status: publish
 type: post
 published: true

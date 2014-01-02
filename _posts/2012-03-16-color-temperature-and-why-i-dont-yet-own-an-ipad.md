@@ -5,8 +5,7 @@ description: "Like some of you, I have not yet caved and bought an iPad. Or any 
 
 But even with its revolutionary display panel, I'm still reluctant to buy for one small, but very significant feature that's still lacking: color temperature control."
 comments: true
-tags:
-- hardware
+tags: [hardware]
 status: publish
 type: post
 published: true

@@ -6,9 +6,7 @@ description: "Looking at some generic news aggregate site, it seems there's a lo
 Does any of that really affect you? No, really&hellip; does it?
 
 NO! And if you think it does, it doesn't. Want proof?"
-tags:
-- media
-- rants
+tags: [media, rant]
 status: publish
 type: post
 published: true

@@ -2,10 +2,7 @@
 layout: post
 title: Keeping your users' trust in web applications
 description: "Trust is priceless. Breaking the trust bond in a relationship, whether friendly, emotional or vendor-to-end-user, is a serious breach of social contract. As web app developers and content creators, we must instill trust in our users with the goal of making them feel comfortable using our applications and ultimately giving up some of their personal info."
-tags:
-- rant
-- rants
-- usability
+tags: [rant, usability]
 status: publish
 type: post
 published: true
