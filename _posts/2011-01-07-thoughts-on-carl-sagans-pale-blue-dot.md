@@ -14,7 +14,7 @@ alias: /thoughts-on-carl-sagans-pale-blue-dot
 Carl Sagan's book "[Pale Blue Dot](http://www.amazon.com/Pale-Blue-Dot-Vision-Future/dp/0345376595/)" is a truly inspirational book. It has given me a new outlook on the fragility of life on Earth, and cultured new thoughts on what interplanetary travel might mean for the future of the human species.
 
 <div class="image">
-    <a href="/images/posts/pale_blue_dot.jpg"><img src="/images/posts/pale_blue_dot.jpg" title="Pale Blue Dot" width="420" /></a>
+    <a href="/images/posts/pale_blue_dot.jpg"><img src="/images/posts/pale_blue_dot.jpg" title="Pale Blue Dot" width="420"></a>
 </div>
 
 Sagan lays out two over-arching requirements that must be met for the survival of the human species, which he reinforces in various ways throughout the book:

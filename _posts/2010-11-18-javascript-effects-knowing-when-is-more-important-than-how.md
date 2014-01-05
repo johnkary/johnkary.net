@@ -14,7 +14,7 @@ You have undoubtedly seen many tutorial sites showing off how to implement the n
 At [the University of Kansas](http://www.ku.edu) where I currently do web development work at the time of this writing, we recently had a random student developer from another large University call our help desk and suggest we implement a collapsable content list (an [accordion](http://api.jqueryui.com/accordion/)) on our [Academic Schools & Departments page](http://www.ku.edu/academics/schools/) (seen below.)
 
 <div class="image">
-    <img src="/images/posts/ku-academics.png" title="KU: Academic Schools &amp; Departments" width="500" />
+    <img src="/images/posts/ku-academics.png" title="KU: Academic Schools &amp; Departments" width="500">
 </div>
 
 Even though the content is in a list format with headings over each area, I chose not to use an accordion. **Why not?** Let's consider a few things.
@@ -34,7 +34,7 @@ This page is one click deep at all times. A user can access this page with one c
 In this case, the Search tab is active when the user first arrives. Users are accustomed to (and often prefer) searching to find the content they want, so we let them Search first. Search provides instant gratification and is a low time investment opposed to reading a long page of text or links.
 
 <div class="image">
-    <img src="/images/posts/ku-academics-search.png" title="KU: Academics Search" width="500" />
+    <img src="/images/posts/ku-academics-search.png" title="KU: Academics Search" width="500">
 </div>
 
 We also operate under the assumption that after a user finds the information they seek, they stop looking. If search meets their needs, they will not likely encounter our list of Schools & Departments.

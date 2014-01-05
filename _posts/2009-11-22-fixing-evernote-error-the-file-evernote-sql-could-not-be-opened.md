@@ -10,7 +10,7 @@ comments: true
 alias: /fixing-evernote-error-the-file-evernote-sql-could-not-be-opened
 ---
 <div class="image">
-    <img src="/images/posts/evernote.png" title="Evernote error" width="500" />
+    <img src="/images/posts/evernote.png" title="Evernote error" width="500">
 </div>
 
 I've been having a battery/power issue with my MacBook Pro recently where it will turn off if the battery power has much less than 0:10 minutes left. You know, after the "You are running on Reserve Power" message comes up, but before it fully drains and (normally) puts itself to sleep using [SafeSleep][].

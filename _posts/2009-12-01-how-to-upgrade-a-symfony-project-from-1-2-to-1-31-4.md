@@ -127,7 +127,7 @@ php symfony doctrine:build --all-classes php symfony cache:clear
 Load up the dev environment for your application in your browser and cross your fingers :) Check the Web Debug bar and see that you're running on Symfony 1.3.0 and the version of your ORM.
 
 <div class="image">
-    <img src="/images/posts/symfony-debug-toolbar-1.3.0.png" title="Symfony 1.3 Debug Toolbar" width="500" />
+    <img src="/images/posts/symfony-debug-toolbar-1.3.0.png" title="Symfony 1.3 Debug Toolbar" width="500">
 </div>
 
 Assuming everything works, commit back to SVN.
@@ -147,7 +147,7 @@ php symfony project:validate
 {% endhighlight %}
 
 <div class="image">
-    <img src="/images/posts/php-symfony-project-validate.png" title="php symfony project:validate output" width="500" />
+    <img src="/images/posts/php-symfony-project-validate.png" title="php symfony project:validate output" width="500">
 </div>
 
 Since I started writing this project on Symfony 1.2.8, and this is a relatively straightforward project, there is not much to change. If you started from 1.0 or 1.1, there is undoubtedly a lot more code to change.

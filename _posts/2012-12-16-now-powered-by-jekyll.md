@@ -108,9 +108,9 @@ The plugin then sticks an HTML file at the path specified and anyone encounterin
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="canonical" href="/2012/10/30/git-add-p-the-most-powerful-git-feature-youre-not-using-yet.html"/>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta http-equiv="refresh" content="0;url=/2012/10/30/git-add-p-the-most-powerful-git-feature-youre-not-using-yet.html" />
+<link rel="canonical" href="/2012/10/30/git-add-p-the-most-powerful-git-feature-youre-not-using-yet.html">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="refresh" content="0;url=/2012/10/30/git-add-p-the-most-powerful-git-feature-youre-not-using-yet.html">
 </head>
 </html>
 {% endhighlight %}

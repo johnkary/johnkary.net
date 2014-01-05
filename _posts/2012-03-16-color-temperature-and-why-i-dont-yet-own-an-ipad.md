@@ -28,7 +28,7 @@ Much of this type of usage would happen in the late evening and into the night.
 Yet there is one killer app I use on Mac OS that isn't natively available for iOS, but makes working in the evening exponentially more comfortable: [F.lux](http://justgetflux.com/).
 
 <div class="image">
-    <a href="http://justgetflux.com/"><img src="/images/posts/flux-logo-lg.png" title="f.lux" width="293" /></a>
+    <a href="http://justgetflux.com/"><img src="/images/posts/flux-logo-lg.png" title="f.lux" width="293"></a>
 </div>
 
 F.lux a little app that runs in the background and automatically adjusts the [color temperature](http://en.wikipedia.org/wiki/Color_temperature) of the screen according to the current position of the sun in the sky.
@@ -36,7 +36,7 @@ F.lux a little app that runs in the background and automatically adjusts the [co
 During normal daylight hours the screen is unaffected, resulting in light emitted at about 6500K, or about the same color temperature as sunlight radiating under a clear blue sky. But as the sun sets and the color of the light outside changes, F.lux gradually transitions the color temperature of the screen from 6500K to 2700K, which is closer to that of indoor incandescent tungsten lighting. This color-shift makes the laptop screen appear similar in color to your working environment, making it less jarring and easier on the eyes.
 
 <div class="image">
-    <img src="/images/posts/flux-kelvin.png" title="Common light source color temperatures measured in degrees Kelvin" alt="The color appearance of various light sources can be defined in terms of color temperature, measured in kelvin (K). Northern Light/Blue Sky (8500K); Daylight Fluorescent Lamp (6400K); Clear Mercury Lamp (6000K); Clear Metal Halide Lamp (4500K); Cool White Fluorescent Lamp (4000K); Tungsten Halogen Lamp (3200K); Warm White Fluorescent Lamp (3000K); 40W Incandescent Lamp (2600K); High Pressure Sodium Lamp (2000K); Candle (1800K)" width="500" />
+    <img src="/images/posts/flux-kelvin.png" title="Common light source color temperatures measured in degrees Kelvin" alt="The color appearance of various light sources can be defined in terms of color temperature, measured in kelvin (K). Northern Light/Blue Sky (8500K); Daylight Fluorescent Lamp (6400K); Clear Mercury Lamp (6000K); Clear Metal Halide Lamp (4500K); Cool White Fluorescent Lamp (4000K); Tungsten Halogen Lamp (3200K); Warm White Fluorescent Lamp (3000K); 40W Incandescent Lamp (2600K); High Pressure Sodium Lamp (2000K); Candle (1800K)" width="500">
 </div>
 
 The human brain is very good at determining colors in varying lighting conditions and deciding, "that's blue" or "that's white".
@@ -48,7 +48,7 @@ You are likely only aware of a difference when looking at a picture and being re
 This effect is most pronounced when comparing color swatches side-by-side and deciding which one appears more blue or more orange.
 
 <div class="image">
-    <img src="/images/posts/flux-grays.png" alt="Two color swatches, one blue-ish gray, the other orange-ish gray, each with three strips of varying darkness" title="Swatches of varying shades of gray" width="100%" />
+    <img src="/images/posts/flux-grays.png" alt="Two color swatches, one blue-ish gray, the other orange-ish gray, each with three strips of varying darkness" title="Swatches of varying shades of gray" width="100%">
     <span class="caption">Source: <a href="http://en.wikipedia.org/wiki/File:Grays.svg">http://en.wikipedia.org/wiki/File:Grays.svg</a></span>
 </div>
 
