@@ -249,6 +249,11 @@ hr {
   top: 12px;
 }
 
+.no-comments {
+  border-top: 4px solid #eee;
+  margin-top:2em;
+}
+
 /* Tags */
 
 .no-item-style li {
