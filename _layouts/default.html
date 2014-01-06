@@ -47,6 +47,7 @@
   </div>
 </div>
 
+{% if site.url == 'http://johnkary.net' %}
 <script>
     var ua = 'UA-11728584-1';
     var _gaq=[['_setAccount',ua],['_trackPageview']];
@@ -54,6 +55,7 @@
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
+{% endif %}
 
 </body>
 </html>
