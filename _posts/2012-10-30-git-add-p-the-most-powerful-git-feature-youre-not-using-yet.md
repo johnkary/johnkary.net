@@ -9,6 +9,9 @@ type: post
 published: true
 alias: /git-add-p-the-most-powerful-git-feature-youre-not-using-yet
 ---
+
+> **Update January 20, 2014 -** This old post from 2012 has again become popular on [Hacker News](https://news.ycombinator.com/item?id=7089399). Since first publishing this article, I've learned that the way I presented editing hunks in the second video, where I show how to edit the line spans at the top of the diff, is both not very efficient and rarely necessary. Hopefully the rest of that video is still useful.
+
 [git][] and GitHub have revolutionized not only how I do development, but how we developers share code.
 
 I have two tools I need to do software development: an editor and version control.
@@ -37,7 +40,7 @@ I hope that after watching you will be armed with a new skill you can start usin
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/Wl0NfWYrvlY" frameborder="0" allowfullscreen></iframe>
 
-### [How to edit hunks in git add patch mode](http://www.youtube.com/embed/1tqMjJeyKpw)
+### [One way to edit hunks in git add patch mode](http://www.youtube.com/embed/1tqMjJeyKpw)
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/1tqMjJeyKpw" frameborder="0" allowfullscreen></iframe>
 
