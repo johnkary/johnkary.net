@@ -6,9 +6,6 @@ tags: []
 status: publish
 type: page
 published: true
-meta:
-  _edit_last: '1'
-  _wp_page_template: default
 ---
 I am a contract web application developer from Lawrence, Kansas. [Please
 be in touch](http://johnkary.net/contact) if you think I can help! I have

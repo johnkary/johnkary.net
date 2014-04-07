@@ -6,9 +6,6 @@ tags: []
 status: publish
 type: page
 published: true
-meta:
-  _edit_last: '1'
-  _wp_page_template: default
 ---
 john at johnkary dot net  
 [@johnkary](https://twitter.com/johnkary)  

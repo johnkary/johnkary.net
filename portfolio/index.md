@@ -6,9 +6,6 @@ tags: []
 status: draft
 type: page
 published: false
-meta:
-  _edit_last: '1'
-  _wp_page_template: default
 ---
 <div class="screenshot_container">
 <div class="screenshot_wrapper" style="width: 223px;"><a style="text-decoration: none;" href="http://johnkary.net/wp-content/uploads/2010/02/ku-homepage.jpg"><img class="size-medium wp-image-188" title="University of Kansas Homepage" src="http://johnkary.net/wp-content/uploads/2010/02/ku-homepage-223x300.jpg" alt="University of Kansas Homepage" width="223" height="300" /></a>
