@@ -14,6 +14,7 @@ summarize important news stories and happenings in the PHP community
 from the previous month before the presentation was delivered. Gives
 special attention to issues relevant to most of our regular attendees.
 
+[August 2013](https://speakerdeck.com/johnkary/last-month-in-php-august-2013)
 [March 2013](https://speakerdeck.com/johnkary/last-month-in-php-march-2013)  
 [February 2013](https://speakerdeck.com/johnkary/last-month-in-php-february-2013)  
 [December 2012](https://speakerdeck.com/johnkary/last-month-in-php-december-2012)  
