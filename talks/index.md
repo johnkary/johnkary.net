@@ -7,6 +7,20 @@ status: publish
 type: page
 published: true
 ---
+<a name="refactoring-less"></a>
+### Refactoring: Less Code, Less Problems (Part 1)
+
+[April 2014, Kansas City PHP User Group](http://www.meetup.com/kcphpug/events/169569762/)
+
+[Slides](https://speakerdeck.com/johnkary/refactoring-less-code-less-problems-part-1)  
+[Video](https://www.youtube.com/watch?v=PjHZFTbg6gg)
+
+John talks about guidelines and code smells for improving object API design. He takes an existing class and demonstrates refactoring it to a leaner more focused version of its previous self. Most importantly, what questions to ask yourself as you're writing new classes.
+
+Pass 1 (and a future Part 2) will approach refactoring a class from the outside as opposed to the inside. We discuss topics like breaking apart bigger classes to make smaller classes that do one thing, programming without getters and setters, consistent entry and return points, and guidelines for object instantiation. This talk focuses less on in-function refactoring and more on API-level refactoring.
+
+* * * * *
+
 ### Last Month in PHP
 
 Given almost every month at the [Kansas City PHP User Group][]. I
