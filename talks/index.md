@@ -7,6 +7,19 @@ status: publish
 type: page
 published: true
 ---
+<a name="scratch"></a>
+### Scratch: An On-Ramp to Programming
+
+[August 2014, Lawrence Coders](http://www.meetup.com/Lawrence-Coders/events/193770022/)
+
+[Slides](https://speakerdeck.com/johnkary/scratch-an-on-ramp-to-programming)
+
+Learning to program computers in the traditional sense has many pitfalls that are barriers for newcomers. The future job market for programmers is bright and kids should be taught to control technology rather than only consuming it.
+
+John talks about [Scratch](http://scratch.mit.edu), the visual programming language from MIT, and how he thinks it's the best "first" programming language for the next generation of developers. Scratch hits the sweet spot to overcoming introductory pitfalls and provides a safe environment for kids to learn, explore and share their digital creations.
+
+* * * * *
+
 <a name="refactoring-less"></a>
 ### Refactoring: Less Code, Less Problems (Part 1)
 
