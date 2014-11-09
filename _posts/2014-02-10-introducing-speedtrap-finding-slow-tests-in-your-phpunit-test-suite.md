@@ -8,13 +8,15 @@ comments: true
 tags: [php, phpunit, testing]
 ---
 
+> This post was accurate when it was published but may be outdated. See the [johnkary/phpunit-speedtrap](https://github.com/johnkary/phpunit-speedtrap) project on GitHub for the most recent instructions.
+
 All developers should strive to write "fast tests," and "fast" will be different for each developer, language and software stack. Traditionally, unit tests should be very fast, a few milliseconds or faster, while functional tests and end-to-end tests will run a bit longer, maybe a few seconds.
 
 As your test suite grows, you can expect it to run longer. But if you're not careful, some slower tests can creep in and disproportionately increase your suite's total execution time.
 
 ## SpeedTrap
 
-SpeedTrap reports on slow-running tests in your PHPUnit test suite right in your console.
+[SpeedTrap](https://github.com/johnkary/phpunit-speedtrap) is a PHPUnit Listener that reports on slow-running tests in your PHPUnit test suite console output.
 
 <div class="image" style="margin-bottom:1.2em">
     <a href="http://i.imgur.com/Zr34giR.png"><img src="http://i.imgur.com/Zr34giR.png" width="100%" alt="Screenshot of terminal output of SpeedTrap"></a>
@@ -26,10 +28,10 @@ SpeedTrap helps you **identify slow tests** but cannot tell you **why** those te
 
 ## Installation
 
-SpeedTrap is installable via [Composer](http://getcomposer.org) and should be added as a `require-dev` dependency:
+SpeedTrap is installable via [Composer](http://getcomposer.org) and should be added as a dev dependency:
 
 {% highlight console %}
-php composer.phar require-dev johnkary/phpunit-speedtrap dev-master
+composer require johnkary/phpunit-speedtrap dev-master --dev
 {% endhighlight %}
 
 ## Usage
