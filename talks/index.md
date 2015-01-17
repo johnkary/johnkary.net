@@ -7,6 +7,17 @@ status: publish
 type: page
 published: true
 ---
+<a name="software-soft"></a>
+### Keeping Software Soft
+
+[January 2015, Lawrence Coders](http://www.meetup.com/Lawrence-Coders/events/219469346/)
+
+[Slides](https://speakerdeck.com/johnkary/keeping-software-soft)
+
+Software provides continual value when it can evolve with the business. But without proper care it's easy for software to become rigid and difficult to change--it stops being soft. In this talk John introduces ways to think of software and systems we build as independent, replaceable components.
+
+* * * * *
+
 <a name="scratch"></a>
 ### Scratch: An On-Ramp to Programming
 
