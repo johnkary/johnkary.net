@@ -1,9 +1,5 @@
 module Jekyll
-  module Filters
-    def format_date(date)
-      date.strftime("%B %e, %Y")
-    end
-
+  module AssetFilter
     def description_break(s)
       s.gsub(/\n/, '<br><br>')
     end
@@ -26,3 +22,5 @@ module Jekyll
     end
   end
 end
+
+Liquid::Template.register_filter(Jekyll::AssetFilter)

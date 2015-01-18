@@ -1,0 +1,12 @@
+<div class="post hentry">
+  <h5 class="postDate"><span>{{ post.date | date: "%B %e, %Y" }}</span></h5>
+  <div class="postContent">
+    <h3 class="entry-title"><a href="{{ post.url }}/" rel="bookmark">{{ post.title }}</a></h3>
+
+    <div class="entry-content">
+      <p>{{ post.description | description_break }}</p>
+
+      <p><a href="{{ post.url }}/" class="continue-link">Continue reading&hellip;</a></p>
+    </div>
+  </div>
+</div>

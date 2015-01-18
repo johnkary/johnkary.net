@@ -9,7 +9,6 @@ tags: [music]
 status: publish
 type: post
 published: true
-alias: /getting-into-the-zone-music
 ---
 I want to talk a bit about how Music affects my ability to be in The Zone: that "deeply creative space where inspiration is built", as [Rands puts it](http://randsinrepose.com/archives/a-nerd-in-a-cave/). That mental place where you're so focused that nothing else matters except the bug you're hunting, the feature you're cranking out or the blog post you're writing.
 

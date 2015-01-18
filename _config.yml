@@ -1,7 +1,10 @@
-lsi: false
+source: ./source
+destination: ./_build
+layouts: ./_layouts
+timezone: America/Chicago
 markdown: rdiscount
-pygments: true
+highlighter: pygments
 permalink: /blog/:title
-relative_permalinks: false
 url: http://johnkary.net
 baseurl: /
+show_drafts: true

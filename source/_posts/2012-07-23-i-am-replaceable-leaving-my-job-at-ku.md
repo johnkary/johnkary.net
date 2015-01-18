@@ -9,7 +9,6 @@ tags: [inspiration]
 status: publish
 type: post
 published: true
-alias: /i-am-replaceable-leaving-my-job-at-ku
 ---
 I'm not good at quitting things. But I knew someday I would have to quit a job for reasons beyond, "I'm moving to go to school" or "I graduated and am taking a job in my new profession" or some other natural progression from one life stage to another.
 

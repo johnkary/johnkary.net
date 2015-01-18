@@ -12,7 +12,7 @@ To build the site and allow Jekyll to serve it:
 
 To build the site as-is to the build directory:
 
-    $ jekyll build --future
+    $ jekyll build --future --drafts
 
 # Deployment
 

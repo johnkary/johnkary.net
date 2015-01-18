@@ -9,7 +9,6 @@ status: publish
 type: post
 published: true
 comments: true
-alias: /thoughts-on-carl-sagans-pale-blue-dot
 ---
 Carl Sagan's book "[Pale Blue Dot](http://www.amazon.com/Pale-Blue-Dot-Vision-Future/dp/0345376595/)" is a truly inspirational book. It has given me a new outlook on the fragility of life on Earth, and cultured new thoughts on what interplanetary travel might mean for the future of the human species.
 

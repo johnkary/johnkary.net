@@ -9,7 +9,6 @@ tags: [apple, hardware, software]
 status: publish
 type: post
 published: true
-alias: /developers-we-are-no-longer-apples-target-market
 ---
 Today Apple released the next version of their operating system, OS X 10.8 Mountain Lion. While many [herald it as a must-have](http://www.macrumors.com/2012/07/25/roundup-of-os-x-mountain-lion-reviews-faster-and-smoother-incremental-bargain-at-twice-the-price/), the refinements are less revolutionary at the core operating system level, and more focused on integration with iOS-based services.
 

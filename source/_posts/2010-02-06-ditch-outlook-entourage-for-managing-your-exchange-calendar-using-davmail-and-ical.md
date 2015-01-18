@@ -7,7 +7,6 @@ status: publish
 type: post
 published: true
 comments: true
-alias: /ditch-outlook-entourage-for-managing-your-exchange-calendar-using-davmail-and-ical
 ---
 When Apple announced "full Exchange integration" in Snow Leopard, everyone thought they could finally swoosh the Entourage icon from their dock. But when it was known only Exchange 2007+ was supported, the rest of the corporate world sighed and continued limping along on their older-than-Exchange 2007 servers.
 
