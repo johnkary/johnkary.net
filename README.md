@@ -6,9 +6,28 @@ Powered by [Jekyll](http://github.com/mojombo/jekyll)
 
 # Development
 
-To build the site as-is and view in a browser:
+To build the site and allow Jekyll to serve it:
+
+    $ jekyll serve
+
+To build the site as-is to the build directory:
 
     $ jekyll build --future
+
+# Deployment
+
+To deploy the latest version:
+
+    $ cp bin/deploy.example bin/deploy
+    
+    # Customize with paths/hosts
+    $ vi bin/deploy
+    
+    # Update .ssh/config with a host for johnkarydotnetdeploy
+    $ vi ~/.ssh/config
+    
+    # Ship it!
+    $ bash bin/deploy
 
 # License
 
