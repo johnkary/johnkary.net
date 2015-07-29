@@ -7,48 +7,60 @@ status: publish
 type: page
 published: true
 ---
-I am a contract web application developer from Lawrence, Kansas. [Please
-be in touch](http://johnkary.net/contact) if you think I can help! I have
-lots of experience leading small teams, and love helping developers learn
-new things, like how to collaborate effectively with git or migrating a
-legacy codebase to a modern web stack.
+Since January 2015 I've worked in Kansas City, MO as a software developer in the
+biomedical research field. Our small internal team builds
+software used by our facility's scientists to facilitate parts of their
+gene-based research.
 
-I have worked mostly in higher education, the trucking industry and research
-institutions but am always looking for new interesting fields!
+Our primary application is a client-side application written in ExtJS
+JavaScript framework, which talks to an HTTP API built on top of
+PHP + Symfony2 framework and a number of in-house custom components.
 
-I attend and [speak](http://johnkary.net/talks) at a few local user groups in my area, including
-being Co-Organizer of the [Kansas City PHP User Group][], and also help drive
-the language-agnostic [Lawrence Coders][] group.
+I attend and [regularly speak](http://johnkary.net/talks) at a few local
+user groups:
 
-### My favorite tools
+* Co-Organizer, [Kansas City PHP User Group][]
+* Co-Organizer, [Lawrence Coders][]
 
-- PHP
-- Symfony2 framework and components
+### My daily toolset
+
+- PHP (Symfony2, PHPUnit)
+- JavaScript (ExtJS)
 - git
-- JavaScript
-- WebKit inspector
 - PhpStorm
 - vim
-- iTerm2
-- Vagrant + Chef/Puppet
-- MacBook Air
+- Vagrant + Chef
+- Atlassian products (JIRA, Stash, Bamboo CI, Confluence)
+- MacOS host machine
+- Linux servers
+
+### Interested in
+
+- Ruby, Go, Erlang
+- Docker
+- Learning more functional programming concepts
+
+### Contracting
+
+Before my current position I contracted for 2 years, helping teams
+modernize their legacy PHP code bases, work better as a team,
+git workflows, setting up continuous integration, teaching automated
+testing and mentoring.
 
 ### University of Kansas
 
-Before becoming a contractor, I worked as the Technical Lead/Senior
-Programmer for the campus-wide web development team at the [University
-of Kansas](http://www.ku.edu).
-I started as a part-time student web developer in Fall 2004, was
-hired as a full time programmer in January 2007, assumed the technical
-lead role in August 2010 and then pursued my own consultancy full-time
-in July 2013.
+Before becoming a full-time contractor, I worked at the University of
+Kansas (within IT) as the team's Technical Lead Programmer. I pushed the
+team and my co-workers to adopt modern development practices. Our team was
+the central web development group on campus, responsible for the
+public-facing presence [http://www.ku.edu](http://www.ku.edu) and
+various custom web applications used by departments all over the
+University.
 
-That group is the primarily web development group on campus, responsible
-for implementing the University's [public-facing web presence][] and
-developing custom web applications for both IT and various departments.
-The group is regularly sought for consulting and advice from various
-smaller development shops on campus, including hosting and facilitating the
-monthly campus-wide KU Web Developers meeting.
+* Fall 2004 - hired as part-time student developer
+* January 2007 - hired full-time
+* August 2010 - promoted to technical lead
+* July 2013 - left to pursue full-time consulting
 
 ### RapidHire
 
@@ -70,12 +82,11 @@ a traditional LAMP stack.
 
 ### The Beginning&hellip;
 
-I [got my start in web development][] as a hobby in 1998 on [Chris
+Web development [started][] as a hobby in 1998 on [Chris
 Escalante's][] parents' dining room table. Chris and I are still very
 close friends and continue to collaborate to this day.
 
   [Kansas City PHP User Group]: http://www.meetup.com/kcphpug/
   [Lawrence Coders]: http://www.meetup.com/Lawrence-Coders/
-  [public-facing web presence]: http://www.ku.edu
-  [got my start in web development]: http://cjonline.com/stories/102900/kid_iconcepts.shtml
+  [started]: http://cjonline.com/stories/102900/kid_iconcepts.shtml
   [Chris Escalante's]: https://twitter.com/tidrion
