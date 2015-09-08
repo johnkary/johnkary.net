@@ -8,7 +8,7 @@ Powered by [Jekyll](http://github.com/mojombo/jekyll)
 
 To build the site and allow Jekyll to serve it:
 
-    $ jekyll serve
+    $ jekyll serve --drafts
 
 To build the site as-is to the build directory:
 

@@ -7,4 +7,3 @@ highlighter: pygments
 permalink: /blog/:title
 url: http://johnkary.net
 baseurl: /
-show_drafts: true
