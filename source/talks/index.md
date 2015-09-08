@@ -7,14 +7,13 @@ status: publish
 type: page
 published: true
 ---
-* * * * *
-
 <a name="funtions-part1"></a>
 ### Functions in PHP: Part 1 - Writing Your Own Functions
 
 [February 2015, Kansas City PHP User Group](http://www.meetup.com/kcphpug/events/219469114/)
 
-[Slides](https://speakerdeck.com/johnkary/functions-in-php-part-1-writing-your-own-functions)
+[Slides](https://speakerdeck.com/johnkary/functions-in-php-part-1-writing-your-own-functions)  
+[Video](http://youtu.be/F4VNT-gAaAs)
 
 This talk is geared towards developers comfortable using PHP's native
 functions and are curious how to write better custom functions. John
