@@ -7,17 +7,17 @@ status: publish
 type: page
 published: true
 ---
-Since January 2015 I've worked in Kansas City, MO as a software developer in the
+Since November 2013 I've worked in Kansas City, MO as a software developer in the
 biomedical research field. Our small internal team builds
 software used by our facility's scientists to facilitate parts of their
 gene-based research.
 
-Our primary application is a client-side application written in ExtJS
-JavaScript framework, which talks to an HTTP API built on top of
-PHP + Symfony2 framework and a number of in-house custom components.
+Our primary application is a client-side web application written in ExtJS
+JavaScript framework, which talks to an HTTP API returning JSON built with
+PHP, Symfony2 framework and many in-house custom components.
 
-I attend and [regularly speak](http://johnkary.net/talks) at a few local
-user groups:
+I attend and [regularly speak](http://johnkary.net/talks) at a number of local
+user groups, and even help organize a few:
 
 * Co-Organizer, [Kansas City PHP User Group][]
 * Co-Organizer, [Lawrence Coders][]
@@ -27,24 +27,22 @@ user groups:
 - PHP (Symfony2, PHPUnit)
 - JavaScript (ExtJS)
 - git
-- PhpStorm
-- vim
-- Vagrant + Chef
-- Atlassian products (JIRA, Stash, Bamboo CI, Confluence)
+- PhpStorm + vim
+- Atlassian products (JIRA Agile, Stash, Bamboo CI, Confluence)
 - MacOS host machine
 - Linux servers
 
 ### Interested in
 
-- Ruby, Go, Erlang
+- React, Go, Erlang
 - Docker
-- Learning more functional programming concepts
+- Functional programming concepts
 
 ### Contracting
 
 Before my current position I contracted for 2 years, helping teams
 modernize their legacy PHP code bases, work better as a team,
-git workflows, setting up continuous integration, teaching automated
+establish git workflows, set up continuous integration, advocating automated
 testing and mentoring.
 
 ### University of Kansas
