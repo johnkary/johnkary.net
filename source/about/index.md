@@ -7,10 +7,16 @@ status: publish
 type: page
 published: true
 ---
-Since November 2013 I've worked in Kansas City, MO as a software developer in the
-biomedical research field. Our small internal team builds
-software used by our facility's scientists to facilitate parts of their
-gene-based research.
+As of October 2015 I have returned to contract/consulting for Kary
+Software LLC. I work remotely for my clients so I regularly travel
+around the United States (and sometimes internationally), staying
+somewhere for a few weeks before moving on to another city. I love it!
+
+Most recently between November 2013 to October 2015 I worked in Kansas City, MO
+as a software developer in the
+biomedical research field. Our small internal team built software used
+by our scientists and staff to facilitate their research in the
+causes, treatment and prevention of gene-based diseases.
 
 Our primary application is a client-side web application written in ExtJS
 JavaScript framework, which talks to an HTTP API returning JSON built with
@@ -40,10 +46,10 @@ user groups, and even help organize a few:
 
 ### Contracting
 
-Before my current position I contracted for 2 years, helping teams
-modernize their legacy PHP code bases, work better as a team,
-establish git workflows, set up continuous integration, advocating automated
-testing and mentoring.
+I have always done contracting on the side, anything from custom
+software development to helping teams modernize their legacy PHP code bases,
+working better as a team, establish git workflows, setup continuous
+integration, advocating automated testing and mentoring.
 
 ### University of Kansas
 
