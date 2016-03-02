@@ -7,18 +7,66 @@ status: publish
 type: page
 published: true
 ---
+Some talks have published feedback on Joind.in: [John Kary](https://legacy.joind.in/user/view/1823)
+
+* * * * *
+<a name="rethinking-loops"></a>
+### Rethinking Loops
+
+[April 2016, Lone Star PHP Conference](http://lonestarphp.com/sessions/#rethinking-loops)  
+[March 2016, Midwest PHP Conference](http://2016.midwestphp.org/session/rethinking-loops/) (Slides, Video, [Feedback](https://legacy.joind.in/talk/view/16702))  
+[March 2016, Kansas City PHP User Group](http://www.meetup.com/kcphpug/events/228981334/) (Slides, Video, [Feedback](https://legacy.joind.in/talk/view/17279))  
+[February 2016, Lawrence Coders](http://www.meetup.com/Lawrence-Coders/events/227939885/)  
+
+You likely learned about loop constructs very early in your programming
+career and use them every day--so often you don't think twice! The
+problem is for() and foreach() are so fundamental developers use them
+for everything! Even worse almost every developer will use them
+differently to accomplish the same goal. So what would
+intention-revealing, expressive PHP code look like without using for()
+and foreach()? Let's explore some functional programming concepts and
+find out.
+
+Knowing basic functional programming concepts will improve your PHP
+code. Your new mindset will favor writing code with better separation of
+concerns and decreased complexity: clean code. We will explore some poor
+examples of using loops to process data, then ease into learning
+functional concepts like map, reduce, filter and collection pipelining.
+We'll even use our newfound knowledge to refactor a few loops. Lastly
+we'll explore some existing libraries and even experimental PHP RFC
+features to make our code even more concise. Beware: after this talk
+you'll never look at for() and foreach() loops the same again!
+
+* * * * *
+
 <a name="funtions-part1"></a>
-### Functions in PHP: Part 1 - Writing Your Own Functions
+### Functions in PHP: Writing Your Own Functions
 
 [February 2015, Kansas City PHP User Group](http://www.meetup.com/kcphpug/events/219469114/)
 
 [Slides](https://speakerdeck.com/johnkary/functions-in-php-part-1-writing-your-own-functions)  
-[Video](http://youtu.be/F4VNT-gAaAs)
+[Video](http://youtu.be/F4VNT-gAaAs)  
+[Attendee Feedback](https://joind.in/event/kcphp-user-group---february-2015/functions-part-one-your-first-custom-function)
 
 This talk is geared towards developers comfortable using PHP's native
 functions and are curious how to write better custom functions. John
 presents 4 guidelines that if followed will result in clear, focused
 functions that are easy to read, reason about and reuse.
+
+* * * * *
+
+<a name="dates-times"></a>
+### Working with dates and times in PHP
+
+[January 2015, Kansas City PHP User Group](http://www.meetup.com/kcphpug/events/219461977/)
+
+No slides or video. Most of presentation was done in a REPL and editor.  
+[Attendee Feedback](https://legacy.joind.in/talk/view/13193)
+
+Modeling dates and times in programs is tricky. After this presentation
+you'll learn how PHP's built-in DateTime library helps you avoid the
+most common pitfalls. You'll also find recommendations on open-source
+libraries to work with things like date recurrence and calendar logic.
 
 * * * * *
 
@@ -62,7 +110,7 @@ Pass 1 (and a future Part 2) will approach refactoring a class from the outside 
 
 ### Last Month in PHP
 
-Given almost every month at the [Kansas City PHP User Group][]. I
+Recurring talk at most [Kansas City PHP User Group][] meetings. I
 summarize important news stories and happenings in the PHP community
 from the previous month before the presentation was delivered. Gives
 special attention to issues relevant to most of our regular attendees.
@@ -86,8 +134,9 @@ special attention to issues relevant to most of our regular attendees.
 
 Demonstrate refactoring a typical Controller to using Symfony2 EventDispatcher component to make writing decoupled code easier.
 
-[Slides][]  
-[Video](http://www.youtube.com/watch?v=q3hfa3wdT0s&feature=plcp)
+[Slides](https://speakerdeck.com/johnkary/writing-extensible-code-using-event-dispatcher)  
+[Video](http://www.youtube.com/watch?v=q3hfa3wdT0s&feature=plcp)  
+[Attendee Feedback](https://legacy.joind.in/talk/view/7551)
 
 * * * * *
 
@@ -178,7 +227,6 @@ January 2010, Lawrence Programmers Hack Day
   [July 2012]: https://speakerdeck.com/johnkary/last-month-in-php-july-2012
   [June 2012]: https://speakerdeck.com/johnkary/last-month-in-php-june-2012
   [October 2012, Kansas City Drupal User Group]: http://www.meetup.com/kcphpug/events/85746812/
-  [Slides]: https://speakerdeck.com/johnkary/writing-extensible-code-using-event-dispatcher
   [June 2012, Kansas City Drupal User Group]: http://www.meetup.com/Greater-Kansas-City-Drupal-User-Group/events/66995032/
   [1]: https://speakerdeck.com/johnkary/git-in-it-beginning-to-use-git
   [Video]: http://vimeo.com/44991859
