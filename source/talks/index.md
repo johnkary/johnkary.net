@@ -15,7 +15,7 @@ Some talks have published feedback on Joind.in: [John Kary](https://legacy.joind
 
 [April 2016, Lone Star PHP Conference](http://lonestarphp.com/sessions/#rethinking-loops)  
 [March 2016, Midwest PHP Conference](http://2016.midwestphp.org/session/rethinking-loops/) (Slides, Video, [Feedback](https://legacy.joind.in/talk/view/16702))  
-[March 2016, Kansas City PHP User Group](http://www.meetup.com/kcphpug/events/228981334/) (Slides, Video, [Feedback](https://legacy.joind.in/talk/view/17279))  
+[March 2016, Kansas City PHP User Group](http://www.meetup.com/kcphpug/events/228981334/) (Slides, [Feedback](https://legacy.joind.in/talk/view/17279))  
 [February 2016, Lawrence Coders](http://www.meetup.com/Lawrence-Coders/events/227939885/)  
 
 You likely learned about loop constructs very early in your programming
