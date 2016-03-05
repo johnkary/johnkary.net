@@ -13,10 +13,29 @@ Some talks have published feedback on Joind.in: [John Kary](https://legacy.joind
 <a name="rethinking-loops"></a>
 ### Rethinking Loops
 
-[April 2016, Lone Star PHP Conference](http://lonestarphp.com/sessions/#rethinking-loops)  
-[March 2016, Midwest PHP Conference](http://2016.midwestphp.org/session/rethinking-loops/) (Slides, Video, [Feedback](https://legacy.joind.in/talk/view/16702))  
-[March 2016, Kansas City PHP User Group](http://www.meetup.com/kcphpug/events/228981334/) (Slides, [Feedback](https://legacy.joind.in/talk/view/17279))  
-[February 2016, Lawrence Coders](http://www.meetup.com/Lawrence-Coders/events/227939885/)  
+<ul class="talk-list">
+    <li>
+        <a href="http://lonestarphp.com/sessions/#rethinking-loops">April 2016, Lone Star PHP Conference</a>
+    </li>
+    <li>
+        <a href="http://2016.midwestphp.org/session/rethinking-loops/">March 2016, Midwest PHP Conference</a>
+        <ul>
+            <li><a href="http://johnkary.net/slides/loops/midwest-php-2016/">Slides</a></li>
+            <li>Video</li>
+            <li><a href="https://legacy.joind.in/talk/view/16702">Feedback</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="http://www.meetup.com/kcphpug/events/228981334/">March 2016, Kansas City PHP User Group</a>
+        <ul>
+            <li>Slides</li>
+            <li><a href="https://legacy.joind.in/talk/view/17279">Feedback</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="http://www.meetup.com/Lawrence-Coders/events/227939885/">February 2016, Lawrence Coders</a>
+    </li>
+</ul>
 
 You likely learned about loop constructs very early in your programming
 career and use them every day--so often you don't think twice! The

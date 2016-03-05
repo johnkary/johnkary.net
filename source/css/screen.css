@@ -373,3 +373,15 @@ code {
   background-position: 0 7px;
   background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAJCAAAAAAj05KIAAAACXZwQWcAAAAMAAAACQCz0sY7AAAAJ0lEQVQI12NgQAX/oQDMhvIY/oMlGCBsCOc/VAAqA1GMrgfFNCQAAGW4NcsU8TpyAAAAAElFTkSuQmCC);
 }
+
+#page .talk-list {
+  margin-left:0;
+}
+#page .talk-list ul {
+  margin-top:0;
+  margin-bottom:0;
+}
+#page .talk-list > li {
+  list-style-type: none;
+  margin-bottom:1.35em;
+}
