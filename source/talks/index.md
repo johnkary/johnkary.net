@@ -22,7 +22,7 @@ Some talks have published feedback on Joind.in: [John Kary](https://legacy.joind
         <ul>
             <li><a href="http://johnkary.net/slides/loops/midwest-php-2016/">Slides</a></li>
             <li>Video</li>
-            <li><a href="https://legacy.joind.in/talk/view/16702">Feedback</a></li>
+            <li><a href="https://joind.in/event/midwest-php-2016/rethinking-loops">Feedback</a></li>
         </ul>
     </li>
     <li>
