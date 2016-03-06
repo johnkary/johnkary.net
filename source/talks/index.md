@@ -21,7 +21,6 @@ Some talks have published feedback on Joind.in: [John Kary](https://legacy.joind
         <a href="http://2016.midwestphp.org/session/rethinking-loops/">March 2016, Midwest PHP Conference</a>
         <ul>
             <li><a href="http://johnkary.net/slides/loops/midwest-php-2016/">Slides</a></li>
-            <li>Video</li>
             <li><a href="https://joind.in/event/midwest-php-2016/rethinking-loops">Feedback</a></li>
         </ul>
     </li>
@@ -29,7 +28,7 @@ Some talks have published feedback on Joind.in: [John Kary](https://legacy.joind
         <a href="http://www.meetup.com/kcphpug/events/228981334/">March 2016, Kansas City PHP User Group</a>
         <ul>
             <li>Slides</li>
-            <li><a href="https://legacy.joind.in/talk/view/17279">Feedback</a></li>
+            <li><a href="https://joind.in/event/kcphp-user-group---march-2016/rethinking-loops">Feedback</a></li>
         </ul>
     </li>
     <li>
