@@ -7,23 +7,24 @@ status: publish
 type: page
 published: true
 ---
-As of October 2015 I have returned to contract/consulting for Kary
+As of October 2015 I have returned to contract/consulting under Kary
 Software LLC. I work remotely for my clients so I regularly travel
 around the United States (and sometimes internationally), staying
 somewhere for a few weeks before moving on to another city. I love it!
+(Unfortunately I'm on a hiatus from traveling to help take care of my
+mom, who had a brain aneurysm in January 2016.)
 
 Most recently between November 2013 to October 2015 I worked in Kansas City, MO
 as a software developer in the
 biomedical research field. Our small internal team built software used
-by our scientists and staff to facilitate their research in the
+by our scientists and staff to facilitate their research into the
 causes, treatment and prevention of gene-based diseases.
 
-Our primary application is a client-side web application written in ExtJS
-JavaScript framework, which talks to an HTTP API returning JSON built with
+Our primary application was a client-side web application using the ExtJS
+JavaScript framework and talked to an HTTP API returning JSON built with
 PHP, Symfony2 framework and many in-house custom components.
 
-I attend and [regularly speak](http://johnkary.net/talks) at a number of local
-user groups, and even help organize a few:
+I help organize and [regularly speak](http://johnkary.net/talks) at a number of local user groups:
 
 * Co-Organizer, [Kansas City PHP User Group][]
 * Co-Organizer, [Lawrence Coders][]
@@ -38,11 +39,12 @@ user groups, and even help organize a few:
 - MacOS host machine
 - Linux servers
 
-### Interested in
+### What has me excited lately?
 
-- React, Go, Erlang
-- Docker
-- Functional programming concepts
+- Languages like Go, Erland, Clojure
+- React (but not excited about the JavaScript build ecosystem)
+- Functional programming concepts and how I can apply them in my daily
+  work
 
 ### Contracting
 
