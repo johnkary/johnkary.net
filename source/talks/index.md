@@ -19,6 +19,10 @@ Some talks have published feedback on Joind.in: [John Kary](https://legacy.joind
     </li>
     <li>
         <a href="http://lonestarphp.com/sessions/#rethinking-loops">Lone Star PHP Conference - Dallas, TX; April 2016</a>
+        <ul>
+            <li><a href="http://johnkary.net/slides/loops/lonestar-php-2016/">Slides</a></li>
+            <li><a href="https://joind.in/event/lone-star-php-2016/rethinking-loops">Feedback</a></li>
+        </ul>
     </li>
     <li>
         <a href="http://2016.midwestphp.org/session/rethinking-loops/">Midwest PHP Conference - Minneapolis, MN; March 2016</a>
