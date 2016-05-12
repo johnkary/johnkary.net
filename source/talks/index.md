@@ -16,6 +16,9 @@ Some talks have published feedback on Joind.in: [John Kary](https://legacy.joind
 <ul class="talk-list">
     <li>
         <a href="https://events.drupal.org/neworleans2016/sessions/rethinking-loops">DrupalCon 2016 - New Oreleans, LA; May 2016</a>
+        <ul>
+            <li><a href="http://johnkary.net/slides/loops/drupalcon-2016/">Slides</a></li>
+        </ul>
     </li>
     <li>
         <a href="http://lonestarphp.com/sessions/#rethinking-loops">Lone Star PHP Conference - Dallas, TX; April 2016</a>
