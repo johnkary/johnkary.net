@@ -19,7 +19,7 @@ My session is below and slides are available: [Rethinking Loops slides](http://j
 
 ## Rethinking Loops
 
-Being the last session, on the last day, where attendees also had the option of attending a session by the creator of Drupal, I was a little worried if people would even show up&ellip;
+Being the last session, on the last day, where attendees also had the option of attending a session by the creator of Drupal, I was a little worried if people would even show up&hellip;
 
 I walked in fifteen minutes early and the room was already 75% full, with more filing in after me. Relief. I've heard other speakers grow more anxious the more people are in the room. Not me. I feed off of it. Especially a small, intimate, packed room.
 
@@ -70,7 +70,7 @@ My skepticism peaked as the event began with some awkward crowd-rousing "I can't
 
 Several prominent contributors to the Drupal community sporting intricate headdresses and shiny skin-tight full-body leotards took the stage, their costumes leaving nothing to the imagination. The actors' lines and musical performances were delivered with as much gracefulness as a high school drama, while their individual singing voices were surprisingly good&mdash;an obvious reason they were selected to lead the performance.
 
-As the performance wore on and the other casts of characters were introduced and performed their dance and musical numbers, all with equally cheesy lyrics and all spoofing classic pop culture songs, I realized something&ellip;
+As the performance wore on and the other casts of characters were introduced and performed their dance and musical numbers, all with equally cheesy lyrics and all spoofing classic pop culture songs, I realized something&hellip;
 
 This performance wasn't trying to *be* anything. Instead it was the coming together of the community's most prominent figureheads and splaying themselves in a highly vulnerable and slightly embarrassing light. All for the sake of making us smile, laugh, and root for them. It reinforced how everyone attending, whether speaker, volunteer, core committer, or simple attendee, were all simply people. A reminder that those people are not their titles within the community, nor their contributions to the ecosystem. They are people just like you and me.
 
