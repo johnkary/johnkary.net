@@ -18,7 +18,7 @@ Some talks have published feedback on Joind.in: [John Kary](https://legacy.joind
         <a href="https://events.drupal.org/neworleans2016/sessions/rethinking-loops">DrupalCon 2016 - New Oreleans, LA; May 2016</a>
         <ul>
             <li><a href="http://johnkary.net/slides/loops/drupalcon-2016/">Slides</a></li>
-            <li><a href="https://www.youtube.com/embed/p2K2JHFMh1o">Video</a></li>
+            <li><a href="https://www.youtube.com/watch?v=p2K2JHFMh1o">Video</a></li>
         </ul>
     </li>
     <li>
