@@ -385,3 +385,8 @@ code {
   list-style-type: none;
   margin-bottom:1.35em;
 }
+
+/* Now */
+#now-photo {
+  border:2px solid black;
+}
