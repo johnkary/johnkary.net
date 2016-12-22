@@ -15,7 +15,7 @@ The conference [records all sessions](https://www.youtube.com/watch?v=p2K2JHFMh1
 
 My session is below and slides are available: [Rethinking Loops slides](http://johnkary.net/slides/loops/drupalcon-2016/)
 
-<iframe width="704" height="418" src="https://www.youtube.com/embed/p2K2JHFMh1o" frameborder="0" allowfullscreen style="margin-bottom:1.2em"></iframe>
+<iframe width="704" height="418" src="https://www.youtube.com/embed/p2K2JHFMh1o" frameborder="0" allowfullscreen></iframe>
 
 ## Rethinking Loops
 
@@ -80,7 +80,7 @@ I must give special mention to Larry Garfield's solo dancing and singing number.
 
 Here's the video stream beginning at Larry's performance. He's absolutely a much better singer and dancer than me. Thank you for everything you do, Larry.
 
-<iframe width="704" height="418" src="https://www.youtube.com/embed/u6VoeELTfvM?start=1030" frameborder="0" allowfullscreen style="margin-bottom:1.2em"></iframe>
+<iframe width="704" height="418" src="https://www.youtube.com/embed/u6VoeELTfvM?start=1030" frameborder="0" allowfullscreen></iframe>
 
 ## Sessions
 

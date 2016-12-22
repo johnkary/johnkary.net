@@ -20,20 +20,23 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Francois One', Times;
+  font-family: 'PT Sans', sans-serif;
   font-size: 100%;
+  margin-bottom:1em;
+}
+
+iframe {
+  margin:0.75em 0 1.5em;
 }
 
 h1 {
   font-size:1.7em;
-  margin-bottom: 1em;
 }
 .title-link {
   color:#000;
 }
 h2 {
-  font-size:1.4em;
-  margin-bottom:0.8em;
+  font-size:1.5em;
 }
 h3 {
   font-size:1.1em;
@@ -41,7 +44,7 @@ h3 {
 
 p {
   line-height:1.5em;
-  margin:1.5em 0;
+  margin:0 0 1.5em;
 }
 
 a {
@@ -195,6 +198,15 @@ hr {
 }
 
 /* Posts */
+#post {
+  font-family: 'PT Serif', Georgia, serif;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+}
 
 #post .metadata {
   text-align:center;
@@ -212,6 +224,7 @@ hr {
 }
 .image {
   text-align:center;
+  margin:1.5em 0;
 }
 .image .caption {
   font-size:0.7em;
@@ -338,7 +351,7 @@ code {
 }
 #post ul, #page ul,
 #post ol, #post ol {
-  margin: 1em 0 1em 1.35em;
+  margin: 1em 0 1.5em 1.35em;
 }
 
 .icon{
