@@ -15,12 +15,13 @@ December 3, 2016
 **Current City**<br>
 Lawrence, Kansas
 
-**Employment**<br>
+## Employment
+
 Working remotely for contract clients in bio-medical research, over-the-road trucking, higher education. Mostly working from home or coffee shops in Kansas, occasionally from more interesting places.
 
 I am not currently taking on any new software development projects or clients.
 
-<img src="images/2016-12.jpg" id="now-photo" alt="Three photos: Left, John in front of Chichen Itza Mayan ruins; Center, View of Cancun villa; Right, John sitting on a terrace overlooking the beach in Cancun.">
+<img src="images/2016-12.jpg" id="now-photo" class="full-width" alt="Three photos: Left, John in front of Chichen Itza Mayan ruins; Center, View of Cancun villa; Right, John sitting on a terrace overlooking the beach in Cancun.">
 
 I recently relinquished my title of "Co-Organizer" within the [Lawrence Coders User Group](https://www.meetup.com/Lawrence-Coders/). My involvement within the last 12 months has waned due to life and work commitments, and I was not prioritizing group involvement. I will still attend when convenient for my schedule and hope my vacancy will provide room for others to step up their involvement. Aaron and Kevin are doing great work for the Lawrence development community.
 

@@ -14,7 +14,7 @@ body {
   background-color: white;
   text-align: center;
   font-size: 16px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'PT Serif', Georgia, serif;
   letter-spacing: 0.159999996423721px;
   word-wrap: break-word;
 }
@@ -22,11 +22,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'PT Sans', sans-serif;
   font-size: 100%;
+  font-weight:400;
   margin-bottom:1em;
-}
-
-iframe {
-  margin:0.75em 0 1.5em;
 }
 
 h1 {
@@ -39,11 +36,11 @@ h2 {
   font-size:1.5em;
 }
 h3 {
-  font-size:1.1em;
+  font-size:1.25em;
 }
 
 p {
-  line-height:1.5em;
+  line-height:1.75em;
   margin:0 0 1.5em;
 }
 
@@ -76,6 +73,17 @@ blockquote p:last-child {
 
 /* Home */
 
+.entry-content {
+  font-family: 'PT Serif', Georgia, serif;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  color: #333;
+}
 .author {
   font-family: constantia, palatino, 'times new roman';
   margin: 10px auto 20px;
@@ -108,17 +116,23 @@ ul.posts span {
   color:#000;
 }
 hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
   margin: 1em 0;
+  padding: 0;
 }
 
 /* Site */
 
 .site {
-  font-size: 110%;
-  text-align: justify;
-  width: 40em;
-  margin: 2em auto 2em auto;
+  max-width: 704px;
+  margin: 2em auto;
   line-height: 1.5em;
+}
+.site li {
+  line-height:1.75;
 }
 
 .title {
@@ -152,6 +166,7 @@ hr {
 
 .site .footer {
   font-size: 80%;
+  text-align: left;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
@@ -197,15 +212,17 @@ hr {
   border:0;
 }
 
-/* Posts */
-#post {
+/* Posts / Pages */
+#post, #page {
   font-family: 'PT Serif', Georgia, serif;
   letter-spacing: .01rem;
   font-weight: 400;
   font-style: normal;
-  font-size: 21px;
+  font-size: 18px;
+  text-align: left;
   line-height: 1.58;
-  letter-spacing: -.003em;
+  letter-spacing: .003em;
+  color: #333;
 }
 
 #post .metadata {
@@ -234,6 +251,9 @@ hr {
 }
 #post img {
   border:1px solid #ccc;
+}
+img.full-width {
+  max-width: 100%;
 }
 .post h3 {
   text-align:center;
@@ -389,6 +409,7 @@ code {
 
 #page .talk-list {
   margin-left:0;
+  margin-top:0;
 }
 #page .talk-list ul {
   margin-top:0;
@@ -399,7 +420,79 @@ code {
   margin-bottom:1.35em;
 }
 
-/* Now */
-#now-photo {
-  border:2px solid black;
+/* YouTube Embed <3 http://embedresponsively.com */
+.embed-container {
+  position: relative;
+  margin:0.75em 0 1.5em;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  blockquote {
+    border-left: 5px solid #D14;
+    padding: 0.5em 0 0.5em 1em;
+  }
+  .main-nav a {
+    margin:0 0.42em;
+    color:#777;
+  }
+  .author {
+    margin: 0 auto;
+    font-size: 1.75em;
+    word-spacing: 0em;
+  }
+  .main-nav {
+    margin-top: 0.85em;
+    font-size:0.9em;
+  }
+  .site .footer {
+    border:none;
+  }
+  .site .footer .contact {
+    border-top: 2px solid #eee;
+    float:none;
+    width:auto;
+    padding:3em 0 1em;
+    margin-bottom:0.4em;
+  }
+  .badges {
+    float:left;
+    width:auto;
+  }
+  .site {
+    margin-top:1em;
+    width:auto;
+    text-align:left;
+  }
+  #post, #page {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+  #post img {
+    border:0;
+  }
+
+  /* Pad content inward */
+  blockquote, hr,
+  #post p, #post h1, #post h2, #post h3, #post h4, #post h5, #post h6,
+  #page p, #page h1, #page h2, #page h3, #page h4, #page h5, #page h6,
+  .site .footer,
+  #page .talk-list {
+    margin-left:10px;
+    margin-right:10px;
+  }
+  #post ul, #page ul,
+  #post ol, #post ol {
+    margin-left: 1.85em;
+  }
 }

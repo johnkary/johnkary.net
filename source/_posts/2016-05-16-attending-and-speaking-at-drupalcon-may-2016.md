@@ -15,7 +15,7 @@ The conference [records all sessions](https://www.youtube.com/watch?v=p2K2JHFMh1
 
 My session is below and slides are available: [Rethinking Loops slides](http://johnkary.net/slides/loops/drupalcon-2016/)
 
-<iframe width="704" height="418" src="https://www.youtube.com/embed/p2K2JHFMh1o" frameborder="0" allowfullscreen></iframe>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/p2K2JHFMh1o" frameborder="0" allowfullscreen></iframe></div>
 
 ## Rethinking Loops
 
@@ -78,9 +78,7 @@ The pre-note was a microcosm of the Drupal community: people from widely varying
 
 I must give special mention to Larry Garfield's solo dancing and singing number. I've met and talked with Larry several times at previous conferences, and before the pre-note I would've described him as a vocal but reserved person. Maybe he's a lot like you. But after seeing him get up on stage wearing only pants, his signature black vest yet no blue undershirt, then singing and dancing all over the stage to the tune of "I'm Too Sexy," I have an even higher esteemed respect for everything Larry does for the wider PHP and Drupal communities. There's simply nothing he can't and won't do.
 
-Here's the video stream beginning at Larry's performance. He's absolutely a much better singer and dancer than me. Thank you for everything you do, Larry.
-
-<iframe width="704" height="418" src="https://www.youtube.com/embed/u6VoeELTfvM?start=1030" frameborder="0" allowfullscreen></iframe>
+[Here's the video stream](https://youtu.be/u6VoeELTfvM?t=984) beginning at Larry's performance. He's absolutely a much better singer and dancer than me. Thank you for everything you do, Larry.
 
 ## Sessions
 

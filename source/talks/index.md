@@ -11,7 +11,7 @@ Some talks have published feedback on Joind.in: [John Kary](https://legacy.joind
 
 * * * * *
 <a name="rethinking-loops"></a>
-### Rethinking Loops
+## Rethinking Loops
 
 <ul class="talk-list">
     <li>
@@ -68,7 +68,7 @@ you'll never look at for() and foreach() loops the same again!
 * * * * *
 
 <a name="funtions-part1"></a>
-### Functions in PHP: Writing Your Own Functions
+## Functions in PHP: Writing Your Own Functions
 
 [February 2015, Kansas City PHP User Group](http://www.meetup.com/kcphpug/events/219469114/)
 
@@ -84,7 +84,7 @@ functions that are easy to read, reason about and reuse.
 * * * * *
 
 <a name="dates-times"></a>
-### Working with dates and times in PHP
+## Working with dates and times in PHP
 
 [January 2015, Kansas City PHP User Group](http://www.meetup.com/kcphpug/events/219461977/)
 
@@ -99,7 +99,7 @@ libraries to work with things like date recurrence and calendar logic.
 * * * * *
 
 <a name="software-soft"></a>
-### Keeping Software Soft
+## Keeping Software Soft
 
 [January 2015, Lawrence Coders](http://www.meetup.com/Lawrence-Coders/events/219469346/)
 
@@ -110,7 +110,7 @@ Software provides continual value when it can evolve with the business. But with
 * * * * *
 
 <a name="scratch"></a>
-### Scratch: An On-Ramp to Programming
+## Scratch: An On-Ramp to Programming
 
 [August 2014, Lawrence Coders](http://www.meetup.com/Lawrence-Coders/events/193770022/)
 
@@ -123,7 +123,7 @@ John talks about [Scratch](http://scratch.mit.edu), the visual programming langu
 * * * * *
 
 <a name="refactoring-less"></a>
-### Refactoring: Less Code, Less Problems (Part 1)
+## Refactoring: Less Code, Less Problems (Part 1)
 
 [April 2014, Kansas City PHP User Group](http://www.meetup.com/kcphpug/events/169569762/)
 
@@ -136,7 +136,7 @@ Pass 1 (and a future Part 2) will approach refactoring a class from the outside 
 
 * * * * *
 
-### Last Month in PHP
+## Last Month in PHP
 
 Recurring talk at most [Kansas City PHP User Group][] meetings. I
 summarize important news stories and happenings in the PHP community
@@ -156,7 +156,7 @@ special attention to issues relevant to most of our regular attendees.
 
 * * * * *
 
-### Writing Extensible Code Using Event Dispatcher
+## Writing Extensible Code Using Event Dispatcher
 
 [October 2012, Kansas City PHP User Group](http://www.meetup.com/kcphpug/events/85746812/)
 
@@ -168,7 +168,7 @@ Demonstrate refactoring a typical Controller to using Symfony2 EventDispatcher c
 
 * * * * *
 
-### Git In It: Beginning to Use Git
+## Git In It: Beginning to Use Git
 
 [June 2012, Kansas City Drupal User Group][]
 
@@ -179,7 +179,7 @@ Covers common misconceptions about version control, how to setup your environmen
 
 * * * * *
 
-### Vagrant + Drupal + Drush: Automating setup of a Drupal development environment
+## Vagrant + Drupal + Drush: Automating setup of a Drupal development environment
 
 [May 2012, Lawrence Coders](http://www.meetup.com/Lawrence-Coders/events/62273962/)
 
@@ -190,7 +190,7 @@ Repeatable development environment for teams looking to do collaborative Drupal 
 
 * * * * *
 
-### Everyday Effectiveness With git
+## Everyday Effectiveness With git
 
 [April 2012, Lawrence Coders](http://www.meetup.com/Lawrence-Coders/events/55342892/)  
 April 2012, Kansas City PHP User Group
@@ -201,7 +201,7 @@ Working effectively with git on a daily basis is a lot easier with a few tips on
 
 * * * * *
 
-### Scared Straight: Mitigating OWASP Top 10 with PHP
+## Scared Straight: Mitigating OWASP Top 10 with PHP
 
 January 2011, University of Kansas Web Developers monthly meeting
 
@@ -212,7 +212,7 @@ applications and how to mitigate them when using PHP.
 
 * * * * *
 
-### YUI Graded Browser Support
+## YUI Graded Browser Support
 
 November 2010, University of Kansas Web Developers monthly meeting
 
@@ -224,7 +224,7 @@ Current state of YUI Graded Browser Support. Please note, much of the informatio
 
 * * * * *
 
-### Beyond Arial: Using @font-face to unleash web typography
+## Beyond Arial: Using @font-face to unleash web typography
 
 September 2010, University of Kansas Web Developers monthly meeting
 
@@ -236,7 +236,7 @@ Current best practices advice on using @font-face, history of fonts on the web, 
 
 * * * * *
 
-### Using Virtual Machines in Web Development
+## Using Virtual Machines in Web Development
 
 January 2010, University of Kansas Web Developers monthly meeting
 
@@ -244,7 +244,7 @@ January 2010, University of Kansas Web Developers monthly meeting
 
 * * * * *
 
-### Intro to Debugging PHP with Xdebug
+## Intro to Debugging PHP with Xdebug
 
 January 2010, Lawrence Programmers Hack Day
 
