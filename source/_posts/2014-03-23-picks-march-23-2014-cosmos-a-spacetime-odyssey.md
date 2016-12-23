@@ -6,9 +6,7 @@ comments: false
 tags: [picks, carl-sagan]
 ---
 
-<div class="image">
-    <iframe width="616" height="346" src="//www.youtube.com/embed/kBTd9--9VMI" frameborder="0" allowfullscreen></iframe>
-</div><br>
+<div class="embed-container"><iframe title="Cosmos: A Spacetime Odyssey Official Trailer" src="https://www.youtube.com/embed/XFF2ECZ8m1A" frameborder="0" allowfullscreen></iframe></div>
 
 ## Cosmos: A Spacetime Odyssey
 
