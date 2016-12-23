@@ -27,7 +27,7 @@ I am involved with local user groups and [sometimes speak](http://johnkary.net/t
 - PhpStorm + vim
 - Atlassian products (JIRA Agile, Bitbucket, Bamboo CI, Confluence)
 - MacOS host machine
-- Linux servers
+- Linux servers hosting Apache
 
 ### What has me excited lately?
 
