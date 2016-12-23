@@ -72,7 +72,17 @@ blockquote p:last-child {
 }
 
 /* Home */
-
+.post-title {
+  font-size: 1.5em;
+  margin: 1em 0;
+  line-height:1.2em;
+}
+.post-title a:hover {
+  border-bottom:1px solid;
+}
+.post-date {
+  font-weight:bold;
+}
 .entry-content {
   font-family: 'PT Serif', Georgia, serif;
   letter-spacing: .01rem;
@@ -81,7 +91,7 @@ blockquote p:last-child {
   font-size: 18px;
   text-align: left;
   line-height: 1.58;
-  letter-spacing: -.003em;
+  letter-spacing: .003em;
   color: #333;
 }
 .author {
@@ -92,6 +102,7 @@ blockquote p:last-child {
   text-transform: uppercase;
   letter-spacing: .05em;
   word-spacing: .2em;
+  line-height:1em;
 }
 .author a {
   color:#333;
@@ -224,6 +235,11 @@ hr {
   letter-spacing: .003em;
   color: #333;
 }
+#post h2, #post h3, #post h4, #post h5, #post h6,
+#page h2, #page h3, #page h4, #page h5, #page h6 {
+  line-height: 1.2em;
+}
+
 
 #post .metadata {
   text-align:center;
@@ -254,34 +270,6 @@ hr {
 }
 img.full-width {
   max-width: 100%;
-}
-.post h3 {
-  text-align:center;
-  font-size: 1.5em;
-  font-weight: normal;
-  margin: 1.5em 0;
-  line-height:1.3em;
-}
-.post h3 a:hover {
-  border-bottom:1px solid;
-}
-.post h5 {
-  margin: 0.5em 0 2em;
-  font-family: "helvetica neue", helvetica, arial;
-  font-size: 0.75em;
-  font-weight: normal;
-  text-align:center;
-  color: #999;
-  border-bottom: 1px solid #DDD;
-  background: white;
-}
-.post h5 span {
-  display: inline-block;
-  position: relative;
-  margin: 0 auto;
-  padding: 0 8px;
-  background: white;
-  top: 12px;
 }
 
 .no-comments {
@@ -478,6 +466,11 @@ code {
     font-size: 18px;
     line-height: 1.5em;
   }
+  /* Fix wrapping headings */
+  #post h2, #post h3, #post h4, #post h5, #post h6,
+  #page h2, #page h3, #page h4, #page h5, #page h6 {
+    line-height: 1.2em;
+  }
   #post img {
     border:0;
   }
@@ -486,6 +479,7 @@ code {
   blockquote, hr,
   #post p, #post h1, #post h2, #post h3, #post h4, #post h5, #post h6,
   #page p, #page h1, #page h2, #page h3, #page h4, #page h5, #page h6,
+  #home p, #home h1, #home h2, #home h3, #home h4, #home h5, #home h6,
   .site .footer,
   #page .talk-list {
     margin-left:10px;
