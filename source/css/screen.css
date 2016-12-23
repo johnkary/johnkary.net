@@ -267,6 +267,7 @@ hr {
 }
 #post img {
   border:1px solid #ccc;
+  max-width: 100%;
 }
 img.full-width {
   max-width: 100%;
