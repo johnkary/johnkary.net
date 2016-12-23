@@ -6,7 +6,7 @@ comments: true
 tags: [symfony]
 ---
 
-> This was published when **Symfony Standard Edition 2.3** was the latest stable release.
+> This post was published when **Symfony Standard Edition 2.3** was the latest stable release, and may be outdated for later Symfony versions.
 
 Have you explored all of the Console commands that ship with the Symfony Standard Edition? The long list of tasks after entering the `php app/console` command might feel a bit overwhelming at first, but the more you use Symfony, the more comfortable you'll feel and the more likely you will have memorized a few common commands.
 

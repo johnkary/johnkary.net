@@ -6,7 +6,7 @@ comments: true
 tags: [symfony]
 ---
 
-> Note: This post was published when **Symfony Standard Edition 2.3** and **jms/serializer 0.12.0** were the latest stable releases.
+> Note: This post was published when **Symfony Standard Edition 2.3** and **jms/serializer 0.12.0** were the latest stable releases, and may be outdated with later versions.
 
 The [JMS Serializer library](http://jmsyst.com/libs/serializer) and its accompanying [Symfony2 bundle](http://jmsyst.com/bundles/JMSSerializerBundle) are must-haves if your PHP-based application needs to expose an HTTP API. If you have used it before, you're probably most familiar with its ability to transform an object graph to XML or JSON, and this couldn't be easier in Symfony2:
 
