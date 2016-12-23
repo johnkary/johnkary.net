@@ -475,6 +475,23 @@ code {
     border:0;
   }
 
+  /* Code Highlighting */
+  .highlight {
+    padding:0;
+  }
+  .highlight code {
+    font-size: 0.8em;
+  }
+  .highlight pre {
+    line-height: 1.2em;
+    padding: 0.75em 0.75em 0.375em;
+  }
+  code, .highlight {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+
   /* Pad content inward */
   blockquote, hr,
   #post p, #post h1, #post h2, #post h3, #post h4, #post h5, #post h6,
