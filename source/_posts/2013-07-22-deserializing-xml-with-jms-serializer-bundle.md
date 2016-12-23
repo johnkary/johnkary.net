@@ -234,31 +234,32 @@ EOT;
 
 I'm using var_dump here to show exactly how the data appears when hydrated onto the User object:
 
-    object(Acme\DemoBundle\Entity\User)[416]
-      public 'firstName' => string 'John' (length=4)
-      public 'lastName' => string 'Kary' (length=4)
-      public 'logins' => int 5
-      public 'lastLogin' => 
-        object(DateTime)[436]
-          public 'date' => string '2013-07-21 00:55:59' (length=19)
-          public 'timezone_type' => int 1
-          public 'timezone' => string '-05:00' (length=6)
-      public 'address' => 
-        object(Acme\DemoBundle\Entity\Address)[434]
-          public 'number' => string '555' (length=3)
-          public 'street' => string '4th Street' (length=10)
-          public 'city' => string 'Lawrence' (length=8)
-          public 'state' => string 'KS' (length=2)
-          public 'zip' => string '66045' (length=5)
-      public 'friends' => 
-        object(Doctrine\Common\Collections\ArrayCollection)[450]
-          private '_elements' => 
-            array (size=2)
-              0 => 
-                object(Acme\DemoBundle\Entity\User)[455]
-                  ...
-              1 => 
-                object(Acme\DemoBundle\Entity\User)[454]
-                  ...
+<div class="highlight"><pre><code class="language-php" data-lang="php">object(Acme\DemoBundle\Entity\User)[416]
+  public 'firstName' => string 'John' (length=4)
+  public 'lastName' => string 'Kary' (length=4)
+  public 'logins' => int 5
+  public 'lastLogin' => 
+    object(DateTime)[436]
+      public 'date' => string '2013-07-21 00:55:59' (length=19)
+      public 'timezone_type' => int 1
+      public 'timezone' => string '-05:00' (length=6)
+  public 'address' => 
+    object(Acme\DemoBundle\Entity\Address)[434]
+      public 'number' => string '555' (length=3)
+      public 'street' => string '4th Street' (length=10)
+      public 'city' => string 'Lawrence' (length=8)
+      public 'state' => string 'KS' (length=2)
+      public 'zip' => string '66045' (length=5)
+  public 'friends' => 
+    object(Doctrine\Common\Collections\ArrayCollection)[450]
+      private '_elements' => 
+        array (size=2)
+          0 => 
+            object(Acme\DemoBundle\Entity\User)[455]
+              ...
+          1 => 
+            object(Acme\DemoBundle\Entity\User)[454]
+              ...
+</code></pre></div>
 
 We can now work with our User object and it can boast all of its rich behavior and relationships with other objects!
