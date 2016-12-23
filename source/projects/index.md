@@ -7,7 +7,13 @@ status: publish
 type: page
 published: true
 ---
-Most developers tinker. Some even see the light of day. These are mine.
+Most developers tinker. Some even see the light of day.
+
+* * * * *
+
+### My most popular blog post&hellip;<br>[git add -p: The most powerful git feature you're not using yet](/blog/git-add-p-the-most-powerful-git-feature-youre-not-using-yet/)
+
+I love git. So late one night I recorded two screencasts about my favorite git feature. Turns out a lot of people didn't know about it and found it very useful! This post seems to become popular on Hacker News every few years.
 
 * * * * *
 
