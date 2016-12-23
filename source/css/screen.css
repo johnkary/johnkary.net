@@ -76,12 +76,14 @@ blockquote p:last-child {
   font-size: 1.5em;
   margin: 1em 0;
   line-height:1.2em;
+  text-align:center;
 }
 .post-title a:hover {
   border-bottom:1px solid;
 }
 .post-date {
-  font-weight:bold;
+  text-align:center;
+  font-size:0.8em;
 }
 .entry-content {
   font-family: 'PT Serif', Georgia, serif;
@@ -252,7 +254,7 @@ hr {
   margin-bottom:0.2em;
 }
 #post .publish-date {
-  margin:0.5em 0;
+  margin:1.2em 0;
   font-size:0.8em;
 }
 .image {
