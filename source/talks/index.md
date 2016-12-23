@@ -67,6 +67,15 @@ you'll never look at for() and foreach() loops the same again!
 
 * * * * *
 
+<a name="time-travel"></a>
+## Time Travel is Here!
+
+[June 2015, Lawrence Free State Festival](http://freestatefestival.org/)
+
+This talk (not about software development) discusses how time travel is possible today. Science fiction didn't lie to us, it simply set our expectations too high. We explore how modern technology has reached this point, and how time travel will change in the future (pun maybe intended) as fields like Artificial Intelligence, Augmented Reality and Virtual Reality inevitably become mainstream.
+
+* * * * *
+
 <a name="funtions-part1"></a>
 ## Functions in PHP: Writing Your Own Functions
 
