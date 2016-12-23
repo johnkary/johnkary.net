@@ -31,8 +31,8 @@ I am involved with local user groups and [sometimes speak](http://johnkary.net/t
 
 ### What has me excited lately?
 
-- Reading children's books on YouTube
-- University of Kansas Men's Basketball season
+- A personal project to read aloud children's books on YouTube. Hope to post more about it soon.
+- University of Kansas Men's Basketball season. They're ranked #3 nationally and have an 11-1 record right now.
 
 ### Contracting
 
