@@ -17,7 +17,7 @@ I am involved with local user groups and [sometimes speak](http://johnkary.net/t
 
 * Co-Organizer, [Kansas City PHP User Group][]
 * Former Co-Organizer, [Lawrence Coders][]
-* Volunteer Developer, [Kansas City Code For America][http://codeforkc.org/]
+* Volunteer Developer, [Kansas City Code For America](http://codeforkc.org/)
 
 ### My daily tools
 
