@@ -481,7 +481,8 @@ code {
   #page p, #page h1, #page h2, #page h3, #page h4, #page h5, #page h6,
   #home p, #home h1, #home h2, #home h3, #home h4, #home h5, #home h6,
   .site .footer,
-  #page .talk-list {
+  #page .talk-list,
+  #disqus_thread {
     margin-left:10px;
     margin-right:10px;
   }
