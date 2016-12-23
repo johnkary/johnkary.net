@@ -8,7 +8,7 @@ comments: true
 tags: [php, phpunit, testing]
 ---
 
-> This post was accurate when it was published but may be outdated. See the [johnkary/phpunit-speedtrap](https://github.com/johnkary/phpunit-speedtrap) project on GitHub for the most recent instructions.
+> This post may now be outdated. See the [johnkary/phpunit-speedtrap](https://github.com/johnkary/phpunit-speedtrap) project on GitHub for the most recent instructions.
 
 All developers should strive to write "fast tests," and "fast" will be different for each developer, language and software stack. Traditionally, unit tests should be very fast, a few milliseconds or faster, while functional tests and end-to-end tests will run a bit longer, maybe a few seconds.
 
