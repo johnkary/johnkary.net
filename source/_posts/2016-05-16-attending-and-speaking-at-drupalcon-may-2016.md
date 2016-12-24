@@ -10,7 +10,7 @@ tags: [conferences, drupal]
     <a href="https://www.flickr.com/photos/drupalassoc/26985071205/in/dateposted-public/"><img src="/images/posts/drupalcon-2016-attendees.jpg" title="DrupalCon 2016 New Orleans Group Photo" width="100%"></a>
 </div>
 
-Last week I delivered a talk "Rethinking Loops" at [DrupalCon 2016](https://events.drupal.org/neworleans2016/) in New Orleans. DrupalCon is a HUGE conference, with over 3000+ attendees. Easily the largest conference I have attended, let alone spoken at.
+Last week I delivered a talk [Rethinking Loops](/talks/#rethinking-loops) at [DrupalCon 2016](https://events.drupal.org/neworleans2016/) in New Orleans. DrupalCon is a HUGE conference, with over 3000+ attendees. Easily the largest conference I have attended, let alone spoken at.
 
 The conference [records all sessions](https://www.youtube.com/watch?v=p2K2JHFMh1o) and posts them within hours of the talk. Very impressive turnaround time!
 
