@@ -6,6 +6,7 @@ tags: []
 status: publish
 type: page
 published: true
+metadescription: "John Kary: Current employment, experiments that may lead to projects, software development interests, books and travel"
 ---
 This is what I'm up to lately, both personally and professionally. The [Now page](http://nownownow.com/about) concept inspired by [Derek Sievers](https://sivers.org/now).
 

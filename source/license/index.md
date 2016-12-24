@@ -6,6 +6,7 @@ tags: []
 status: publish
 type: page
 published: true
+metadescription: "John Kary: Website content license"
 ---
 The license information for this website is available in its git
 repository:

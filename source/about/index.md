@@ -6,6 +6,7 @@ tags: []
 status: publish
 type: page
 published: true
+metadescription: "John Kary: How I started in software development, including programming languages and tools I specialize in working with"
 ---
 As of October 2015 I have returned to contract/consulting under Kary Software LLC. I work remotely for my clients so I regularly travel around the United States (and sometimes internationally), staying somewhere for a few weeks before moving on to another city. I love it! (Unfortunately I'm on a hiatus from traveling to help take care of my mom, who had a brain aneurysm in January 2016.)
 

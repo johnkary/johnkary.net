@@ -6,6 +6,7 @@ tags: []
 status: publish
 type: page
 published: true
+metadescription: "John Kary: User group and conference speaker. Slides, video and presentation notes from previous talks."
 ---
 Some talks have published feedback on Joind.in: [John Kary](https://legacy.joind.in/user/view/1823)
 

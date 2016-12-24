@@ -12,7 +12,8 @@
    <link rel="apple-touch-icon" sizes="180x180" href="touch-icon-iphone-retina.png">
    <link rel="apple-touch-icon" sizes="167x167" href="touch-icon-ipad-retina.png">
 
-   <meta name="description" content="John Kary is a web application development consultant based in Lawrence, KS using PHP, Symfony and JavaScript.">
+   {% if page.metadescription %}<meta name="description" content="{{ page.metadescription }}">
+   {% elsif post.metadescription %}<meta name="description" content="{{ post.metadescription }}">{% endif %}
    <meta name="keywords" content="John Kary, web application developer, freelance, consultant, PHP, Symfony, jQuery, University of Kansas">
    <!-- TODO: Add RSS meta -->
 
