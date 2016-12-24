@@ -16,7 +16,7 @@ I sometimes speak at conferences and user groups about software development topi
 
 <ul class="talk-list">
     <li>
-        <a href="https://events.drupal.org/neworleans2016/sessions/rethinking-loops">DrupalCon 2016 - New Oreleans, LA; May 2016</a>
+        <a href="https://events.drupal.org/neworleans2016/sessions/rethinking-loops">DrupalCon 2016 - New Orleans, LA; May 2016</a>
         <ul>
             <li><a href="http://johnkary.net/slides/loops/drupalcon-2016/">Slides</a></li>
             <li><a href="https://www.youtube.com/watch?v=p2K2JHFMh1o">Video</a></li>
