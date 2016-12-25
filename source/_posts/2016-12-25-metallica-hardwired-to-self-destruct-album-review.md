@@ -41,7 +41,7 @@ While far from flawless or without fat fit for trimming, **Hardwired&hellip;** i
 
 ## Bonus Content
 
-The band's [YouTube channel](https://www.youtube.com/Metallica) is straight killing it releasing new content almost daily. For **Hardwired&hellip;** the band shot a music video for [all thirteen tracks](https://www.youtube.com/watch?v=uhBHL3v4d3I&index=1&list=PLJvQXRgtxlumAHceNRk3cx3P7MZVUCdBl).
+The band's [YouTube channel](https://www.youtube.com/Metallica) is straight killing it releasing new content almost daily. For **Hardwired&hellip;** the band shot [music videos](https://www.youtube.com/watch?v=uhBHL3v4d3I&index=1&list=PLJvQXRgtxlumAHceNRk3cx3P7MZVUCdBl) for all thirteen tracks.
 
 Each video is stylistically unique, ranging from fully animated story-arc narratives, to making-of in-the-studio style overlaid with album tracks, to quintessentially playing in a warehouse, to professionally recorded concert performances. Those appreciating the lost art of the music video will find value in watching each one.
 
