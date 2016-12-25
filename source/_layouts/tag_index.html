@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
-<h2>Posts by Tag</h2>
+<div id="page">
+  <h2>Posts by Tag</h2>
 
-<ul class="no-item-style">
-  {{ site.tags | render_tags_list }}
-</ul>
+  <ul class="no-item-style">
+    {{ site.tags | render_tags_list }}
+  </ul>
+</div>
