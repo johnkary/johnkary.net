@@ -2,7 +2,7 @@
 layout: post
 title: ! 'JavaScript Effects: Knowing "when" is more important than "how"'
 description: "You have undoubtedly seen many tutorial sites showing off how to implement the newest whiz-bang features of modern JavaScript libraries. While most of these sites do an adequate job of showing users \"how to\" implement features, they almost always neglect teaching when to use these techniques, and more importantly, when to forego them."
-tags: [best practices, usability]
+tags: [best-practices, usability]
 status: publish
 type: post
 published: true
