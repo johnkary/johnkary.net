@@ -3,7 +3,7 @@ layout: rss
 ---
 {% for post in site.posts %}
         <item>
-            <title>{{ post.title }}</title>
+            <title><![CDATA[{{ post.title }}]]></title>
             <link>{{ site.url }}{{ post.url }}</link>
             <comments>{{ site.url }}{{ post.url }}#disqus_thread</comments>
             <pubDate>{{ post.date | time_rfc2822 }}</pubDate>
