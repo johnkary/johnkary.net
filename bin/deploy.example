@@ -6,5 +6,5 @@
 # a shared SSH keypair setup between your local machine and the remote host
 # to do password-less deployment.
 
-jekyll build --future && rsync -avz --delete _build/ johnkarydotnetdeploy:/path/to/public/dir
+jekyll build && rsync -avz --delete _build/ johnkarydotnetdeploy:/path/to/public/dir
 printf "\nDeployed site to remote host\n"
