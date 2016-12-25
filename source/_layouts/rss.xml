@@ -11,7 +11,7 @@
         <title>John Kary</title>
         <atom:link href="{{ site.url }}/rss.xml" rel="self" type="application/rss+xml" />
         <link>{{ site.url }}</link>
-        <description>John Kary is a web application development consultant based in Lawrence, KS using PHP, Symfony and JavaScript.</description>
+        <description>Official website of John Kary: remote-working software developer and development team consultant based in Lawrence, KS using PHP, Symfony and JavaScript</description>
         <lastBuildDate>{{ site.time | time_rfc2822 }}</lastBuildDate>
         <language>en</language>
         <sy:updatePeriod>hourly</sy:updatePeriod>
