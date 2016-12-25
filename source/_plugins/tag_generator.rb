@@ -2,11 +2,11 @@
 module Jekyll
   # Base class for the tag pages with all the shared behaviour
   class BaseTagPage < Page
-    def initialize(site, base, dir)
+    def initialize(site, base, dir, name)
       @site = site
       @base = base
       @dir = dir
-      @name = 'index.html'
+      @name = name
       self.process @name
       self.read_yaml File.join(base, '_layouts'), layout_page
     end
@@ -21,7 +21,7 @@ module Jekyll
   # Represents a specific tag page
   class TagPage < BaseTagPage
     def initialize(site, base, dir, tag)
-      super(site, base, dir)
+      super(site, base, dir, 'index.html')
       self.data['tag'] = tag
     end
 
@@ -66,15 +66,33 @@ module Jekyll
 
     def generate(site)
       if site.layouts.has_key? 'tag_index'
-        dir = site.config['tag_index_dir'] || 'tags'
-        write_tag_index(site, dir)
+        write_tag_index(site)
       end
     end
 
     private
 
-    def write_tag_index(site, dir)
-      page = TagIndexPage.new(site, site.source, dir)
+    def write_tag_index(site)
+      page = TagIndexPage.new(site, site.source, 'tags', 'index.html')
+      page.render(site.layouts, site.site_payload)
+      page.write(site.dest)
+      site.pages << page
+    end
+  end
+
+  # RSS feed with posts from all tags
+  class RssIndexPage < BaseTagPage
+    def layout_page
+      'rss_index.xml'
+    end
+  end
+
+  # Generates /rss.xml
+  class RssIndexGenerator < Generator
+    safe true
+
+    def generate(site)
+      page = RssIndexPage.new(site, site.source, '', 'rss.xml')
       page.render(site.layouts, site.site_payload)
       page.write(site.dest)
       site.pages << page
