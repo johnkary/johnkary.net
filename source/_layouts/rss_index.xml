@@ -1,7 +1,7 @@
 ---
 layout: rss
 ---
-{% for post in site.posts %}
+{% for post in site.posts if post.published? %}
         <item>
             <title><![CDATA[{{ post.title }}]]></title>
             <link>{{ site.url }}{{ post.url }}</link>
