@@ -15,7 +15,7 @@
    {% if page.metadescription %}<meta name="description" content="{{ page.metadescription }}">
    {% elsif post.metadescription %}<meta name="description" content="{{ post.metadescription }}">{% endif %}
    <meta name="keywords" content="John Kary, software developer, web application developer, freelance, consultant, PHP, Symfony, jQuery, Kansas, Lawrence, Kansas City">
-   <!-- TODO: Add RSS meta -->
+   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/rss.xml">
 
    <link type="text/plain" rel="author" href="{{ site.url }}/humans.txt">
 
