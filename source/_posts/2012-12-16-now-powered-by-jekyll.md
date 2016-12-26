@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Now Powered By Jekyll
-description: "A few of my previous posts have been fortunate enough to become front-page worthy on Hacker News and /r/programming. But the rush of traffic toppled my WordPress blog. So I toppled WordPress and replaced it with Jekyll."
+summary: "A few of my previous posts have been fortunate enough to become front-page worthy on Hacker News and /r/programming. But the rush of traffic toppled my WordPress blog. So I toppled WordPress and replaced it with Jekyll."
 comments: true
 tags: [jekyll, wordpress]
 ---

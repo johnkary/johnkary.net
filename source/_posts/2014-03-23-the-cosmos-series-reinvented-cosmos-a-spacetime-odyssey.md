@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Cosmos series reinvented, Cosmos: A Spacetime Odyssey"
-description: "Carl Sagan's original series The Cosmos is inspiring a reinvented series with the same mission: amaze people with the truths of science."
+summary: "Carl Sagan's original series The Cosmos is inspiring a reinvented series with the same mission: amaze people with the truths of science."
 comments: true
 tags: [picks, carl-sagan]
 metadescription: "Carl Sagan's original series The Cosmos is inspiring a reinvented series with the same mission: amaze people with the truths of science."

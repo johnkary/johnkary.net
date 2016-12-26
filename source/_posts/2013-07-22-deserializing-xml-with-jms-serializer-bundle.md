@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deserializing XML with JMSSerializerBundle in Symfony2
-description: "Serializing existing objects with the Symfony2 JMS Serializer Bundle is pretty easy, but deserializing a third-party XML response is a bit more work."
+summary: "Serializing existing objects with the Symfony2 JMS Serializer Bundle is pretty easy, but deserializing a third-party XML response is a bit more work."
 comments: true
 tags: [symfony]
 ---

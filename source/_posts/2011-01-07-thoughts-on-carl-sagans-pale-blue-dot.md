@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thoughts on Carl Sagan's "Pale Blue Dot"
-description: "Carl Sagan's book \"Pale Blue Dot\" is a truly inspirational book. It has given me a new outlook on the fragility of life on Earth, and cultured new thoughts on what interplanetary travel might mean for the future of the human species.
+summary: "Carl Sagan's book \"Pale Blue Dot\" is a truly inspirational book. It has given me a new outlook on the fragility of life on Earth, and cultured new thoughts on what interplanetary travel might mean for the future of the human species.
 
 Here, I detail some of my thoughts on the ideas expressed in the book."
 tags: [books, carl-sagan]

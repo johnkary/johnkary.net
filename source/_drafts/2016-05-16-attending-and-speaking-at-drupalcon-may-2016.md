@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Attending and speaking at DrupalCon, May 2016"
-description: "Last week I spoke at DrupalCon 2016 in New Orleans. While I anticipated a fun conference with great talks, I came away more impressed with the Drupal community as a whole. Their tireless effort to include anyone and everyone was refreshing in a way I can only describe as &quot;human.&quot; There's no question that the future of the Drupal ecosystem is bright, mainly thanks to the amazing people surrounding it."
+summary: "Last week I spoke at DrupalCon 2016 in New Orleans. While I anticipated a fun conference with great talks, I came away more impressed with the Drupal community as a whole. Their tireless effort to include anyone and everyone was refreshing in a way I can only describe as &quot;human.&quot; There's no question that the future of the Drupal ecosystem is bright, mainly thanks to the amazing people surrounding it."
 metadescription: "I was a speaker at DrupalCon 2016 with a talk titled Rethinking Loops. My software development ideas were well received by other programmers, but it was the Drupal community's inclusivity and diversity that left a lasting impression on me."
 comments: true
 tags: [conferences, drupal]

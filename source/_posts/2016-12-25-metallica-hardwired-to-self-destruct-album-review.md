@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Metallica, Hardwired&hellip; To Self-Destruct - Album Review"
-description: "Look. &quot;Hardwired&hellip; To Self-Destruct&quot; is to Metallica as &quot;The Force Awakens&quot; is to Star Wars. &quot;New&quot; can never top &quot;old.&quot; The best &quot;new&quot; can only ever co-exist with the &quot;old&quot; by simply not fucking up its reputation. With me so far?"
+summary: "Look. &quot;Hardwired&hellip; To Self-Destruct&quot; is to Metallica as &quot;The Force Awakens&quot; is to Star Wars. &quot;New&quot; can never top &quot;old.&quot; The best &quot;new&quot; can only ever co-exist with the &quot;old&quot; by simply not fucking up its reputation. With me so far?"
 metadescription: "Hardwired To Self-Destruct is to Metallica as The Force Awakens is to Star Wars: the best new can only ever co-exist with the old by simply not fucking up its reputation. With me so far?"
 comments: true
 published: true

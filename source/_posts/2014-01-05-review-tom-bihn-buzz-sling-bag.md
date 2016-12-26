@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Review: Tom Bihn - Buzz Sling Bag"
-description: "I am fairly picky when it comes to bags. As one piece of equipment I use daily, it must feel like an extension of myself. I won't put up with a sub-par bag with lots of bulk and extra features I won't use.
+summary: "I am fairly picky when it comes to bags. As one piece of equipment I use daily, it must feel like an extension of myself. I won't put up with a sub-par bag with lots of bulk and extra features I won't use.
 
 When I first heard about the Buzz bag by Tom Bihn it sounded great, even if it cost more than any bad I had ever owned, so I ordered it. After a solid 18 months of use I can detail the great, good and my wish list for its next version."
 comments: false

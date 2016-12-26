@@ -1,7 +1,7 @@
 ---
 layout: post
 title: git 1.7.7 changes affecting the everyday developer
-description: "git 1.7.7 was released within the last few weeks. You can view the 1.7.7 release notes for a full list of changes.
+summary: "git 1.7.7 was released within the last few weeks. You can view the 1.7.7 release notes for a full list of changes.
 
 Most changes will probably not affect your every day use of git, but two new additions should prove very useful for many developers."
 tags: [software, git]

@@ -2,7 +2,7 @@
   <h3 class="post-title"><a href="{{ post.url }}/" rel="bookmark">{{ post.title }}</a></h3>
   <div class="entry-content">
     <p class="post-date"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %e, %Y" }}</time></p>
-    <p>{{ post.description | description_break }}</p>
+    <p>{{ post.summary | description_break }}</p>
     <p><a href="{{ post.url }}/" class="continue-link">Read more&hellip;</a></p>
     <p><hr></p>
   </div>
