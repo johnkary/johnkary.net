@@ -11,7 +11,7 @@ layout: rss
                 <pubDate>{{ post.date | time_rfc2822 }}</pubDate>
                 <dc:creator>John Kary</dc:creator>
                 {% for tag in post.tags %}<category><![CDATA[{{ tag }}]]></category>{% endfor %}
-                <guid isPermaLink="false">{{ site.url }}{{ post.id }}</guid>
+                <guid>{{ site.url }}{{ post.id }}</guid>
                 <description><![CDATA[{{ post.description | description_break }}]]></description>
                 <content:encoded><![CDATA[{{ post.content | markdownify }}]]></content:encoded>
             </item>
