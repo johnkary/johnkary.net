@@ -11,7 +11,7 @@ tags: [music, reviews]
      <img src="/images/posts/hardwired.jpg" width="500" title="Metallica: Hardwired To Self-Destruct album art" alt="Metallica: Hardwired To Self-Destruct album art" style="max-width:100%;border:0;">
 </div>
 
-[Listening on Spotify while reading.](spotify:album:1TKCBDHIWLiqjWTxomqniD)
+[Listen on Spotify while reading.](spotify:album:1TKCBDHIWLiqjWTxomqniD)
 
 Look. **Hardwired&hellip; To Self-Destruct** is to Metallica as **The Force Awakens** is to Star Wars. There is no way the "new" can ever top the "old." The best "new" can only ever co-exist with the "old" by simply not fucking up its reputation. With me so far?
 
