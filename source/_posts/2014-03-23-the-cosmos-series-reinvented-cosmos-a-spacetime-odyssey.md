@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "The Cosmos series reinvented, Cosmos: A Spacetime Odyssey"
-summary: "Carl Sagan's original series The Cosmos is inspiring a reinvented series with the same mission: amaze people with the truths of science."
+description: "Carl Sagan's original series The Cosmos is inspiring a reinvented series with the same mission: amaze people with the truths of science."
 comments: true
 tags: [picks, carl-sagan]
-metadescription: "Carl Sagan's original series The Cosmos is inspiring a reinvented series with the same mission: amaze people with the truths of science."
 ---
 
 <div class="embed-container"><iframe title="Cosmos: A Spacetime Odyssey Official Trailer" src="https://www.youtube.com/embed/XFF2ECZ8m1A" frameborder="0" allowfullscreen></iframe></div>

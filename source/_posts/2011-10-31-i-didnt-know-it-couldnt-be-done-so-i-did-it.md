@@ -1,11 +1,11 @@
 ---
 layout: post
 title: I didn't know it couldn't be done, so I did it
-summary: "Steve Jobs visited Xerox in 1979 to see the Xerox Star: a computer promoting a revolutionary graphical user interface.
+description: "Steve Jobs visited Xerox in 1979 to see the Xerox Star: a computer promoting a revolutionary graphical user interface.
 
 Jobs loved what he saw. Xerox had developed one of the first GUI's, one that would ultimately lay the foundation for the concept of \"windows\" (small W) and the \"desktop\" we know in modern operating systems.
 
-When he tasked Bill Atkinson, Atkinson created something even more revolutionary&hellip;"
+When he tasked Bill Atkinson, Atkinson created something even more revolutionary…"
 comments: true
 tags: [book, inspiration]
 status: publish

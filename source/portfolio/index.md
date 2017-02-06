@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Portfolio | John Kary
+title: Portfolio
 heading: Portfolio
 tags: []
 status: draft

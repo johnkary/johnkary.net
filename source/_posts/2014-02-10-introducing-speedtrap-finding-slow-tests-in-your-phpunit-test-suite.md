@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducing SpeedTrap: Finding slow tests in your PHPUnit test suite"
-summary: "As your test suite grows, you can expect it to run longer. But if you're not careful, some slower tests can creep in and disproportionately increase your suite's total execution time.
+description: "As your test suite grows, you can expect it to run longer. But if you're not careful, some slower tests can creep in and disproportionately increase your suite's total execution time.
 
 Introducing SpeedTrap: a lightweight PHPUnit listener that reports on slow-running tests right in your console."
 comments: true

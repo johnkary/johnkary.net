@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Best tech to prepare for severe weather and tornadoes in Kansas"
-summary: "Staying alert and informed about severe weather and tornadoes in Kansas can save your life. Which technology, apps and websites have the best severe weather forecasts?"
-metadescription: "Staying alert and informed about severe weather and tornadoes in Kansas can save your life. Which technology, apps and websites have the best severe weather forecasts?"
+description: "Staying alert and informed about severe weather and tornadoes in Kansas can save your life. Which technology, apps and websites have the best severe weather forecasts?"
 comments: true
 published: false
 tags: [weather]

@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "My favorite albums of 2016"
-summary: "I'm a little old school. In an age of purchasing tracks I still prefer listening to albums start to finish. Appreciating how tracks are arranged one after another and how they transition from one to the next is very important.<br><br>Music and coffee are my lifeblood. Coffee is difficult to share, so please accept my favorite albums released in 2016, including statistics on all music fed into my ears."
-metadescription: "I'm a little old school. In an age of purchasing tracks I still prefer listening to albums start to finish. Appreciating how tracks are arranged one after another and how they transition from one to the next is very important. Music and coffee are my lifeblood. Coffee is difficult to share, so please accept my favorite albums released in 2016, including statistics on all music fed into my ears."
+image: /images/posts/2016-albums-collage.jpg
+description: "I'm a little old school. In an age of purchasing tracks I still prefer listening to albums start to finish. Appreciating how tracks are arranged one after another and how they transition from one to the next is very important.
+
+Music and coffee are my lifeblood. Coffee is difficult to share, so please accept my favorite albums released in 2016, including statistics on all music fed into my ears."
 comments: true
 published: true
 tags: [music, reviews]

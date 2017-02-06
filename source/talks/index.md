@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Talks | John Kary
+title: Talks
 heading: Talks
 tags: []
 status: publish
 type: page
 published: true
-metadescription: "John Kary: User group and conference speaker. Slides, video and presentation notes from previous talks."
+description: "John Kary: Talks and presentations at conferences and user groups. Slides, video and presentation notes from previous talks."
 ---
 I sometimes speak at conferences and user groups about software development topics. Below are presentation slides and video recordings from most talks, in reverse chronological order.
 

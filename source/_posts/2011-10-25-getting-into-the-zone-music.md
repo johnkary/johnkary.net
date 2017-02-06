@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ! 'Getting into The Zone: Music'
-summary: "I want to talk about how Music affects my ability to be in The Zone: that \"deeply creative space where inspiration is built\", as Rands puts it. That mental place where you're so focused that nothing else matters except the bug you're hunting, the feature you're cranking out or the blog post you're writing.
+description: "I want to talk about how Music affects my ability to be in The Zone: that \"deeply creative space where inspiration is built\", as Rands puts it. That mental place where you're so focused that nothing else matters except the bug you're hunting, the feature you're cranking out or the blog post you're writing.
 
 By the end of this article I hope you have a better sense of how you choose what to listen to, and that I introduce you to some new artists to increase your productivity when working."
 comments: true

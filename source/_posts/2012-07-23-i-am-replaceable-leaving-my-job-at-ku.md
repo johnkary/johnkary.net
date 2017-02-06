@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ! 'I Am Replaceable: Leaving my job at KU'
-summary: "I'm not good at quitting things. But I knew someday I would have to quit a job for reasons beyond, \"I'm moving to go to school\" or \"I graduated and am taking a job in my new profession\" or some other natural progression from one life stage to another.
+description: "I'm not good at quitting things. But I knew someday I would have to quit a job for reasons beyond, \"I'm moving to go to school\" or \"I graduated and am taking a job in my new profession\" or some other natural progression from one life stage to another.
 
 But Friday, July 20, 2012 was my last official day as an employee of Information Technology at the University of Kansas."
 comments: true

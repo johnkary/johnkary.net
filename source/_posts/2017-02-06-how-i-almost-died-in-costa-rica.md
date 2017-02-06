@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "How I almost died in Costa Rica"
-summary: "The sun is plunging into the ocean. This might be the most beautiful sunset I've ever seen. Because an hour ago that was me, awash in the ocean, in danger of going under.
+image: /images/posts/playa-bejuco-costa-rica-sunset.jpg
+description: "The sun is plunging into the ocean. This might be the most beautiful sunset I've ever seen. Because an hour ago that was me, awash in the ocean, in danger of going under.
 
 I almost died today.
 
 I'm fortunate to tell this story instead of being its subject. What happened?"
-metadescription: "The sun is plunging into the ocean. This might be the most beautiful sunset I've ever seen. Because an hour ago that was me, awash in the ocean, in danger of going under. I almost died today. I'm fortunate to tell this story instead of being its subject. What happened?"
 comments: false
 published: true
 tags: [travel]

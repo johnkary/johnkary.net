@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Projects | John Kary
+title: Projects
 heading: Projects
 tags: []
 status: publish
 type: page
 published: true
-metadescription: "John Kary: Open source projects, side projects and popular blog posts"
+description: "John Kary: Open source projects, side projects and popular blog posts"
 ---
 Most developers tinker. Some even see the light of day.
 

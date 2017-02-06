@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Stop building broken password inputs (and how to work around the offenders)"
-summary: "I have run into some sites (usually within a security-focused domain like banking or health care) that use misleading or downright bad security practices during their user registration process. Overall these practices decrease the user experience, and at worst encourage their users to succumb to poor security practices.
+description: "I have run into some sites (usually within a security-focused domain like banking or health care) that use misleading or downright bad security practices during their user registration process. Overall these practices decrease the user experience, and at worst encourage their users to succumb to poor security practices.
 
 Why might these sites choose to do this? What are the side effects? And how can savvy developers work around them?"
 comments: false

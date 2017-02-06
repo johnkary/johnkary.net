@@ -1,9 +1,19 @@
+title: John Kary
 source: ./source
 destination: ./_build
-layouts: ./_layouts
+layouts_dir: ./_layouts
 timezone: America/Chicago
 markdown: rdiscount
 highlighter: pygments
 permalink: /blog/:title
 url: http://johnkary.net
+permalink: /blog/:title/
 baseurl: /
+gems:
+  - jekyll-seo-tag
+twitter:
+  username: johnkary
+social:
+  name: John Kary
+  links:
+    - https://twitter.com/johnkary

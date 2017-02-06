@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Metallica, Hardwired&hellip; To Self-Destruct - Album Review"
-summary: "Look. &quot;Hardwired&hellip; To Self-Destruct&quot; is to Metallica as &quot;The Force Awakens&quot; is to Star Wars. &quot;New&quot; can never top &quot;old.&quot; The best &quot;new&quot; can only ever co-exist with the &quot;old&quot; by simply not fucking up its reputation. With me so far?"
-metadescription: "Hardwired To Self-Destruct is to Metallica as The Force Awakens is to Star Wars: the best new can only ever co-exist with the old by simply not fucking up its reputation. With me so far?"
+title: "Metallica, Hardwired… To Self-Destruct - Album Review"
+image: /images/posts/hardwired.jpg
+description: "Look. \"Hardwired… To Self-Destruct\" is to Metallica as \"The Force Awakens\" is to Star Wars. \"New\" can never top \"old.\" The best \"new\" can only ever co-exist with the \"old\" by simply not fucking up its reputation. With me so far?"
 comments: true
 published: true
 tags: [music, reviews]
@@ -13,7 +13,7 @@ tags: [music, reviews]
 
 [Listen on Spotify while reading.](spotify:album:1TKCBDHIWLiqjWTxomqniD)
 
-Look. **Hardwired&hellip; To Self-Destruct** is to Metallica as **The Force Awakens** is to Star Wars. There is no way the "new" can ever top the "old." The best "new" can only ever co-exist with the "old" by simply not fucking up its reputation. With me so far?
+Look. **Hardwired… To Self-Destruct** is to Metallica as **The Force Awakens** is to Star Wars. There is no way the "new" can ever top the "old." The best "new" can only ever co-exist with the "old" by simply not fucking up its reputation. With me so far?
 
 Metallica endured a rough ride releasing **Load** (1996), **Reload** (1997) and **Garage Inc.** (1998) mostly departing from the shredding thrash metal songs that made them kings of the genre in the 80's. Long-time fans took it personal, heralding the band sell-outs.
 
@@ -23,7 +23,7 @@ Then what can only be rationalized as retaliation, the band released **St. Anger
 
 Frankly everyone (including me) relished watching the wreckage burn.
 
-But somehow with **Hardwired&hellip;** Metallica have agreed to settle debts with their fanbase and risen like a phoenix from the ashes of [St. Anger's snare drum](https://www.youtube.com/watch?v=Sq3eLdixvCc). Forgiving the derpy album artwork, most tracks drip of nostalgic as if reincarnated B-sides haunting the band's golden years.
+But somehow with **Hardwired…** Metallica have agreed to settle debts with their fanbase and risen like a phoenix from the ashes of [St. Anger's snare drum](https://www.youtube.com/watch?v=Sq3eLdixvCc). Forgiving the derpy album artwork, most tracks drip of nostalgic as if reincarnated B-sides haunting the band's golden years.
 
 Opening track **Hardwired** is the shortest on the album at 3:11 but rips straight for the jugular landing more unrelenting jabs and body shots than any song twice its length.
 
@@ -35,13 +35,13 @@ However the final track **Spit Out The Bone** accelerates out of cruise control 
 
 The album's Deluxe Edition track **Lords of Summer** says it best: (It's been a long lonely winter / The lords of summer have returned!)
 
-Let's be real: only Metallica could save Metallica. With **Hardwired&hellip; To Self-Destruct** the band have redeemed over 20 years of disappointing music. Not with their best album of all time, or even of that 20 year span, but one sure to reclaim displaced fans.
+Let's be real: only Metallica could save Metallica. With **Hardwired… To Self-Destruct** the band have redeemed over 20 years of disappointing music. Not with their best album of all time, or even of that 20 year span, but one sure to reclaim displaced fans.
 
-While far from flawless or without fat fit for trimming, **Hardwired&hellip;** is a return to greatness by simply not fucking it up.
+While far from flawless or without fat fit for trimming, **Hardwired…** is a return to greatness by simply not fucking it up.
 
 ## Bonus Content
 
-The band's [YouTube channel](https://www.youtube.com/Metallica) is straight killing it releasing new content almost daily. For **Hardwired&hellip;** the band shot [music videos](https://www.youtube.com/watch?v=uhBHL3v4d3I&index=1&list=PLJvQXRgtxlumAHceNRk3cx3P7MZVUCdBl) for all thirteen tracks.
+The band's [YouTube channel](https://www.youtube.com/Metallica) is straight killing it releasing new content almost daily. For **Hardwired…** the band shot [music videos](https://www.youtube.com/watch?v=uhBHL3v4d3I&index=1&list=PLJvQXRgtxlumAHceNRk3cx3P7MZVUCdBl) for all thirteen tracks.
 
 Each video is stylistically unique, ranging from fully animated story-arc narratives, to making-of in-the-studio style overlaid with album tracks, to quintessentially playing in a warehouse, to professionally recorded concert performances. Those appreciating the lost art of the music video will find value in watching each one.
 

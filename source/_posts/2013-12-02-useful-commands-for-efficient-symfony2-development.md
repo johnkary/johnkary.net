@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Useful Commands For Efficient Symfony2 Development
-summary: "These commands allow me, and hopefully you, to work faster and more efficiently with the Symfony2 framework."
+description: "These commands allow me, and hopefully you, to work faster and more efficiently with the Symfony2 framework."
 comments: true
 tags: [symfony]
 ---

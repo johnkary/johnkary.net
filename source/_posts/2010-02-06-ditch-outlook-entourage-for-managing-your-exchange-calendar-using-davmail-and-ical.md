@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ditch Outlook/Entourage for managing your Exchange calendar using DavMail and iCal
-summary: "Using a little app called DavMail, you use any CalDEV-enabled calendar app to manager your Exchange calendar, including Apple's iCal. From their site, \"DavMail is a POP/IMAP/SMTP/Caldav/LDAP exchange gateway allowing users to use any mail/calendar client (e.g. Thunderbird with Lightning or Apple iCal) with an Exchange server, even from the internet or behind a firewall through Outlook Web Access.\" So assuming your company has OWA setup, keep reading."
+description: "Using a little app called DavMail, you use any CalDEV-enabled calendar app to manager your Exchange calendar, including Apple's iCal. From their site, \"DavMail is a POP/IMAP/SMTP/Caldav/LDAP exchange gateway allowing users to use any mail/calendar client (e.g. Thunderbird with Lightning or Apple iCal) with an Exchange server, even from the internet or behind a firewall through Outlook Web Access.\" So assuming your company has OWA setup, keep reading."
 tags: [software]
 status: publish
 type: post

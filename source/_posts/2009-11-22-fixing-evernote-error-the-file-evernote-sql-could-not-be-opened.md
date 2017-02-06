@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fixing Evernote Error "The file Evernote.sql could not be opened."
-summary: "I've been having a battery/power issue with my MacBook Pro recently where it will turn off if the battery power has much less than 0:10 minutes left. You know, after the \"You are running on Reserve Power\" message comes up, but before it fully drains and (normally) puts itself to sleep using SafeSleep. So what do these power issues have to do with Evernote? A lot if your notes database becomes corrupted."
+description: "I've been having a battery/power issue with my MacBook Pro recently where it will turn off if the battery power has much less than 0:10 minutes left. You know, after the \"You are running on Reserve Power\" message comes up, but before it fully drains and (normally) puts itself to sleep using SafeSleep. So what do these power issues have to do with Evernote? A lot if your notes database becomes corrupted."
 tags: [software]
 status: publish
 type: post
