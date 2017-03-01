@@ -4,7 +4,7 @@ layout: default
 <div id="post">
   <div class="metadata">
     <h1><a href="{{ site.url }}{{ page.url }}/" class="title-link">{{ page.title }}</a></h1>
-    <div class="publish-date"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %e, %Y" }}</time></div>
+    <div class="publish-date"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %e, %Y" }}</time></div>
   </div>
 
   {{ content }}
