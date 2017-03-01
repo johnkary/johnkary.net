@@ -445,6 +445,10 @@ code {
     border-left: 5px solid #D14;
     padding: 0.5em 0.5em 0.5em 0.8em;
   }
+  #post .audio {
+    border-left: 5px solid #1D4;
+    padding: 0.5em 0.5em 0.5em 0.8em;
+  }
   .main-nav a {
     margin:0 0.42em;
     color:#777;
