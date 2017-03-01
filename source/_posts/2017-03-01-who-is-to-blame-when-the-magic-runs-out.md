@@ -107,7 +107,7 @@ Searching for blame and fault behind the curtain is toxic. It creates a [Blame C
 
 Instead, when something goes wrong, collectively accept the blame. "Yep. It was ME. It was US. We did it. And we're gonna to fix it."
 
-When bugs reach customers it's not likely because the author was incompetent. Instead maybe the team's code review practice was just not good enough. Maybe their checklists weren't followed or simply didn't exist.
+When bugs reach customers it's not likely because the author was incompetent. Instead maybe the team's code review practice was just not good enough. Maybe their [checklists](http://amzn.to/2lUV7c8) weren't followed or simply didn't exist.
 
 Throw a party! A weakness has been discovered! This otherwise bad situation becomes an opportunity to improve.
 
