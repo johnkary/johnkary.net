@@ -16,6 +16,12 @@ I sometimes speak at conferences and user groups about software development topi
 
 <ul class="talk-list">
     <li>
+        <a href="http://kcwomenintech.org/event/july-techtalk-kcwit-x-kcpug-joint-meetup/">Kansas City Women in Tech -- Tech Talk; July 2017</a>
+        <ul>
+            <li><a href="http://johnkary.net/slides/loops/kcwit-2017/">Slides</a></li>
+        </ul>
+    </li>
+    <li>
         <a href="https://events.drupal.org/neworleans2016/sessions/rethinking-loops">DrupalCon 2016 - New Orleans, LA; May 2016</a>
         <ul>
             <li><a href="http://johnkary.net/slides/loops/drupalcon-2016/">Slides</a></li>
