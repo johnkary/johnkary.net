@@ -29,7 +29,7 @@ I sometimes speak at conferences and user groups about software development topi
         </ul>
     </li>
     <li>
-        <a href="http://lonestarphp.com/sessions/#rethinking-loops">Lone Star PHP Conference - Dallas, TX; April 2016</a>
+        <a href="http://2016.lonestarphp.com/sessions/#rethinking-loops">Lone Star PHP Conference - Dallas, TX; April 2016</a>
         <ul>
             <li><a href="http://johnkary.net/slides/loops/lonestar-php-2016/">Slides</a></li>
             <li><a href="https://joind.in/event/lone-star-php-2016/rethinking-loops">Feedback</a></li>
