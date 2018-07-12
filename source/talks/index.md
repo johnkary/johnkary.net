@@ -159,6 +159,8 @@ summarize important news stories and happenings in the PHP community
 from the previous month before the presentation was delivered. Gives
 special attention to issues relevant to most of our regular attendees.
 
+[July 2018](https://speakerdeck.com/johnkary/last-month-in-php-july-2018)  
+[June 2018](https://speakerdeck.com/johnkary/last-month-in-php-june-2018)  
 [November 2017](https://speakerdeck.com/johnkary/last-month-in-php-november-2017)  
 [June 2017](https://speakerdeck.com/johnkary/last-month-in-php-june-2017)  
 [February 2017](https://speakerdeck.com/johnkary/last-month-in-php-february-2017)  
