@@ -11,6 +11,30 @@ description: "John Kary: Talks and presentations at conferences and user groups.
 I sometimes speak at conferences and user groups about software development topics. Below are presentation slides and video recordings from most talks, in reverse chronological order.
 
 * * * * *
+## Last Month in PHP
+
+Recurring talk at most [Kansas City PHP User Group][] meetings. I
+summarize important news stories and happenings in the PHP community
+from the previous month before the presentation was delivered. Gives
+special attention to issues relevant to most of our regular attendees.
+
+[July 2018](https://speakerdeck.com/johnkary/last-month-in-php-july-2018)  
+[June 2018](https://speakerdeck.com/johnkary/last-month-in-php-june-2018)  
+[November 2017](https://speakerdeck.com/johnkary/last-month-in-php-november-2017)  
+[June 2017](https://speakerdeck.com/johnkary/last-month-in-php-june-2017)  
+[February 2017](https://speakerdeck.com/johnkary/last-month-in-php-february-2017)  
+[April 2014](https://speakerdeck.com/johnkary/last-6-months-in-php-april-2014)  
+[September 2013](https://speakerdeck.com/johnkary/last-month-in-php-september-2013)  
+[August 2013](https://speakerdeck.com/johnkary/last-month-in-php-august-2013)  
+[March 2013](https://speakerdeck.com/johnkary/last-month-in-php-march-2013)  
+[February 2013](https://speakerdeck.com/johnkary/last-month-in-php-february-2013)  
+[December 2012](https://speakerdeck.com/johnkary/last-month-in-php-december-2012)  
+[November 2012](https://speakerdeck.com/johnkary/last-month-in-php-november-2012)  
+[September 2012][]  
+[July 2012][]  
+[June 2012][]
+
+* * * * *
 <a name="rethinking-loops"></a>
 ## Rethinking Loops
 
@@ -149,31 +173,6 @@ John talks about [Scratch](http://scratch.mit.edu), the visual programming langu
 John talks about guidelines and code smells for improving object API design. He takes an existing class and demonstrates refactoring it to a leaner more focused version of its previous self. Most importantly, what questions to ask yourself as you're writing new classes.
 
 Pass 1 (and a future Part 2) will approach refactoring a class from the outside as opposed to the inside. We discuss topics like breaking apart bigger classes to make smaller classes that do one thing, programming without getters and setters, consistent entry and return points, and guidelines for object instantiation. This talk focuses less on in-function refactoring and more on API-level refactoring.
-
-* * * * *
-
-## Last Month in PHP
-
-Recurring talk at most [Kansas City PHP User Group][] meetings. I
-summarize important news stories and happenings in the PHP community
-from the previous month before the presentation was delivered. Gives
-special attention to issues relevant to most of our regular attendees.
-
-[July 2018](https://speakerdeck.com/johnkary/last-month-in-php-july-2018)  
-[June 2018](https://speakerdeck.com/johnkary/last-month-in-php-june-2018)  
-[November 2017](https://speakerdeck.com/johnkary/last-month-in-php-november-2017)  
-[June 2017](https://speakerdeck.com/johnkary/last-month-in-php-june-2017)  
-[February 2017](https://speakerdeck.com/johnkary/last-month-in-php-february-2017)  
-[April 2014](https://speakerdeck.com/johnkary/last-6-months-in-php-april-2014)  
-[September 2013](https://speakerdeck.com/johnkary/last-month-in-php-september-2013)  
-[August 2013](https://speakerdeck.com/johnkary/last-month-in-php-august-2013)  
-[March 2013](https://speakerdeck.com/johnkary/last-month-in-php-march-2013)  
-[February 2013](https://speakerdeck.com/johnkary/last-month-in-php-february-2013)  
-[December 2012](https://speakerdeck.com/johnkary/last-month-in-php-december-2012)  
-[November 2012](https://speakerdeck.com/johnkary/last-month-in-php-november-2012)  
-[September 2012][]  
-[July 2012][]  
-[June 2012][]
 
 * * * * *
 
