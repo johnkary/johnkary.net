@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
 #
-# Generates static site then deploys to a remote host.
-#
-# Setup ~/.ssh/config with a Host named "johnkarydotnetdeploy" and configure
-# a shared SSH keypair setup between your local machine and the remote host
-# to do password-less deployment.
+# Generates static site then deploys to a remote host on Amazon S3
 
-jekyll build && rsync -avz --delete _build/ johnkarydotnetdeploy:/path/to/public/dir
-printf "\nDeployed site to remote host\n"
+printf "\nDeploy script not yet updated to Amazon S3\n"
+#jekyll build && rsync -avz --delete _build/ johnkarydotnetdeploy:/path/to/public/dir

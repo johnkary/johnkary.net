@@ -16,18 +16,11 @@ To build the site as-is to the build directory:
 
 # Deployment
 
-To deploy the latest version:
+1. Open Transmit
+2. Connect to s3.amazonaws.com with Access Key ID and Secret
+3. Manually transfer updated files
 
-    $ cp bin/deploy.example bin/deploy
-    
-    # Customize with paths/hosts
-    $ vi bin/deploy
-    
-    # Update .ssh/config with a host for johnkarydotnetdeploy
-    $ vi ~/.ssh/config
-    
-    # Ship it!
-    $ bash bin/deploy
+TODO: Script above with an AWS CLI
 
 # License
 
