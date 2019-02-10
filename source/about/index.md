@@ -62,7 +62,7 @@ Before becoming a full-time contractor, I worked at the University of Kansas (wi
 * Fall 2004 - hired as part-time student developer
 * January 2007 - hired full-time
 * August 2010 - promoted to technical lead
-* July 2013 - left to pursue full-time consulting
+* July 2013 - left to pursue full-time contract work
 
 ### RapidHire
 
