@@ -10,10 +10,8 @@ description: "John Kary: How I became a software engineer and what keeps me exci
 ---
 My [Now page](/now) contains what I am up to right now.
 
-I operate as Kary Software LLC, a remote-working contract and
-consultant software development business building custom software
-for clients in biomedical research, higher education and over-the-road
-trucking.
+I operate as Kary Software LLC, a remote-working software development business building custom software
+for clients in biomedical research, higher education and over-the-road trucking.
 
 Previously I worked in Kansas City, MO as a software engineer in the
 biomedical research field. An internal team built software used by
